@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "0.1",
+  "capturedAt": "2026-05-01T02:53:17.340Z",
+  "item": "Supreme Ghostface Mask",
+  "date": "2026-04-30",
+  "colors": [
+    {
+      "color": "Red Bandana",
+      "productId": "1551d07b-736c-4fff-af2d-92a249394ce7",
+      "title": "Supreme Ghostface Mask Red",
+      "urlKey": "supreme-ghostface-mask-red",
+      "attributes": {
+        "color": "Red",
+        "colorway": null,
+        "gender": "unisex",
+        "releaseDate": "2026-04-30",
+        "retailPrice": 38,
+        "season": "SS26"
+      },
+      "variants": [
+        {
+          "size": "OS",
+          "variantId": "f5c7bba4-cdbc-4e21-83be-c9e5981eedc8",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 89,
+          "highestBidUsd": 81,
+          "flexLowestAskUsd": 90,
+          "sellFasterUsd": 88,
+          "earnMoreUsd": 97,
+          "hasBid": true,
+          "bidAskSpreadUsd": 8,
+          "rawMarketData": {
+            "productId": "1551d07b-736c-4fff-af2d-92a249394ce7",
+            "variantId": "f5c7bba4-cdbc-4e21-83be-c9e5981eedc8",
+            "currencyCode": "USD",
+            "highestBidAmount": "81",
+            "lowestAskAmount": "89",
+            "flexLowestAskAmount": "90",
+            "earnMoreAmount": "97",
+            "sellFasterAmount": "88",
+            "standardMarketData": {
+              "lowestAsk": "89",
+              "highestBidAmount": "81",
+              "sellFaster": "88",
+              "earnMore": "97",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": "90",
+              "highestBidAmount": "81",
+              "sellFaster": "89",
+              "earnMore": "98",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": "90",
+              "highestBidAmount": "81",
+              "sellFaster": "89",
+              "earnMore": "98",
+              "beatUS": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "color": "Black Bandana",
+      "productId": "da3037c2-43b4-4ff8-998c-42f9f1e8fbfa",
+      "title": "Supreme Ghostface Mask Black",
+      "urlKey": "supreme-ghostface-mask-black",
+      "attributes": {
+        "color": "Black",
+        "colorway": null,
+        "gender": "unisex",
+        "releaseDate": "2026-04-30",
+        "retailPrice": 38,
+        "season": "SS26"
+      },
+      "variants": [
+        {
+          "size": "OS",
+          "variantId": "b14c4e3c-faa8-4581-a998-752d36bbc32c",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 93,
+          "highestBidUsd": 87,
+          "flexLowestAskUsd": 95,
+          "sellFasterUsd": 92,
+          "earnMoreUsd": 102,
+          "hasBid": true,
+          "bidAskSpreadUsd": 6,
+          "rawMarketData": {
+            "productId": "da3037c2-43b4-4ff8-998c-42f9f1e8fbfa",
+            "variantId": "b14c4e3c-faa8-4581-a998-752d36bbc32c",
+            "currencyCode": "USD",
+            "highestBidAmount": "87",
+            "lowestAskAmount": "93",
+            "flexLowestAskAmount": "95",
+            "earnMoreAmount": "102",
+            "sellFasterAmount": "92",
+            "standardMarketData": {
+              "lowestAsk": "93",
+              "highestBidAmount": "87",
+              "sellFaster": "92",
+              "earnMore": "102",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": "95",
+              "highestBidAmount": "87",
+              "sellFaster": "94",
+              "earnMore": "103",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": "95",
+              "highestBidAmount": "87",
+              "sellFaster": "94",
+              "earnMore": "103",
+              "beatUS": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

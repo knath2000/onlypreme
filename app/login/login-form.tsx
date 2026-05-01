@@ -37,7 +37,7 @@ export default function LoginForm() {
   return (
     <main className="auth-page">
       <section className="auth-panel">
-        <p className="eyebrow">OnlyPreme</p>
+        <Link className="brand-logo auth-logo" href="/" aria-label="OnlyPreme home" />
         <h1>Sign in</h1>
         <p className="detail-text">Protected predictions require an account and an active subscription.</p>
         <form onSubmit={submit} className="auth-form">

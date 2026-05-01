@@ -1,0 +1,25 @@
+{
+  "id": "ghostface-pendant-ss26",
+  "name": "Supreme/Jacob & Co./Ghostface Diamond Pendant",
+  "brand": "Supreme",
+  "season": "Spring/Summer 2026",
+  "week": 10,
+  "releaseDate": "2026-04-30",
+  "retailPriceUsd": 3598,
+  "retailPriceSourceConfidence": "medium",
+  "category": "diamond pendant",
+  "materialsAndDetails": "Sterling silver pendant with pave diamonds, sterling silver ball chain, 22 in. chain, 1.88 in. pendant, and engraved logo on back.",
+  "collabTags": ["Jacob & Co.", "Ghostface"],
+  "colorsModeled": ["Silver"],
+  "sizesModeled": ["OS"],
+  "feeAssumption": {
+    "marketplaceFeePercent": 12,
+    "shippingAndHandlingUsd": 35
+  },
+  "baseColorForRatios": "Silver",
+  "baseSizeForRatios": "OS",
+  "callThresholds": {
+    "copMinProfitUsd": 400,
+    "maybeMinProfitUsd": 100
+  }
+}

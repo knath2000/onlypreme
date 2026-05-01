@@ -25,6 +25,7 @@
       "details": "PVC facemask with bandana backing.",
       "image": "https://supremedroplist.com/images/item-images/media/ghostface-mask-group-00-335a904c-1.webp",
       "sourceUrl": "https://supremedroplist.com/items/ghostface-mask-ss26",
+      "predictionFile": "./data/predictions/ghostface-mask-2026-04-30.json",
       "signals": [
         "Cheapest Ghostface item",
         "Novelty accessory demand",
@@ -78,6 +79,7 @@
       "details": "Waterproof camcorder with 13MP CMOS sensor, 18x digital zoom, integrated 3 in. IPS LCD flip-out screen, UHD 4K video, and 56MP still images.",
       "image": "https://supremedroplist.com/images/item-images/media/suprememinolta-mn4k300wp-waterproof-camcorder-group-00-8c9b4568-1.webp",
       "sourceUrl": "https://supremedroplist.com/items/supreme-minolta-mn4k300wp-waterproof-camcorder-ss26",
+      "predictionFile": "./data/predictions/minolta-camcorder-2026-04-30.json",
       "signals": [
         "Tech accessory",
         "High conversation volume",
@@ -103,6 +105,7 @@
       "details": "Sterling silver pendant with pave diamonds, sterling silver ball chain, and engraved logo on back.",
       "image": "https://supremedroplist.com/images/item-images/media/supremejacob-coghostface-diamond-pendant-multicolor-01-0bee963b-1.webp",
       "sourceUrl": "https://supremedroplist.com/items/supreme-jacob-and-co-ghostface-diamond-pendant-ss26",
+      "predictionFile": "./data/predictions/ghostface-pendant-2026-04-30.json",
       "signals": [
         "Ultra-high retail",
         "Very thin buyer pool",
@@ -128,6 +131,7 @@
       "details": "Skate deck with original artwork by John John Jesse.",
       "image": "https://supremedroplist.com/images/item-images/media/alice-skateboard-group-00-a650fead-1.webp",
       "sourceUrl": "https://supremedroplist.com/items/alice-skateboard-ss26",
+      "predictionFile": "./data/predictions/alice-skateboard-2026-04-30.json",
       "signals": [
         "Skate deck category has collector base",
         "Low retail",
@@ -490,6 +494,7 @@
       "details": "Low-cut 4-eye shoe made exclusively for Supreme with smooth leather upper, air-cushioned sole, padded collar, co-branded insole, and side tab.",
       "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/04/supreme-dr-martens-postal-supreme-release-date-2-1068x806.jpg",
       "sourceUrl": "https://sneakerbardetroit.com/supreme-dr-martens-postal-supreme-release-date/",
+      "predictionFile": "./data/predictions/dr-martens-postal-supreme-2026-04-30.json",
       "signals": [
         "Footwear collab",
         "Snakeskin stands out",

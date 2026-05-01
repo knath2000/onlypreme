@@ -1,0 +1,329 @@
+{
+  "schemaVersion": "0.2",
+  "item": {
+    "id": "ghostface-mask-ss26",
+    "name": "Ghostface Mask",
+    "brand": "Supreme",
+    "season": "Spring/Summer 2026",
+    "week": 10,
+    "releaseDate": "2026-04-30",
+    "retailPriceUsd": 38,
+    "retailPriceSourceConfidence": "high",
+    "category": "mask",
+    "materialsAndDetails": "PVC facemask with printed pattern and logo on poly shroud. 6 x 11 in.",
+    "collabTags": [
+      "Ghostface",
+      "Scream"
+    ],
+    "colorsModeled": [
+      "Red Bandana",
+      "Black Bandana"
+    ],
+    "sizesModeled": [
+      "OS"
+    ],
+    "feeAssumption": {
+      "marketplaceFeePercent": 12,
+      "shippingAndHandlingUsd": 15
+    },
+    "baseColorForRatios": "Black Bandana",
+    "baseSizeForRatios": "OS",
+    "callThresholds": {
+      "copMinProfitUsd": 25,
+      "maybeMinProfitUsd": 10
+    }
+  },
+  "sourceSnapshot": {
+    "capturedAt": "2026-05-01",
+    "productSources": [
+      {
+        "source": "Supreme",
+        "url": "https://us.supreme.com/products/sz95lljgayqifppm",
+        "usedFor": [
+          "retail price",
+          "official product details",
+          "official dimensions"
+        ],
+        "observations": {
+          "listedColor": "Black",
+          "retailPriceUsd": 38,
+          "details": "PVC facemask with printed pattern and logo on poly shroud. 6 x 11 in."
+        }
+      },
+      {
+        "source": "Supreme Drop List",
+        "url": "https://supremedroplist.com/items/ghostface-mask-ss26",
+        "usedFor": [
+          "release context",
+          "hype signal",
+          "alternate color visibility"
+        ],
+        "observations": {
+          "listedColors": [
+            "Red Bandana",
+            "Black Bandana"
+          ],
+          "hypeTemperatureF": 92,
+          "details": "Low-retail Ghostface accessory with novelty demand."
+        }
+      },
+      {
+        "source": "Sole Retriever",
+        "url": "https://www.soleretriever.com/news/articles/supreme-spring-summer-2026-week-10-drop-release-date-april-2026",
+        "usedFor": [
+          "drop context",
+          "competition context"
+        ],
+        "observations": {
+          "dropTime": "2026-04-30 11:00 ET",
+          "context": "Week 10 demand is split across Ghostface accessories/apparel and the Dr. Martens collab."
+        }
+      },
+      {
+        "source": "StockX API",
+        "url": "https://stockx.com/supreme-ghostface-mask-black",
+        "usedFor": [
+          "one-size live market data",
+          "ask/bid spread",
+          "sellFaster and earnMore anchors"
+        ],
+        "observations": {
+          "redProductId": "1551d07b-736c-4fff-af2d-92a249394ce7",
+          "blackProductId": "da3037c2-43b4-4ff8-998c-42f9f1e8fbfa",
+          "interpretation": "Both colors had active bids and tight spreads at capture, making the mask a more liquid forecast than the ask-led Doc Martens board."
+        }
+      }
+    ],
+    "marketComps": [
+      {
+        "source": "StockX",
+        "url": "https://stockx.com/supreme-ghostface-mask-black",
+        "name": "Supreme Ghostface Mask Black",
+        "season": "SS26",
+        "whyIncluded": "Target item live market-data source; active bid and tight spread support the day-1 estimate."
+      },
+      {
+        "source": "StockX",
+        "url": "https://stockx.com/supreme-ghostface-mask-red",
+        "name": "Supreme Ghostface Mask Red",
+        "season": "SS26",
+        "whyIncluded": "Target item live market-data source; Red trades slightly below Black but still has active buyer support."
+      },
+      {
+        "source": "StockX",
+        "name": "Supreme New Era Ghostface Beanie Black/Red",
+        "season": "SS26",
+        "whyIncluded": "Same capsule accessory comp; used directionally for Ghostface accessory demand, not for completed-sale ratios in this pass."
+      },
+      {
+        "source": "StockX",
+        "name": "Supreme Rawlings Catcher's Mask Red",
+        "season": "SS20",
+        "whyIncluded": "Older Supreme novelty mask comp; useful as a category precedent but not close enough to derive numeric ratios."
+      }
+    ],
+    "dataQualityWarnings": [
+      "StockX target pages had live bid/ask data, but completed-sale history was not used for this first pass.",
+      "The mask is a low-retail novelty accessory, so prices can fade quickly if restocks or quick-flip supply appear.",
+      "StockX canonical colors are Red and Black, while the app-facing droplist colors are Red Bandana and Black Bandana."
+    ]
+  },
+  "model": {
+    "name": "transparent comparable-weighted baseline",
+    "version": "0.2",
+    "target": "expected resale sale price before seller fees by horizon",
+    "feeAssumption": {
+      "marketplaceFeePercent": 12,
+      "shippingAndHandlingUsd": 15
+    },
+    "method": {
+      "compDerivedRatios": {
+        "sourceFile": null,
+        "sizeRatios": {
+          "OS": {
+            "compMedian": null,
+            "compsUsed": 0
+          }
+        },
+        "colorRatios": {
+          "Red Bandana": {
+            "compMedian": null,
+            "compsUsed": 0,
+            "liveObserved": 0.95,
+            "liveOverrideApplied": false,
+            "liveOverrideNote": "Red Bandana live earnMore is 95% of Black Bandana; discount is small and supported by an active bid."
+          }
+        }
+      },
+      "targetMarketData": {
+        "capturedAt": "2026-05-01T02:53:17.340Z",
+        "sourceFile": "data/stockx/ghostface-mask-target-2026-04-30.json",
+        "colors": [
+          {
+            "color": "Red Bandana",
+            "productId": "1551d07b-736c-4fff-af2d-92a249394ce7",
+            "title": "Supreme Ghostface Mask Red",
+            "variants": [
+              {
+                "size": "OS",
+                "variantId": "f5c7bba4-cdbc-4e21-83be-c9e5981eedc8",
+                "lowestAskUsd": 89,
+                "highestBidUsd": 81,
+                "sellFasterUsd": 88,
+                "earnMoreUsd": 97,
+                "hasBid": true,
+                "bidAskSpreadUsd": 8
+              }
+            ]
+          },
+          {
+            "color": "Black Bandana",
+            "productId": "da3037c2-43b4-4ff8-998c-42f9f1e8fbfa",
+            "title": "Supreme Ghostface Mask Black",
+            "variants": [
+              {
+                "size": "OS",
+                "variantId": "b14c4e3c-faa8-4581-a998-752d36bbc32c",
+                "lowestAskUsd": 93,
+                "highestBidUsd": 87,
+                "sellFasterUsd": 92,
+                "earnMoreUsd": 102,
+                "hasBid": true,
+                "bidAskSpreadUsd": 6
+              }
+            ]
+          }
+        ]
+      },
+      "detailedReasoning": "The Ghostface Mask forecast follows the same live-market scaffold as the Ghostface hoodie and Doc Martens: StockX earnMore is the day-1 expected sale anchor, sellFaster is the range floor, and net profit uses 12% fees plus $15 handling. Unlike Doc Martens, both mask colors show active bids and very tight spreads, so the analyst pass keeps both as cop calls. Black Bandana is the best target because it has the higher earnMore and tighter spread; Red Bandana remains attractive because low retail creates meaningful profit even at a small discount.",
+      "reviewQuestionsForCritic": [
+        "Should the one-year estimate be higher because Ghostface masks have Halloween and horror-collector seasonality?",
+        "Should day-1 prices fade harder if quick-flip supply appears after shipment?",
+        "Does Red Bandana deserve parity with Black Bandana because it is visually louder, or should Black retain the liquidity premium?",
+        "Should shipping/handling be lower for a small accessory, raising net profit versus the current conservative $15 assumption?"
+      ],
+      "colorAdjustments": {
+        "Black Bandana": {
+          "basis": "highest live earnMore, tighter spread, safest Ghostface colorway, and broadest collector/liquidity prior."
+        },
+        "Red Bandana": {
+          "basis": "theme-relevant color with active bid support, modeled slightly below Black because live earnMore and bid are both lower."
+        }
+      },
+      "sizeDataGap": false,
+      "horizonLogic": {
+        "oneWeek": "Both colors fade modestly as quick-flip inventory appears, but tight bid/ask spreads keep the one-week estimates close to day-1.",
+        "oneMonth": "One-month values fade further as Week 10 attention cools and buyers move to later drops.",
+        "oneYear": "One-year values stabilize or recover because Ghostface masks are low-retail collectibles with horror-season relevance; Black gets the stronger long-term premium."
+      },
+      "liveMarketInterpretation": {
+        "capturedAt": "2026-05-01T02:53:17.340Z",
+        "sourceFile": "data/stockx/ghostface-mask-target-2026-04-30.json",
+        "interpretation": "Both colors have active highest bids and single-digit spreads. This is a liquid day-1 board compared with the wider-spread apparel and shoe items.",
+        "confidenceAdjustment": {
+          "from": null,
+          "to": 78,
+          "basis": "Live one-size data covers both colors with active bids and tight spreads; confidence remains below very high because completed sales were not collected and novelty accessories can fade after quick-flip supply arrives."
+        }
+      }
+    }
+  },
+  "day1Predictions": [
+    {
+      "color": "Red Bandana",
+      "size": "OS",
+      "expectedSaleUsd": 97,
+      "rangeUsd": [
+        88,
+        102
+      ],
+      "netProfitAfterFeesUsd": 32,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 8,
+      "liquidityNote": "Active bid and $8 spread support liquidity; still monitor for quick-flip supply because this is a novelty accessory.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Black Bandana",
+      "size": "OS",
+      "expectedSaleUsd": 102,
+      "rangeUsd": [
+        92,
+        107
+      ],
+      "netProfitAfterFeesUsd": 37,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 6,
+      "liquidityNote": "Active bid and $6 spread make this the cleanest mask target; Black has the best long-term liquidity prior.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    }
+  ],
+  "horizonPredictions": [
+    {
+      "color": "Red Bandana",
+      "size": "OS",
+      "day1Usd": 97,
+      "oneWeekUsd": 90,
+      "oneMonthUsd": 82,
+      "oneYearUsd": 100,
+      "liquidityNote": "Small fade after launch, with one-year recovery possible from horror-collector and Halloween demand."
+    },
+    {
+      "color": "Black Bandana",
+      "size": "OS",
+      "day1Usd": 102,
+      "oneWeekUsd": 95,
+      "oneMonthUsd": 88,
+      "oneYearUsd": 110,
+      "liquidityNote": "Best liquidity profile in the mask pair; Black gets the strongest one-year collector premium."
+    }
+  ],
+  "colorLevelSummaries": [
+    {
+      "color": "Red Bandana",
+      "expectedDay1BySizeUsd": {
+        "OS": 97
+      },
+      "reasoning": "Red Bandana is theme-relevant and liquid, with StockX sellFaster/earnMore at $88/$97 and an active $81 bid. It is a cop because the low $38 retail leaves about $32 net profit even with conservative $15 handling. It stays slightly below Black because both the bid and earnMore are lower."
+    },
+    {
+      "color": "Black Bandana",
+      "expectedDay1BySizeUsd": {
+        "OS": 102
+      },
+      "reasoning": "Black Bandana is the best mask target. It has the higher live StockX earnMore at $102, a $92 sellFaster floor, an active $87 bid, and the tightest spread. Black also has the strongest long-term horror-mask liquidity prior."
+    }
+  ],
+  "overall": {
+    "bestTargets": [
+      "Black Bandana OS",
+      "Red Bandana OS"
+    ],
+    "avoidForResale": [],
+    "baseRecommendation": "Cop both colors, with Black Bandana first if choosing only one.",
+    "confidenceScore": 78,
+    "keyRisks": [
+      "Completed-sale history was not collected for this first pass.",
+      "Low-retail novelty accessories can fade quickly when quick-flip supply arrives.",
+      "The current $15 shipping/handling assumption is conservative for a small accessory and may understate net profit.",
+      "Week 10 demand is split with Ghostface apparel and Dr. Martens, so buyer attention could rotate away after launch.",
+      "StockX uses Red/Black canonical labels while the app uses Red Bandana/Black Bandana; prediction rows intentionally match the app colors."
+    ]
+  },
+  "accuracyTracking": {
+    "oneWeek": {
+      "trackedAt": null,
+      "sourceFile": null,
+      "medianAbsPercentError": null,
+      "variantResults": []
+    },
+    "oneMonth": null,
+    "oneYear": null
+  }
+}

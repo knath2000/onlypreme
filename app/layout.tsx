@@ -9,7 +9,14 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(() => { try { const theme = localStorage.getItem("onlypreme-theme"); if (theme === "dark" || theme === "light") document.documentElement.dataset.theme = theme; } catch {} })();`
+          }}
+        />
+        {children}
+      </body>
     </html>
   );
 }

@@ -1,0 +1,278 @@
+{
+  "schemaVersion": "0.2",
+  "item": {
+    "id": "ghostface-pendant-ss26",
+    "name": "Supreme/Jacob & Co./Ghostface Diamond Pendant",
+    "brand": "Supreme",
+    "season": "Spring/Summer 2026",
+    "week": 10,
+    "releaseDate": "2026-04-30",
+    "retailPriceUsd": 3598,
+    "retailPriceSourceConfidence": "medium",
+    "category": "diamond pendant",
+    "materialsAndDetails": "Sterling silver pendant with pave diamonds, sterling silver ball chain, 22 in. chain, 1.88 in. pendant, and engraved logo on back.",
+    "collabTags": [
+      "Jacob & Co.",
+      "Ghostface"
+    ],
+    "colorsModeled": [
+      "Silver"
+    ],
+    "sizesModeled": [
+      "OS"
+    ],
+    "feeAssumption": {
+      "marketplaceFeePercent": 12,
+      "shippingAndHandlingUsd": 35
+    },
+    "baseColorForRatios": "Silver",
+    "baseSizeForRatios": "OS",
+    "callThresholds": {
+      "copMinProfitUsd": 400,
+      "maybeMinProfitUsd": 100
+    }
+  },
+  "sourceSnapshot": {
+    "capturedAt": "2026-05-01",
+    "productSources": [
+      {
+        "source": "Sole Retriever",
+        "url": "https://www.soleretriever.com/news/articles/supreme-spring-summer-2026-week-10-drop-release-date-april-2026",
+        "usedFor": [
+          "retail price",
+          "drop context",
+          "product lineup context"
+        ],
+        "observations": {
+          "releaseDate": "2026-04-30",
+          "retailPriceUsd": 3598,
+          "context": "Week 10 includes the Ghostface Diamond Pendant alongside the mask, hoodie, shorts, shirt, Dr. Martens, and other items."
+        }
+      },
+      {
+        "source": "Supreme Drop List",
+        "url": "https://supremedroplist.com/items/supreme-jacob-and-co-ghostface-diamond-pendant-ss26",
+        "usedFor": [
+          "product details",
+          "hype signal",
+          "source imagery"
+        ],
+        "observations": {
+          "category": "Accessories",
+          "details": "Sterling silver pendant with pave diamonds, sterling silver ball chain, and engraved logo on back.",
+          "interpretation": "Very high retail creates a tiny buyer pool despite collector appeal."
+        }
+      },
+      {
+        "source": "House of Heat",
+        "url": "https://houseofheat.co/supreme/supreme-x-ghostface-collection-release-details-2026",
+        "usedFor": [
+          "Ghostface capsule context"
+        ],
+        "observations": {
+          "context": "The capsule includes a pendant necklace shaped after the mask and a full-face mask as accessories."
+        }
+      },
+      {
+        "source": "StockX API",
+        "url": "https://stockx.com/supreme-jacob-co-ghostface-diamond-pendant-silver",
+        "usedFor": [
+          "live bid signal",
+          "absence of ask-side scaffold fields"
+        ],
+        "observations": {
+          "productId": "15eeef53-dcbd-44fc-956c-e6a57109add2",
+          "highestBidUsd": 600,
+          "lowestAskUsd": null,
+          "sellFasterUsd": null,
+          "earnMoreUsd": null,
+          "interpretation": "No ask-side market-data anchor exists; the only live buyer signal is far below retail."
+        }
+      }
+    ],
+    "marketComps": [
+      {
+        "source": "StockX",
+        "url": "https://stockx.com/supreme-jacob-co-ghostface-diamond-pendant-silver",
+        "name": "Supreme Jacob & Co. Ghostface Diamond Pendant Silver",
+        "season": "SS26",
+        "retailPriceUsd": 3598,
+        "highestBidUsd": 600,
+        "whyIncluded": "Target item live market-data source; confirms buyer support is far below retail and no ask-side scaffold anchor was available."
+      },
+      {
+        "source": "StockX",
+        "url": "https://stockx.com/supreme-jacobco-fuck-em-pendant-sterling-silver",
+        "name": "Supreme Jacob&Co Fuck Em Pendant Sterling Silver",
+        "season": "FW25",
+        "retailPriceUsd": 698,
+        "lastSaleUsd": 646,
+        "last3MonthRangeUsd": [
+          500,
+          767
+        ],
+        "last3MonthAverageSaleUsd": 637,
+        "last3MonthSales": 6,
+        "whyIncluded": "Recent sterling Supreme Jacob & Co. pendant comp; traded below retail on average despite a much lower entry price."
+      },
+      {
+        "source": "StockX",
+        "name": "Supreme Jacob&Co Fuck Em Pendant 14K Gold",
+        "season": "FW25",
+        "whyIncluded": "Higher-material-value Jacob & Co. pendant comp; useful directionally but not numeric because the Ghostface piece is sterling silver with diamonds and a much different buyer pool."
+      },
+      {
+        "source": "StockX",
+        "name": "Supreme Jacob&Co Dice 14K Gold Pendant",
+        "season": "SS25",
+        "whyIncluded": "Recent high-ticket Supreme Jacob & Co. jewelry precedent; included for luxury accessory context, not direct valuation."
+      }
+    ],
+    "dataQualityWarnings": [
+      "The target StockX API response had no lowestAsk, sellFaster, or earnMore fields.",
+      "The only live buyer signal was a $600 highest bid against $3,598 retail.",
+      "No completed sale exists in the local capture for the Ghostface pendant.",
+      "Recent sterling Jacob & Co. Supreme comp data shows below-retail average sale behavior, so ask-side collector premiums should be distrusted.",
+      "The model uses analyst estimates for sale price because live ask-side market data was unavailable."
+    ]
+  },
+  "model": {
+    "name": "transparent comparable-weighted baseline",
+    "version": "0.2",
+    "target": "expected resale sale price before seller fees by horizon",
+    "feeAssumption": {
+      "marketplaceFeePercent": 12,
+      "shippingAndHandlingUsd": 35
+    },
+    "method": {
+      "compDerivedRatios": {
+        "sourceFile": null,
+        "sizeRatios": {
+          "OS": {
+            "compMedian": null,
+            "compsUsed": 0
+          }
+        },
+        "colorRatios": {}
+      },
+      "targetMarketData": {
+        "capturedAt": "2026-05-01T03:14:16.040Z",
+        "sourceFile": "data/stockx/ghostface-pendant-target-2026-04-30.json",
+        "colors": [
+          {
+            "color": "Silver",
+            "productId": "15eeef53-dcbd-44fc-956c-e6a57109add2",
+            "title": "Supreme Jacob & Co. Ghostface Diamond Pendant Silver",
+            "variants": [
+              {
+                "size": "OS",
+                "variantId": "c9660361-0bfd-4b2d-999b-163f55c0e180",
+                "lowestAskUsd": null,
+                "highestBidUsd": 600,
+                "sellFasterUsd": null,
+                "earnMoreUsd": null,
+                "hasBid": true,
+                "bidAskSpreadUsd": null
+              }
+            ]
+          }
+        ]
+      },
+      "detailedReasoning": "The Ghostface Diamond Pendant cannot be scaffolded from StockX earnMore because the target market data returned no ask-side sale guidance. The only live buyer signal was a $600 bid versus $3,598 retail. Recent sterling Supreme Jacob & Co. pendant comps also warn against assuming premiums: the Fuck Em sterling pendant has recent average sale data below its own retail. The analyst estimate therefore treats any near-retail exit as speculative and models the pendant as a skip for resale despite collector appeal.",
+      "reviewQuestionsForCritic": [
+        "Should the day-1 expected sale be even lower because the only live bid is $600?",
+        "Does the Ghostface shape and diamond setting justify a stronger collector premium than recent sterling Jacob & Co. comps?",
+        "Would private buyer demand for limited Jacob & Co. jewelry exist outside StockX enough to make this a maybe?",
+        "Should any high-ticket jewelry item be excluded from normal cop calls until completed sales exist?",
+        "Does the $3,598 retail price create too much fee drag for any marketplace resale path?"
+      ],
+      "colorAdjustments": {
+        "Silver": {
+          "basis": "only modeled color; value is driven by Jacob & Co. provenance, Ghostface collectibility, and diamond detail, but live bid support is far below retail."
+        }
+      },
+      "sizeDataGap": false,
+      "horizonLogic": {
+        "oneWeek": "Without ask-side market formation, one-week value should fade below the speculative day-1 near-retail anchor.",
+        "oneMonth": "One-month value fades toward the visible buyer signal and recent below-retail sterling Jacob & Co. comp behavior.",
+        "oneYear": "One-year value can partially recover for a patient collector sale, but remains below retail unless completed sales prove real demand."
+      },
+      "liveMarketInterpretation": {
+        "capturedAt": "2026-05-01T03:14:16.040Z",
+        "sourceFile": "data/stockx/ghostface-pendant-target-2026-04-30.json",
+        "interpretation": "The StockX API shows a product shell and a $600 bid, but no lowestAsk, sellFaster, or earnMore. This is not a liquid market and cannot support a positive resale call.",
+        "confidenceAdjustment": {
+          "from": null,
+          "to": 42,
+          "basis": "Confidence is low because the forecast is analyst-derived from missing ask-side data, a weak live bid, and indirect Jacob & Co. comps."
+        }
+      }
+    }
+  },
+  "day1Predictions": [
+    {
+      "color": "Silver",
+      "size": "OS",
+      "expectedSaleUsd": 2800,
+      "rangeUsd": [
+        600,
+        3600
+      ],
+      "netProfitAfterFeesUsd": -1169,
+      "call": "skip",
+      "scaffoldBasis": "analystOverrideNoEarnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": null,
+      "liquidityNote": "Only live StockX buyer signal was a $600 bid, with no lowest ask, sellFaster, or earnMore. Treat any near-retail exit as speculative private-buyer upside.",
+      "analystOverride": 2800,
+      "analystOverrideReason": "No StockX earnMore was available; estimate is a conservative below-retail placeholder based on weak bid support and below-retail sterling Jacob & Co. comp behavior."
+    }
+  ],
+  "horizonPredictions": [
+    {
+      "color": "Silver",
+      "size": "OS",
+      "day1Usd": 2800,
+      "oneWeekUsd": 2400,
+      "oneMonthUsd": 1800,
+      "oneYearUsd": 2600,
+      "liquidityNote": "High-ticket collector item with no live ask-side market; patient private sale may outperform, but marketplace liquidity is too thin for resale."
+    }
+  ],
+  "colorLevelSummaries": [
+    {
+      "color": "Silver",
+      "expectedDay1BySizeUsd": {
+        "OS": 2800
+      },
+      "reasoning": "Silver is the only colorway. The pendant is collectible on concept, but the live StockX board is not supportive: no ask-side sale guidance and only a $600 bid against $3,598 retail. Even a speculative $2,800 resale would lose more than $1,100 after fees and handling, so this is a skip for resale."
+    }
+  ],
+  "overall": {
+    "bestTargets": [],
+    "avoidForResale": [
+      "Silver OS"
+    ],
+    "baseRecommendation": "Skip for resale; collector-only personal buy if the user wants the piece regardless of market liquidity.",
+    "confidenceScore": 42,
+    "keyRisks": [
+      "No StockX lowest ask, sellFaster, or earnMore values were available for the target pendant.",
+      "The only live bid was $600 against $3,598 retail.",
+      "Marketplace fees create severe drag: even a near-retail sale loses hundreds after fees and handling.",
+      "Recent sterling Supreme Jacob & Co. pendant comp behavior includes below-retail average sales.",
+      "High-ticket jewelry has a very thin buyer pool and may require patient private sale channels rather than StockX.",
+      "Retail price source confidence remains medium because the app originally sourced price from DropsGG/Reddit and secondary previews, not an official Supreme product page capture.",
+      "Completed sales were not collected for this first pass."
+    ]
+  },
+  "accuracyTracking": {
+    "oneWeek": {
+      "trackedAt": null,
+      "sourceFile": null,
+      "medianAbsPercentError": null,
+      "variantResults": []
+    },
+    "oneMonth": null,
+    "oneYear": null
+  }
+}

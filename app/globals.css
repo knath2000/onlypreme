@@ -1,15 +1,45 @@
 :root {
-  color-scheme: light;
+  color-scheme: light dark;
   --bg: #f4f2ee;
   --paper: #ffffff;
   --ink: #141414;
   --muted: #6f6a63;
   --line: #ddd7ce;
+  --subtle: #fbfaf8;
+  --image-bg: #f7f5f1;
+  --topbar-bg: rgba(244, 242, 238, 0.92);
+  --gate-bg: #fff8eb;
+  --pill-bg: #f8f6f2;
+  --hero-stat-bg: rgba(255, 255, 255, 0.92);
+  --hero-stat-line: rgba(255, 255, 255, 0.35);
+  --logo-surface: transparent;
   --red: #e50914;
   --green: #0b7a43;
   --amber: #9a6400;
   --blue: #1f5f8b;
   --shadow: 0 16px 45px rgba(20, 20, 20, 0.08);
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0d0f12;
+  --paper: #15191f;
+  --ink: #f4f1ea;
+  --muted: #aaa39a;
+  --line: #2b3138;
+  --subtle: #1c222a;
+  --image-bg: #11151a;
+  --topbar-bg: rgba(13, 15, 18, 0.92);
+  --gate-bg: #251f11;
+  --pill-bg: #20262e;
+  --hero-stat-bg: rgba(21, 25, 31, 0.94);
+  --hero-stat-line: rgba(244, 241, 234, 0.22);
+  --logo-surface: #f4f2ee;
+  --red: #ff3b45;
+  --green: #17a667;
+  --amber: #d69628;
+  --blue: #66a9d8;
+  --shadow: 0 18px 60px rgba(0, 0, 0, 0.45);
 }
 
 * {
@@ -44,7 +74,7 @@ a {
   gap: 24px;
   padding: 18px 28px;
   border-bottom: 1px solid var(--line);
-  background: rgba(244, 242, 238, 0.92);
+  background: var(--topbar-bg);
   backdrop-filter: blur(14px);
 }
 
@@ -55,8 +85,31 @@ a {
   margin: 0;
 }
 
-.topbar h1 {
-  font-size: clamp(1.35rem, 2vw, 2.1rem);
+.brand-block {
+  display: grid;
+  gap: 3px;
+}
+
+.brand-block p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.brand-logo {
+  display: block;
+  width: clamp(190px, 23vw, 330px);
+  height: 76px;
+  background:
+    url("/onlypreme-logo.png") center / contain no-repeat,
+    var(--logo-surface);
+}
+
+.auth-logo {
+  width: min(360px, 100%);
+  height: 96px;
 }
 
 .top-actions {
@@ -75,7 +128,8 @@ a {
 
 .top-actions a,
 .top-actions button,
-.auth-form button {
+.auth-form button,
+.pro-form button {
   border: 1px solid var(--ink);
   background: var(--ink);
   color: white;
@@ -86,6 +140,24 @@ a {
 
 .top-actions button {
   height: auto;
+}
+
+.theme-toggle {
+  min-width: 58px;
+}
+
+.pro-form {
+  display: flex;
+}
+
+.pro-form button {
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.compact-pro-form {
+  color: inherit;
 }
 
 .eyebrow {
@@ -161,12 +233,13 @@ main {
   gap: 1px;
   margin: 0 24px 24px 0;
   background: rgba(255, 255, 255, 0.35);
+  background: var(--hero-stat-line);
 }
 
 .hero-stats div {
   min-height: 92px;
   padding: 16px;
-  background: rgba(255, 255, 255, 0.92);
+  background: var(--hero-stat-bg);
   color: var(--ink);
 }
 
@@ -187,7 +260,7 @@ main {
   margin-bottom: 20px;
   padding: 14px 16px;
   border: 1px solid var(--amber);
-  background: #fff8eb;
+  background: var(--gate-bg);
   color: var(--amber);
 }
 
@@ -268,7 +341,7 @@ tr[data-action] {
 }
 
 tr[data-action]:hover {
-  background: #fbfaf8;
+  background: var(--subtle);
 }
 
 .item-cell {
@@ -283,7 +356,7 @@ tr[data-action]:hover {
   width: 58px;
   height: 58px;
   object-fit: contain;
-  background: #f7f5f1;
+  background: var(--image-bg);
 }
 
 .product-grid {
@@ -307,14 +380,14 @@ tr[data-action]:hover {
 }
 
 .card:hover {
-  background: #fbfaf8;
+  background: var(--subtle);
 }
 
 .image-wrap {
   display: grid;
   place-items: center;
   padding: 18px;
-  background: #f7f5f1;
+  background: var(--image-bg);
 }
 
 .image-wrap img {
@@ -354,7 +427,7 @@ tr[data-action]:hover {
   min-height: 26px;
   padding: 4px 8px;
   border: 1px solid var(--line);
-  background: #f8f6f2;
+  background: var(--pill-bg);
   color: var(--muted);
   font-size: 0.75rem;
   font-weight: 800;
@@ -392,7 +465,7 @@ tr[data-action]:hover {
   gap: 4px;
   min-height: 74px;
   padding: 12px;
-  background: #fbfaf8;
+  background: var(--subtle);
 }
 
 .forecast span,
@@ -421,7 +494,7 @@ tr[data-action]:hover {
 
 .source-links a,
 .dialog-info a,
-.auth-panel a,
+.auth-panel a:not(.brand-logo),
 .gate-panel a {
   border: 1px solid var(--ink);
   padding: 9px 11px;
@@ -467,7 +540,7 @@ dialog::backdrop {
   display: grid;
   place-items: center;
   padding: 28px;
-  background: #f7f5f1;
+  background: var(--image-bg);
 }
 
 .dialog-media img {
@@ -519,7 +592,7 @@ dialog::backdrop {
   gap: 6px;
   padding: 12px;
   border: 1px solid var(--line);
-  background: #fbfaf8;
+  background: var(--subtle);
 }
 
 .data-note p {

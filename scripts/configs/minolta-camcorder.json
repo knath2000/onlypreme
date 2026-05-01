@@ -1,0 +1,25 @@
+{
+  "id": "minolta-camcorder-ss26",
+  "name": "Supreme/Minolta MN4K300WP Waterproof Camcorder",
+  "brand": "Supreme",
+  "season": "Spring/Summer 2026",
+  "week": 10,
+  "releaseDate": "2026-04-30",
+  "retailPriceUsd": 298,
+  "retailPriceSourceConfidence": "high",
+  "category": "waterproof camcorder",
+  "materialsAndDetails": "Waterproof camcorder with custom logo application, 13MP CMOS sensor, 18x digital zoom, integrated 3 in. IPS LCD flip-out screen, UHD 4K video, 56MP still images, 128GB maximum storage, included 32GB microSD card, IPX7 waterproof up to 16 ft., and 1.72 lb. weight.",
+  "collabTags": ["Minolta"],
+  "colorsModeled": ["Pink Camo", "Woodland Camo"],
+  "sizesModeled": ["OS"],
+  "feeAssumption": {
+    "marketplaceFeePercent": 12,
+    "shippingAndHandlingUsd": 20
+  },
+  "baseColorForRatios": "Woodland Camo",
+  "baseSizeForRatios": "OS",
+  "callThresholds": {
+    "copMinProfitUsd": 60,
+    "maybeMinProfitUsd": 25
+  }
+}

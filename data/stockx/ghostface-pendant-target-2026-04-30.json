@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "0.1",
+  "capturedAt": "2026-05-01T03:14:16.040Z",
+  "item": "Supreme Jacob & Co. Ghostface Diamond Pendant",
+  "date": "2026-04-30",
+  "colors": [
+    {
+      "color": "Silver",
+      "productId": "15eeef53-dcbd-44fc-956c-e6a57109add2",
+      "title": "Supreme Jacob & Co. Ghostface Diamond Pendant Silver",
+      "urlKey": "supreme-jacob-co-ghostface-diamond-pendant-silver",
+      "attributes": {
+        "color": "Silver",
+        "colorway": null,
+        "gender": "unisex",
+        "releaseDate": "2026-04-30",
+        "retailPrice": 3598,
+        "season": "SS26"
+      },
+      "variants": [
+        {
+          "size": "OS",
+          "variantId": "c9660361-0bfd-4b2d-999b-163f55c0e180",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": null,
+          "highestBidUsd": 600,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": null,
+          "earnMoreUsd": null,
+          "hasBid": true,
+          "bidAskSpreadUsd": null,
+          "rawMarketData": {
+            "productId": "15eeef53-dcbd-44fc-956c-e6a57109add2",
+            "variantId": "c9660361-0bfd-4b2d-999b-163f55c0e180",
+            "currencyCode": "USD",
+            "highestBidAmount": "600",
+            "lowestAskAmount": null,
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": null,
+            "sellFasterAmount": null,
+            "standardMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "600",
+              "sellFaster": null,
+              "earnMore": null,
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "600",
+              "sellFaster": null,
+              "earnMore": null,
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "600",
+              "sellFaster": null,
+              "earnMore": null,
+              "beatUS": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

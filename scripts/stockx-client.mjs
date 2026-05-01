@@ -149,7 +149,7 @@ export async function getVariants(productId, creds) {
   const variants = Array.isArray(rawVariants)
     ? rawVariants
         .map((variant) => ({
-          size: variant.variantValue || variant.sizeChart?.defaultConversion?.size || null,
+          size: variant.variantValue || variant.sizeChart?.defaultConversion?.size || "OS",
           variantId: variant.variantId || variant.id || null,
           raw: variant
         }))

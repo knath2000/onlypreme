@@ -1,0 +1,1097 @@
+{
+  "schemaVersion": "0.1",
+  "capturedAt": "2026-05-01T02:36:22.159Z",
+  "item": "Dr. Martens Postal Supreme 4-Eye Shoe Supreme",
+  "date": "2026-04-30",
+  "colors": [
+    {
+      "color": "Black",
+      "productId": "019dd609-796c-72a0-ba67-9a45065e56e2",
+      "title": "Dr. Martens Postal Supreme 4-Eye Shoe Supreme Black",
+      "urlKey": "dr-martens-postal-supreme-4-eye-shoe-supreme-black",
+      "attributes": {
+        "color": null,
+        "colorway": "Black",
+        "gender": "men",
+        "releaseDate": "2026-04-30",
+        "retailPrice": 198,
+        "season": null
+      },
+      "variants": [
+        {
+          "size": "4",
+          "variantId": "019dd609-87dd-77dd-be92-97d1487d80ac",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": null,
+          "highestBidUsd": null,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": null,
+          "earnMoreUsd": null,
+          "hasBid": false,
+          "bidAskSpreadUsd": null,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72a0-ba67-9a45065e56e2",
+            "variantId": "019dd609-87dd-77dd-be92-97d1487d80ac",
+            "currencyCode": "USD",
+            "highestBidAmount": null,
+            "lowestAskAmount": null,
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": null,
+            "sellFasterAmount": null,
+            "standardMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": null,
+              "earnMore": null,
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": null,
+              "earnMore": null,
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": null,
+              "earnMore": null,
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "5",
+          "variantId": "019dd609-87dd-7822-a653-372b78ac8d67",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": null,
+          "highestBidUsd": null,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": null,
+          "earnMoreUsd": null,
+          "hasBid": false,
+          "bidAskSpreadUsd": null,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72a0-ba67-9a45065e56e2",
+            "variantId": "019dd609-87dd-7822-a653-372b78ac8d67",
+            "currencyCode": "USD",
+            "highestBidAmount": null,
+            "lowestAskAmount": null,
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": null,
+            "sellFasterAmount": null,
+            "standardMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": null,
+              "earnMore": null,
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": null,
+              "earnMore": null,
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": null,
+              "earnMore": null,
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "6",
+          "variantId": "019dd609-87dd-7950-a852-1b059c05f842",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 414,
+          "highestBidUsd": null,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 413,
+          "earnMoreUsd": 455,
+          "hasBid": false,
+          "bidAskSpreadUsd": null,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72a0-ba67-9a45065e56e2",
+            "variantId": "019dd609-87dd-7950-a852-1b059c05f842",
+            "currencyCode": "USD",
+            "highestBidAmount": null,
+            "lowestAskAmount": "414",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "455",
+            "sellFasterAmount": "413",
+            "standardMarketData": {
+              "lowestAsk": "414",
+              "highestBidAmount": null,
+              "sellFaster": "413",
+              "earnMore": "455",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": "456",
+              "earnMore": "476",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": "456",
+              "earnMore": "476",
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "7",
+          "variantId": "019dd609-87dd-7a1f-8552-1a87130cfca7",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 413,
+          "highestBidUsd": 100,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 412,
+          "earnMoreUsd": 454,
+          "hasBid": true,
+          "bidAskSpreadUsd": 313,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72a0-ba67-9a45065e56e2",
+            "variantId": "019dd609-87dd-7a1f-8552-1a87130cfca7",
+            "currencyCode": "USD",
+            "highestBidAmount": "100",
+            "lowestAskAmount": "413",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "454",
+            "sellFasterAmount": "412",
+            "standardMarketData": {
+              "lowestAsk": "413",
+              "highestBidAmount": "100",
+              "sellFaster": "412",
+              "earnMore": "454",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "100",
+              "sellFaster": "455",
+              "earnMore": "475",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "100",
+              "sellFaster": "455",
+              "earnMore": "475",
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "7.5",
+          "variantId": "019dd609-87dd-78f5-9b43-326bca971185",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 413,
+          "highestBidUsd": null,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 412,
+          "earnMoreUsd": 454,
+          "hasBid": false,
+          "bidAskSpreadUsd": null,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72a0-ba67-9a45065e56e2",
+            "variantId": "019dd609-87dd-78f5-9b43-326bca971185",
+            "currencyCode": "USD",
+            "highestBidAmount": null,
+            "lowestAskAmount": "413",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "454",
+            "sellFasterAmount": "412",
+            "standardMarketData": {
+              "lowestAsk": "413",
+              "highestBidAmount": null,
+              "sellFaster": "412",
+              "earnMore": "454",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": "455",
+              "earnMore": "475",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": "455",
+              "earnMore": "475",
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "8",
+          "variantId": "019dd609-87dd-7740-add3-ea9e328e954d",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 298,
+          "highestBidUsd": 105,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 297,
+          "earnMoreUsd": 327,
+          "hasBid": true,
+          "bidAskSpreadUsd": 193,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72a0-ba67-9a45065e56e2",
+            "variantId": "019dd609-87dd-7740-add3-ea9e328e954d",
+            "currencyCode": "USD",
+            "highestBidAmount": "105",
+            "lowestAskAmount": "298",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "327",
+            "sellFasterAmount": "297",
+            "standardMarketData": {
+              "lowestAsk": "298",
+              "highestBidAmount": "105",
+              "sellFaster": "297",
+              "earnMore": "327",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "105",
+              "sellFaster": "328",
+              "earnMore": "343",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "105",
+              "sellFaster": "328",
+              "earnMore": "343",
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "9",
+          "variantId": "019dd609-87dd-769c-91d7-3017cdc42519",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 411,
+          "highestBidUsd": 200,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 410,
+          "earnMoreUsd": 452,
+          "hasBid": true,
+          "bidAskSpreadUsd": 211,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72a0-ba67-9a45065e56e2",
+            "variantId": "019dd609-87dd-769c-91d7-3017cdc42519",
+            "currencyCode": "USD",
+            "highestBidAmount": "200",
+            "lowestAskAmount": "411",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "452",
+            "sellFasterAmount": "410",
+            "standardMarketData": {
+              "lowestAsk": "411",
+              "highestBidAmount": "200",
+              "sellFaster": "410",
+              "earnMore": "452",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "200",
+              "sellFaster": "453",
+              "earnMore": "473",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "200",
+              "sellFaster": "453",
+              "earnMore": "473",
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "10",
+          "variantId": "019dd609-87dd-7a66-ade3-11732ee99e78",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 404,
+          "highestBidUsd": 120,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 403,
+          "earnMoreUsd": 444,
+          "hasBid": true,
+          "bidAskSpreadUsd": 284,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72a0-ba67-9a45065e56e2",
+            "variantId": "019dd609-87dd-7a66-ade3-11732ee99e78",
+            "currencyCode": "USD",
+            "highestBidAmount": "120",
+            "lowestAskAmount": "404",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "444",
+            "sellFasterAmount": "403",
+            "standardMarketData": {
+              "lowestAsk": "404",
+              "highestBidAmount": "120",
+              "sellFaster": "403",
+              "earnMore": "444",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "120",
+              "sellFaster": "445",
+              "earnMore": "465",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "120",
+              "sellFaster": "445",
+              "earnMore": "465",
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "10.5",
+          "variantId": "019dd609-87dd-79d6-a3bf-234794704f0a",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 411,
+          "highestBidUsd": 120,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 410,
+          "earnMoreUsd": 452,
+          "hasBid": true,
+          "bidAskSpreadUsd": 291,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72a0-ba67-9a45065e56e2",
+            "variantId": "019dd609-87dd-79d6-a3bf-234794704f0a",
+            "currencyCode": "USD",
+            "highestBidAmount": "120",
+            "lowestAskAmount": "411",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "452",
+            "sellFasterAmount": "410",
+            "standardMarketData": {
+              "lowestAsk": "411",
+              "highestBidAmount": "120",
+              "sellFaster": "410",
+              "earnMore": "452",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "120",
+              "sellFaster": "453",
+              "earnMore": "473",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "120",
+              "sellFaster": "453",
+              "earnMore": "473",
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "11",
+          "variantId": "019dd609-87dd-785b-b1ee-ac59cda5ee3c",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 413,
+          "highestBidUsd": 120,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 412,
+          "earnMoreUsd": 454,
+          "hasBid": true,
+          "bidAskSpreadUsd": 293,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72a0-ba67-9a45065e56e2",
+            "variantId": "019dd609-87dd-785b-b1ee-ac59cda5ee3c",
+            "currencyCode": "USD",
+            "highestBidAmount": "120",
+            "lowestAskAmount": "413",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "454",
+            "sellFasterAmount": "412",
+            "standardMarketData": {
+              "lowestAsk": "413",
+              "highestBidAmount": "120",
+              "sellFaster": "412",
+              "earnMore": "454",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "120",
+              "sellFaster": "455",
+              "earnMore": "475",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "120",
+              "sellFaster": "455",
+              "earnMore": "475",
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "12",
+          "variantId": "019dd609-87dd-785a-b9e5-90b2929260a6",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 413,
+          "highestBidUsd": 111,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 412,
+          "earnMoreUsd": 454,
+          "hasBid": true,
+          "bidAskSpreadUsd": 302,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72a0-ba67-9a45065e56e2",
+            "variantId": "019dd609-87dd-785a-b9e5-90b2929260a6",
+            "currencyCode": "USD",
+            "highestBidAmount": "111",
+            "lowestAskAmount": "413",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "454",
+            "sellFasterAmount": "412",
+            "standardMarketData": {
+              "lowestAsk": "413",
+              "highestBidAmount": "111",
+              "sellFaster": "412",
+              "earnMore": "454",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "111",
+              "sellFaster": "455",
+              "earnMore": "475",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "111",
+              "sellFaster": "455",
+              "earnMore": "475",
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "13",
+          "variantId": "019dd609-87dd-78bb-a3c7-55259321a8b7",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 400,
+          "highestBidUsd": null,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 399,
+          "earnMoreUsd": 439,
+          "hasBid": false,
+          "bidAskSpreadUsd": null,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72a0-ba67-9a45065e56e2",
+            "variantId": "019dd609-87dd-78bb-a3c7-55259321a8b7",
+            "currencyCode": "USD",
+            "highestBidAmount": null,
+            "lowestAskAmount": "400",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "439",
+            "sellFasterAmount": "399",
+            "standardMarketData": {
+              "lowestAsk": "400",
+              "highestBidAmount": null,
+              "sellFaster": "399",
+              "earnMore": "439",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": "441",
+              "earnMore": "460",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": "441",
+              "earnMore": "460",
+              "beatUS": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "color": "Snakeskin",
+      "productId": "019dd609-796c-72c8-b599-eea07e7b7843",
+      "title": "Dr. Martens Postal Supreme 4-Eye Shoe Supreme Snakeskin",
+      "urlKey": "dr-martens-postal-supreme-4-eye-shoe-supreme-snakeskin",
+      "attributes": {
+        "color": null,
+        "colorway": "Snakeskin",
+        "gender": "men",
+        "releaseDate": "2026-04-30",
+        "retailPrice": 198,
+        "season": null
+      },
+      "variants": [
+        {
+          "size": "4",
+          "variantId": "019dd609-98e7-78cc-b773-dfc45f467bed",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": null,
+          "highestBidUsd": null,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": null,
+          "earnMoreUsd": null,
+          "hasBid": false,
+          "bidAskSpreadUsd": null,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72c8-b599-eea07e7b7843",
+            "variantId": "019dd609-98e7-78cc-b773-dfc45f467bed",
+            "currencyCode": "USD",
+            "highestBidAmount": null,
+            "lowestAskAmount": null,
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": null,
+            "sellFasterAmount": null,
+            "standardMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": null,
+              "earnMore": null,
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": null,
+              "earnMore": null,
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": null,
+              "earnMore": null,
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "5",
+          "variantId": "019dd609-98e7-78f6-b2bf-e813642f4043",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": null,
+          "highestBidUsd": null,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": null,
+          "earnMoreUsd": null,
+          "hasBid": false,
+          "bidAskSpreadUsd": null,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72c8-b599-eea07e7b7843",
+            "variantId": "019dd609-98e7-78f6-b2bf-e813642f4043",
+            "currencyCode": "USD",
+            "highestBidAmount": null,
+            "lowestAskAmount": null,
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": null,
+            "sellFasterAmount": null,
+            "standardMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": null,
+              "earnMore": null,
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": null,
+              "earnMore": null,
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": null,
+              "earnMore": null,
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "6",
+          "variantId": "019dd609-98e7-798e-a98d-8cf6773cb8ca",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 414,
+          "highestBidUsd": null,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 413,
+          "earnMoreUsd": 455,
+          "hasBid": false,
+          "bidAskSpreadUsd": null,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72c8-b599-eea07e7b7843",
+            "variantId": "019dd609-98e7-798e-a98d-8cf6773cb8ca",
+            "currencyCode": "USD",
+            "highestBidAmount": null,
+            "lowestAskAmount": "414",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "455",
+            "sellFasterAmount": "413",
+            "standardMarketData": {
+              "lowestAsk": "414",
+              "highestBidAmount": null,
+              "sellFaster": "413",
+              "earnMore": "455",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": "456",
+              "earnMore": "476",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": "456",
+              "earnMore": "476",
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "7",
+          "variantId": "019dd609-98e7-799c-95ec-e85610d6951b",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 413,
+          "highestBidUsd": 100,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 412,
+          "earnMoreUsd": 454,
+          "hasBid": true,
+          "bidAskSpreadUsd": 313,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72c8-b599-eea07e7b7843",
+            "variantId": "019dd609-98e7-799c-95ec-e85610d6951b",
+            "currencyCode": "USD",
+            "highestBidAmount": "100",
+            "lowestAskAmount": "413",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "454",
+            "sellFasterAmount": "412",
+            "standardMarketData": {
+              "lowestAsk": "413",
+              "highestBidAmount": "100",
+              "sellFaster": "412",
+              "earnMore": "454",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "100",
+              "sellFaster": "455",
+              "earnMore": "475",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "100",
+              "sellFaster": "455",
+              "earnMore": "475",
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "7.5",
+          "variantId": "019dd609-98e7-796d-81ad-094b747f064f",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 413,
+          "highestBidUsd": null,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 412,
+          "earnMoreUsd": 454,
+          "hasBid": false,
+          "bidAskSpreadUsd": null,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72c8-b599-eea07e7b7843",
+            "variantId": "019dd609-98e7-796d-81ad-094b747f064f",
+            "currencyCode": "USD",
+            "highestBidAmount": null,
+            "lowestAskAmount": "413",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "454",
+            "sellFasterAmount": "412",
+            "standardMarketData": {
+              "lowestAsk": "413",
+              "highestBidAmount": null,
+              "sellFaster": "412",
+              "earnMore": "454",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": "455",
+              "earnMore": "475",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": null,
+              "sellFaster": "455",
+              "earnMore": "475",
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "8",
+          "variantId": "019dd609-98e7-791b-9f47-deb9874dfa03",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 411,
+          "highestBidUsd": 105,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 410,
+          "earnMoreUsd": 452,
+          "hasBid": true,
+          "bidAskSpreadUsd": 306,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72c8-b599-eea07e7b7843",
+            "variantId": "019dd609-98e7-791b-9f47-deb9874dfa03",
+            "currencyCode": "USD",
+            "highestBidAmount": "105",
+            "lowestAskAmount": "411",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "452",
+            "sellFasterAmount": "410",
+            "standardMarketData": {
+              "lowestAsk": "411",
+              "highestBidAmount": "105",
+              "sellFaster": "410",
+              "earnMore": "452",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "105",
+              "sellFaster": "453",
+              "earnMore": "473",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "105",
+              "sellFaster": "453",
+              "earnMore": "473",
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "9",
+          "variantId": "019dd609-98e7-786b-8080-a5adc319e5c5",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 411,
+          "highestBidUsd": 217,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 410,
+          "earnMoreUsd": 452,
+          "hasBid": true,
+          "bidAskSpreadUsd": 194,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72c8-b599-eea07e7b7843",
+            "variantId": "019dd609-98e7-786b-8080-a5adc319e5c5",
+            "currencyCode": "USD",
+            "highestBidAmount": "217",
+            "lowestAskAmount": "411",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "452",
+            "sellFasterAmount": "410",
+            "standardMarketData": {
+              "lowestAsk": "411",
+              "highestBidAmount": "217",
+              "sellFaster": "410",
+              "earnMore": "452",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "217",
+              "sellFaster": "453",
+              "earnMore": "473",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "217",
+              "sellFaster": "453",
+              "earnMore": "473",
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "10",
+          "variantId": "019dd609-98e7-7879-ad46-8761d8e3fe48",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 394,
+          "highestBidUsd": 100,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 393,
+          "earnMoreUsd": 433,
+          "hasBid": true,
+          "bidAskSpreadUsd": 294,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72c8-b599-eea07e7b7843",
+            "variantId": "019dd609-98e7-7879-ad46-8761d8e3fe48",
+            "currencyCode": "USD",
+            "highestBidAmount": "100",
+            "lowestAskAmount": "394",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "433",
+            "sellFasterAmount": "393",
+            "standardMarketData": {
+              "lowestAsk": "394",
+              "highestBidAmount": "100",
+              "sellFaster": "393",
+              "earnMore": "433",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "100",
+              "sellFaster": "434",
+              "earnMore": "454",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "100",
+              "sellFaster": "434",
+              "earnMore": "454",
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "10.5",
+          "variantId": "019dd609-98e7-78ce-a3ca-4bb6ba9191f3",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 319,
+          "highestBidUsd": 120,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 318,
+          "earnMoreUsd": 350,
+          "hasBid": true,
+          "bidAskSpreadUsd": 199,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72c8-b599-eea07e7b7843",
+            "variantId": "019dd609-98e7-78ce-a3ca-4bb6ba9191f3",
+            "currencyCode": "USD",
+            "highestBidAmount": "120",
+            "lowestAskAmount": "319",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "350",
+            "sellFasterAmount": "318",
+            "standardMarketData": {
+              "lowestAsk": "319",
+              "highestBidAmount": "120",
+              "sellFaster": "318",
+              "earnMore": "350",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "120",
+              "sellFaster": "351",
+              "earnMore": "367",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "120",
+              "sellFaster": "351",
+              "earnMore": "367",
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "11",
+          "variantId": "019dd609-98e7-7935-84fd-dd4bed69bc32",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 413,
+          "highestBidUsd": 100,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 412,
+          "earnMoreUsd": 454,
+          "hasBid": true,
+          "bidAskSpreadUsd": 313,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72c8-b599-eea07e7b7843",
+            "variantId": "019dd609-98e7-7935-84fd-dd4bed69bc32",
+            "currencyCode": "USD",
+            "highestBidAmount": "100",
+            "lowestAskAmount": "413",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "454",
+            "sellFasterAmount": "412",
+            "standardMarketData": {
+              "lowestAsk": "413",
+              "highestBidAmount": "100",
+              "sellFaster": "412",
+              "earnMore": "454",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "100",
+              "sellFaster": "455",
+              "earnMore": "475",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "100",
+              "sellFaster": "455",
+              "earnMore": "475",
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "12",
+          "variantId": "019dd609-98e7-7932-9993-d49087266842",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 413,
+          "highestBidUsd": 110,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 412,
+          "earnMoreUsd": 454,
+          "hasBid": true,
+          "bidAskSpreadUsd": 303,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72c8-b599-eea07e7b7843",
+            "variantId": "019dd609-98e7-7932-9993-d49087266842",
+            "currencyCode": "USD",
+            "highestBidAmount": "110",
+            "lowestAskAmount": "413",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "454",
+            "sellFasterAmount": "412",
+            "standardMarketData": {
+              "lowestAsk": "413",
+              "highestBidAmount": "110",
+              "sellFaster": "412",
+              "earnMore": "454",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "110",
+              "sellFaster": "455",
+              "earnMore": "475",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "110",
+              "sellFaster": "455",
+              "earnMore": "475",
+              "beatUS": null
+            }
+          }
+        },
+        {
+          "size": "13",
+          "variantId": "019dd609-98e7-77d8-af65-1e76b8978b99",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 499,
+          "highestBidUsd": 150,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 498,
+          "earnMoreUsd": 548,
+          "hasBid": true,
+          "bidAskSpreadUsd": 349,
+          "rawMarketData": {
+            "productId": "019dd609-796c-72c8-b599-eea07e7b7843",
+            "variantId": "019dd609-98e7-77d8-af65-1e76b8978b99",
+            "currencyCode": "USD",
+            "highestBidAmount": "150",
+            "lowestAskAmount": "499",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "548",
+            "sellFasterAmount": "498",
+            "standardMarketData": {
+              "lowestAsk": "499",
+              "highestBidAmount": "150",
+              "sellFaster": "498",
+              "earnMore": "548",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "150",
+              "sellFaster": "549",
+              "earnMore": "574",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "150",
+              "sellFaster": "549",
+              "earnMore": "574",
+              "beatUS": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

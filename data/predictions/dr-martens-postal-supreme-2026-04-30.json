@@ -1,0 +1,1023 @@
+{
+  "schemaVersion": "0.2",
+  "item": {
+    "id": "dr-martens-postal-supreme-ss26",
+    "name": "Dr. Martens Postal Supreme 4-Eye Shoe",
+    "brand": "Supreme",
+    "season": "Spring/Summer 2026",
+    "week": 10,
+    "releaseDate": "2026-04-30",
+    "retailPriceUsd": 198,
+    "retailPriceSourceConfidence": "high",
+    "category": "4-eye shoe",
+    "materialsAndDetails": "Smooth leather upper with debossed printed snakeskin pattern on the Snakeskin colorway, air-cushioned sole, padded collar, printed logos on insole, and side tab. Made exclusively for Supreme.",
+    "collabTags": [
+      "Dr. Martens"
+    ],
+    "colorsModeled": [
+      "Black",
+      "Snakeskin"
+    ],
+    "sizesModeled": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "feeAssumption": {
+      "marketplaceFeePercent": 12,
+      "shippingAndHandlingUsd": 15
+    },
+    "baseColorForRatios": "Black",
+    "baseSizeForRatios": "9",
+    "callThresholds": {
+      "copMinProfitUsd": 40,
+      "maybeMinProfitUsd": 15
+    }
+  },
+  "sourceSnapshot": {
+    "capturedAt": "2026-05-01",
+    "productSources": [
+      {
+        "source": "Supreme",
+        "url": "https://us.supreme.com/products/y8et3xwqkifbbjse",
+        "usedFor": [
+          "retail price",
+          "product details",
+          "official product copy"
+        ],
+        "observations": {
+          "listedColor": "Snakeskin",
+          "retailPriceUsd": 198,
+          "details": "Smooth leather upper with debossed printed snakeskin pattern, air-cushioned sole, padded collar, printed logos on insole and side tab, made exclusively for Supreme."
+        }
+      },
+      {
+        "source": "Sneaker Bar Detroit",
+        "url": "https://sneakerbardetroit.com/supreme-dr-martens-postal-supreme-release-date/",
+        "usedFor": [
+          "release date",
+          "retail price",
+          "colorways",
+          "product context"
+        ],
+        "observations": {
+          "releaseDate": "2026-04-30",
+          "retailPriceUsd": 198,
+          "colors": [
+            "Black",
+            "Snakeskin"
+          ],
+          "interpretation": "Black is the safe wearable pair; Snakeskin is the bolder texture-driven pair."
+        }
+      },
+      {
+        "source": "Sole Retriever",
+        "url": "https://www.soleretriever.com/news/articles/supreme-spring-summer-2026-week-10-drop-release-date-april-2026",
+        "usedFor": [
+          "drop context",
+          "relative demand context"
+        ],
+        "observations": {
+          "dropTime": "2026-04-30 11:00 ET",
+          "context": "Week 10 demand is split across Dr. Martens and the Ghostface capsule, with Sole Retriever calling the Dr. Martens collab a key item of the week."
+        }
+      },
+      {
+        "source": "StockX API",
+        "url": "https://stockx.com/dr-martens-postal-supreme-4-eye-shoe-supreme-black",
+        "usedFor": [
+          "size-level live market data",
+          "ask/bid spread",
+          "sellFaster and earnMore anchors"
+        ],
+        "observations": {
+          "blackProductId": "019dd609-796c-72a0-ba67-9a45065e56e2",
+          "snakeskinProductId": "019dd609-796c-72c8-b599-eea07e7b7843",
+          "warning": "Product-specific public pages had no visible completed-sale history at capture; API values are live ask/bid market formation, not completed sales."
+        }
+      }
+    ],
+    "marketComps": [
+      {
+        "source": "StockX",
+        "url": "https://stockx.com/dr-martens-1461-3-eye-supreme-black",
+        "name": "Dr. Martens 1461 3-Eye Supreme Black",
+        "season": "SS24",
+        "retailPriceUsd": 188,
+        "last3MonthRangeUsd": [
+          370,
+          500
+        ],
+        "last3MonthAverageSaleUsd": 435,
+        "last3MonthSales": 2,
+        "volatilityPercent": 15,
+        "whyIncluded": "Closest recent low-cut black Supreme Dr. Martens comp with visible StockX historical data; supports high upside but has very low recent volume."
+      },
+      {
+        "source": "StockX",
+        "url": "https://stockx.com/drpt-martens-3-eye-supreme-black",
+        "name": "Dr. Martens 3-Eye Supreme Black",
+        "season": "FW17",
+        "retailPriceUsd": 168,
+        "lastSaleUsd": 240,
+        "whyIncluded": "Older black Supreme Dr. Martens 3-eye comp; useful as a downside anchor because the design is less current and demand is stale."
+      },
+      {
+        "source": "StockX",
+        "url": "https://stockx.com/dr-martens-studded-penton-loafer-supreme-black",
+        "name": "Dr. Martens Studded Penton Loafer Supreme Black",
+        "season": "SS25",
+        "lowestAskUsd": 300,
+        "whyIncluded": "Recent Supreme Dr. Martens loafer comp; ask-side only in this snapshot, so it is a weak support signal rather than completed-sale proof."
+      },
+      {
+        "source": "StockX",
+        "url": "https://stockx.com/dr-martens-postal-supreme-4-eye-shoe-supreme-black",
+        "name": "Dr. Martens Postal Supreme 4-Eye Shoe Supreme Black",
+        "season": "SS26",
+        "whyIncluded": "Target item live market-data source; not treated as a completed-sale comp because product page history was blank at capture."
+      },
+      {
+        "source": "StockX",
+        "url": "https://stockx.com/dr-martens-postal-supreme-4-eye-shoe-supreme-snakeskin",
+        "name": "Dr. Martens Postal Supreme 4-Eye Shoe Supreme Snakeskin",
+        "season": "SS26",
+        "whyIncluded": "Target item live market-data source; Snakeskin has the strongest upside signal but also the widest spread at size 13."
+      }
+    ],
+    "dataQualityWarnings": [
+      "StockX Postal product pages showed no visible completed-sale history at capture, so live earnMore values may reflect sellers anchoring high rather than cleared transactions.",
+      "Bid/ask spreads above $150 appear on most variants; high expected sale values should be treated as high-upside but thin-liquidity estimates.",
+      "No eBay completed-sale scrape was used for this first Doc Martens pass.",
+      "Supreme official page captured Snakeskin copy directly; Black colorway confirmation comes from Sneaker Bar Detroit and StockX."
+    ]
+  },
+  "model": {
+    "name": "transparent comparable-weighted baseline",
+    "version": "0.2",
+    "target": "expected resale sale price before seller fees by horizon",
+    "feeAssumption": {
+      "marketplaceFeePercent": 12,
+      "shippingAndHandlingUsd": 15
+    },
+    "method": {
+      "compDerivedRatios": {
+        "sourceFile": null,
+        "sizeRatios": {
+          "6": {
+            "compMedian": null,
+            "compsUsed": 0
+          },
+          "7": {
+            "compMedian": null,
+            "compsUsed": 0
+          },
+          "8": {
+            "compMedian": null,
+            "compsUsed": 0
+          },
+          "9": {
+            "compMedian": null,
+            "compsUsed": 0
+          },
+          "10": {
+            "compMedian": null,
+            "compsUsed": 0
+          },
+          "11": {
+            "compMedian": null,
+            "compsUsed": 0
+          },
+          "12": {
+            "compMedian": null,
+            "compsUsed": 0
+          },
+          "13": {
+            "compMedian": null,
+            "compsUsed": 0
+          }
+        },
+        "colorRatios": {
+          "Snakeskin": {
+            "compMedian": null,
+            "compsUsed": 0,
+            "liveObserved": 1,
+            "liveOverrideApplied": false,
+            "liveOverrideNote": "Snakeskin and Black are nearly even through sizes 6-12 in live earnMore, while Snakeskin 13 is a high outlier."
+          }
+        }
+      },
+      "targetMarketData": {
+        "capturedAt": "2026-05-01T02:36:22.159Z",
+        "sourceFile": "data/stockx/dr-martens-postal-target-2026-04-30.json",
+        "colors": [
+          {
+            "color": "Black",
+            "productId": "019dd609-796c-72a0-ba67-9a45065e56e2",
+            "title": "Dr. Martens Postal Supreme 4-Eye Shoe Supreme Black",
+            "variants": [
+              {
+                "size": "4",
+                "variantId": "019dd609-87dd-77dd-be92-97d1487d80ac",
+                "lowestAskUsd": null,
+                "highestBidUsd": null,
+                "sellFasterUsd": null,
+                "earnMoreUsd": null,
+                "hasBid": false,
+                "bidAskSpreadUsd": null
+              },
+              {
+                "size": "5",
+                "variantId": "019dd609-87dd-7822-a653-372b78ac8d67",
+                "lowestAskUsd": null,
+                "highestBidUsd": null,
+                "sellFasterUsd": null,
+                "earnMoreUsd": null,
+                "hasBid": false,
+                "bidAskSpreadUsd": null
+              },
+              {
+                "size": "6",
+                "variantId": "019dd609-87dd-7950-a852-1b059c05f842",
+                "lowestAskUsd": 414,
+                "highestBidUsd": null,
+                "sellFasterUsd": 413,
+                "earnMoreUsd": 455,
+                "hasBid": false,
+                "bidAskSpreadUsd": null
+              },
+              {
+                "size": "7",
+                "variantId": "019dd609-87dd-7a1f-8552-1a87130cfca7",
+                "lowestAskUsd": 413,
+                "highestBidUsd": 100,
+                "sellFasterUsd": 412,
+                "earnMoreUsd": 454,
+                "hasBid": true,
+                "bidAskSpreadUsd": 313
+              },
+              {
+                "size": "7.5",
+                "variantId": "019dd609-87dd-78f5-9b43-326bca971185",
+                "lowestAskUsd": 413,
+                "highestBidUsd": null,
+                "sellFasterUsd": 412,
+                "earnMoreUsd": 454,
+                "hasBid": false,
+                "bidAskSpreadUsd": null
+              },
+              {
+                "size": "8",
+                "variantId": "019dd609-87dd-7740-add3-ea9e328e954d",
+                "lowestAskUsd": 298,
+                "highestBidUsd": 105,
+                "sellFasterUsd": 297,
+                "earnMoreUsd": 327,
+                "hasBid": true,
+                "bidAskSpreadUsd": 193
+              },
+              {
+                "size": "9",
+                "variantId": "019dd609-87dd-769c-91d7-3017cdc42519",
+                "lowestAskUsd": 411,
+                "highestBidUsd": 200,
+                "sellFasterUsd": 410,
+                "earnMoreUsd": 452,
+                "hasBid": true,
+                "bidAskSpreadUsd": 211
+              },
+              {
+                "size": "10",
+                "variantId": "019dd609-87dd-7a66-ade3-11732ee99e78",
+                "lowestAskUsd": 404,
+                "highestBidUsd": 120,
+                "sellFasterUsd": 403,
+                "earnMoreUsd": 444,
+                "hasBid": true,
+                "bidAskSpreadUsd": 284
+              },
+              {
+                "size": "10.5",
+                "variantId": "019dd609-87dd-79d6-a3bf-234794704f0a",
+                "lowestAskUsd": 411,
+                "highestBidUsd": 120,
+                "sellFasterUsd": 410,
+                "earnMoreUsd": 452,
+                "hasBid": true,
+                "bidAskSpreadUsd": 291
+              },
+              {
+                "size": "11",
+                "variantId": "019dd609-87dd-785b-b1ee-ac59cda5ee3c",
+                "lowestAskUsd": 413,
+                "highestBidUsd": 120,
+                "sellFasterUsd": 412,
+                "earnMoreUsd": 454,
+                "hasBid": true,
+                "bidAskSpreadUsd": 293
+              },
+              {
+                "size": "12",
+                "variantId": "019dd609-87dd-785a-b9e5-90b2929260a6",
+                "lowestAskUsd": 413,
+                "highestBidUsd": 111,
+                "sellFasterUsd": 412,
+                "earnMoreUsd": 454,
+                "hasBid": true,
+                "bidAskSpreadUsd": 302
+              },
+              {
+                "size": "13",
+                "variantId": "019dd609-87dd-78bb-a3c7-55259321a8b7",
+                "lowestAskUsd": 400,
+                "highestBidUsd": null,
+                "sellFasterUsd": 399,
+                "earnMoreUsd": 439,
+                "hasBid": false,
+                "bidAskSpreadUsd": null
+              }
+            ]
+          },
+          {
+            "color": "Snakeskin",
+            "productId": "019dd609-796c-72c8-b599-eea07e7b7843",
+            "title": "Dr. Martens Postal Supreme 4-Eye Shoe Supreme Snakeskin",
+            "variants": [
+              {
+                "size": "4",
+                "variantId": "019dd609-98e7-78cc-b773-dfc45f467bed",
+                "lowestAskUsd": null,
+                "highestBidUsd": null,
+                "sellFasterUsd": null,
+                "earnMoreUsd": null,
+                "hasBid": false,
+                "bidAskSpreadUsd": null
+              },
+              {
+                "size": "5",
+                "variantId": "019dd609-98e7-78f6-b2bf-e813642f4043",
+                "lowestAskUsd": null,
+                "highestBidUsd": null,
+                "sellFasterUsd": null,
+                "earnMoreUsd": null,
+                "hasBid": false,
+                "bidAskSpreadUsd": null
+              },
+              {
+                "size": "6",
+                "variantId": "019dd609-98e7-798e-a98d-8cf6773cb8ca",
+                "lowestAskUsd": 414,
+                "highestBidUsd": null,
+                "sellFasterUsd": 413,
+                "earnMoreUsd": 455,
+                "hasBid": false,
+                "bidAskSpreadUsd": null
+              },
+              {
+                "size": "7",
+                "variantId": "019dd609-98e7-799c-95ec-e85610d6951b",
+                "lowestAskUsd": 413,
+                "highestBidUsd": 100,
+                "sellFasterUsd": 412,
+                "earnMoreUsd": 454,
+                "hasBid": true,
+                "bidAskSpreadUsd": 313
+              },
+              {
+                "size": "7.5",
+                "variantId": "019dd609-98e7-796d-81ad-094b747f064f",
+                "lowestAskUsd": 413,
+                "highestBidUsd": null,
+                "sellFasterUsd": 412,
+                "earnMoreUsd": 454,
+                "hasBid": false,
+                "bidAskSpreadUsd": null
+              },
+              {
+                "size": "8",
+                "variantId": "019dd609-98e7-791b-9f47-deb9874dfa03",
+                "lowestAskUsd": 411,
+                "highestBidUsd": 105,
+                "sellFasterUsd": 410,
+                "earnMoreUsd": 452,
+                "hasBid": true,
+                "bidAskSpreadUsd": 306
+              },
+              {
+                "size": "9",
+                "variantId": "019dd609-98e7-786b-8080-a5adc319e5c5",
+                "lowestAskUsd": 411,
+                "highestBidUsd": 217,
+                "sellFasterUsd": 410,
+                "earnMoreUsd": 452,
+                "hasBid": true,
+                "bidAskSpreadUsd": 194
+              },
+              {
+                "size": "10",
+                "variantId": "019dd609-98e7-7879-ad46-8761d8e3fe48",
+                "lowestAskUsd": 394,
+                "highestBidUsd": 100,
+                "sellFasterUsd": 393,
+                "earnMoreUsd": 433,
+                "hasBid": true,
+                "bidAskSpreadUsd": 294
+              },
+              {
+                "size": "10.5",
+                "variantId": "019dd609-98e7-78ce-a3ca-4bb6ba9191f3",
+                "lowestAskUsd": 319,
+                "highestBidUsd": 120,
+                "sellFasterUsd": 318,
+                "earnMoreUsd": 350,
+                "hasBid": true,
+                "bidAskSpreadUsd": 199
+              },
+              {
+                "size": "11",
+                "variantId": "019dd609-98e7-7935-84fd-dd4bed69bc32",
+                "lowestAskUsd": 413,
+                "highestBidUsd": 100,
+                "sellFasterUsd": 412,
+                "earnMoreUsd": 454,
+                "hasBid": true,
+                "bidAskSpreadUsd": 313
+              },
+              {
+                "size": "12",
+                "variantId": "019dd609-98e7-7932-9993-d49087266842",
+                "lowestAskUsd": 413,
+                "highestBidUsd": 110,
+                "sellFasterUsd": 412,
+                "earnMoreUsd": 454,
+                "hasBid": true,
+                "bidAskSpreadUsd": 303
+              },
+              {
+                "size": "13",
+                "variantId": "019dd609-98e7-77d8-af65-1e76b8978b99",
+                "lowestAskUsd": 499,
+                "highestBidUsd": 150,
+                "sellFasterUsd": 498,
+                "earnMoreUsd": 548,
+                "hasBid": true,
+                "bidAskSpreadUsd": 349
+              }
+            ]
+          }
+        ]
+      },
+      "detailedReasoning": "The Doc Martens Postal forecast follows the Ghostface workflow: use live StockX earnMore as the day-1 expected sale anchor, sellFaster as the floor, and 12% marketplace fee plus $15 handling for net profit. The analyst pass keeps the strong day-1 upside but discounts confidence because the target product pages had no visible completed sales and most variants show very wide bid/ask spreads. Black is treated as the safest long-term color; Snakeskin earns a novelty premium only where live demand supports it, especially size 13, but high spread risk is called out explicitly.",
+      "reviewQuestionsForCritic": [
+        "Are the StockX earnMore values too ask-stack-driven because the Postal product pages have no completed-sale history yet?",
+        "Should Snakeskin size 13 be capped lower until a tighter bid forms?",
+        "Should Black size 8 be weighted more heavily as the most realistic liquid comp because its ask is much lower than the rest of Black?",
+        "Do Supreme Dr. Martens historical comps justify holding one-year values near the high-$300s and low-$400s, or should the model fade harder after week one?",
+        "Should small sizes 6 and large size 13 be downgraded more aggressively when there is no active bid?"
+      ],
+      "colorAdjustments": {
+        "Black": {
+          "basis": "safest wearable color and strongest long-term liquidity prior; live StockX ask stack is high but spreads are very wide."
+        },
+        "Snakeskin": {
+          "basis": "bolder release color with texture-driven demand; modeled near Black for most sizes, with size 13 treated as high-upside but thin due the widest spread."
+        }
+      },
+      "sizeAdjustments": {
+        "6": {
+          "basis": "shoe-size prior plus live StockX earnMore. No completed-sale size ratios collected; wide spreads limit confidence."
+        },
+        "7": {
+          "basis": "shoe-size prior plus live StockX earnMore. No completed-sale size ratios collected; wide spreads limit confidence."
+        },
+        "8": {
+          "basis": "shoe-size prior plus live StockX earnMore. No completed-sale size ratios collected; wide spreads limit confidence."
+        },
+        "9": {
+          "basis": "shoe-size prior plus live StockX earnMore. No completed-sale size ratios collected; wide spreads limit confidence."
+        },
+        "10": {
+          "basis": "shoe-size prior plus live StockX earnMore. No completed-sale size ratios collected; wide spreads limit confidence."
+        },
+        "11": {
+          "basis": "shoe-size prior plus live StockX earnMore. No completed-sale size ratios collected; wide spreads limit confidence."
+        },
+        "12": {
+          "basis": "shoe-size prior plus live StockX earnMore. No completed-sale size ratios collected; wide spreads limit confidence."
+        },
+        "13": {
+          "basis": "shoe-size prior plus live StockX earnMore. No completed-sale size ratios collected; wide spreads limit confidence."
+        }
+      },
+      "horizonLogic": {
+        "oneWeek": "Day-1 values fade sharply for no-bid and very-wide-spread variants as launch scarcity cools and sellers undercut; Black 8 fades least because the day-1 anchor is already lower and more plausible.",
+        "oneMonth": "One-month values fade again as Week 10 attention moves on and buyers compare against older Supreme Dr. Martens comps rather than launch-day asks.",
+        "oneYear": "One-year values recover only for wearable Black core sizes and standout Snakeskin sizes, but remain below the most aggressive day-1 earnMore anchors unless the variant has a strong collectibility case."
+      },
+      "liveMarketInterpretation": {
+        "capturedAt": "2026-05-01T02:36:22.159Z",
+        "sourceFile": "data/stockx/dr-martens-postal-target-2026-04-30.json",
+        "interpretation": "Live StockX market data is uniformly bullish on asks/earnMore, but bid support is weak. Treat this as strong upside with thin liquidity rather than confirmed cleared resale performance.",
+        "confidenceAdjustment": {
+          "from": null,
+          "to": 68,
+          "basis": "Live size-level data covers both colors and all modeled sizes, but completed sales are absent and most bid/ask spreads exceed $150."
+        }
+      }
+    }
+  },
+  "day1Predictions": [
+    {
+      "color": "Black",
+      "size": "6",
+      "expectedSaleUsd": 455,
+      "rangeUsd": [
+        413,
+        478
+      ],
+      "netProfitAfterFeesUsd": 187,
+      "call": "maybe",
+      "scaffoldBasis": "earnMore",
+      "hasBid": false,
+      "bidAskSpreadUsd": null,
+      "liquidityNote": "No active StockX highest bid at capture; high ask/sellFaster/earnMore may reflect thin supply. Treat as maybe until a bid forms.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Black",
+      "size": "7",
+      "expectedSaleUsd": 454,
+      "rangeUsd": [
+        412,
+        477
+      ],
+      "netProfitAfterFeesUsd": 187,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 313,
+      "liquidityNote": "Bid/ask spread is $313; day-1 upside is strong but buyer depth is weak.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Black",
+      "size": "8",
+      "expectedSaleUsd": 327,
+      "rangeUsd": [
+        297,
+        343
+      ],
+      "netProfitAfterFeesUsd": 75,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 193,
+      "liquidityNote": "Bid/ask spread is $193, but this is the lowest Black ask stack and the most believable liquid Black target.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Black",
+      "size": "9",
+      "expectedSaleUsd": 452,
+      "rangeUsd": [
+        410,
+        475
+      ],
+      "netProfitAfterFeesUsd": 185,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 211,
+      "liquidityNote": "Bid/ask spread is $211; strong upside but depends on sellers achieving ask-side pricing.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Black",
+      "size": "10",
+      "expectedSaleUsd": 444,
+      "rangeUsd": [
+        403,
+        466
+      ],
+      "netProfitAfterFeesUsd": 178,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 284,
+      "liquidityNote": "Bid/ask spread is $284; strong projected profit but thin buyer confirmation.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Black",
+      "size": "11",
+      "expectedSaleUsd": 454,
+      "rangeUsd": [
+        412,
+        477
+      ],
+      "netProfitAfterFeesUsd": 187,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 293,
+      "liquidityNote": "Bid/ask spread is $293; upside is ask-led and should be monitored for bid formation.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Black",
+      "size": "12",
+      "expectedSaleUsd": 454,
+      "rangeUsd": [
+        412,
+        477
+      ],
+      "netProfitAfterFeesUsd": 187,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 302,
+      "liquidityNote": "Bid/ask spread is $302; high estimate is thin-liquidity upside, not confirmed completed-sale value.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Black",
+      "size": "13",
+      "expectedSaleUsd": 439,
+      "rangeUsd": [
+        399,
+        461
+      ],
+      "netProfitAfterFeesUsd": 173,
+      "call": "maybe",
+      "scaffoldBasis": "earnMore",
+      "hasBid": false,
+      "bidAskSpreadUsd": null,
+      "liquidityNote": "No active StockX highest bid at capture; downgrade to maybe despite high expected profit until buyer depth appears.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Snakeskin",
+      "size": "6",
+      "expectedSaleUsd": 455,
+      "rangeUsd": [
+        413,
+        478
+      ],
+      "netProfitAfterFeesUsd": 187,
+      "call": "maybe",
+      "scaffoldBasis": "earnMore",
+      "hasBid": false,
+      "bidAskSpreadUsd": null,
+      "liquidityNote": "No active StockX highest bid at capture; downgrade to maybe despite high expected profit until buyer depth appears.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Snakeskin",
+      "size": "7",
+      "expectedSaleUsd": 454,
+      "rangeUsd": [
+        412,
+        477
+      ],
+      "netProfitAfterFeesUsd": 187,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 313,
+      "liquidityNote": "Bid/ask spread is $313; high ask-led upside but weak buyer depth.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Snakeskin",
+      "size": "8",
+      "expectedSaleUsd": 452,
+      "rangeUsd": [
+        410,
+        475
+      ],
+      "netProfitAfterFeesUsd": 185,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 306,
+      "liquidityNote": "Bid/ask spread is $306; strong projected profit but thin buyer confirmation.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Snakeskin",
+      "size": "9",
+      "expectedSaleUsd": 452,
+      "rangeUsd": [
+        410,
+        475
+      ],
+      "netProfitAfterFeesUsd": 185,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 194,
+      "liquidityNote": "Bid/ask spread is $194; best balance of standout colorway and comparatively stronger bid support.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Snakeskin",
+      "size": "10",
+      "expectedSaleUsd": 433,
+      "rangeUsd": [
+        393,
+        455
+      ],
+      "netProfitAfterFeesUsd": 168,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 294,
+      "liquidityNote": "Bid/ask spread is $294; still a strong target, but ask-led and less durable than size 9.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Snakeskin",
+      "size": "11",
+      "expectedSaleUsd": 454,
+      "rangeUsd": [
+        412,
+        477
+      ],
+      "netProfitAfterFeesUsd": 187,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 313,
+      "liquidityNote": "Bid/ask spread is $313; upside is ask-led and should be monitored for bid formation.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Snakeskin",
+      "size": "12",
+      "expectedSaleUsd": 454,
+      "rangeUsd": [
+        412,
+        477
+      ],
+      "netProfitAfterFeesUsd": 187,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 303,
+      "liquidityNote": "Bid/ask spread is $303; high estimate is thin-liquidity upside, not confirmed completed-sale value.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Snakeskin",
+      "size": "13",
+      "expectedSaleUsd": 548,
+      "rangeUsd": [
+        498,
+        575
+      ],
+      "netProfitAfterFeesUsd": 269,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 349,
+      "liquidityNote": "Highest live earnMore in the set, but bid/ask spread is $349; treat as high-upside only and not equal-confidence liquid demand.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    }
+  ],
+  "horizonPredictions": [
+    {
+      "color": "Black",
+      "size": "6",
+      "day1Usd": 455,
+      "oneWeekUsd": 405,
+      "oneMonthUsd": 360,
+      "oneYearUsd": 390,
+      "liquidityNote": "No active bid at capture; launch ask should fade until buyer depth forms."
+    },
+    {
+      "color": "Black",
+      "size": "7",
+      "day1Usd": 454,
+      "oneWeekUsd": 405,
+      "oneMonthUsd": 365,
+      "oneYearUsd": 385,
+      "liquidityNote": "Very wide spread; high day-1 upside but lower long-horizon confidence."
+    },
+    {
+      "color": "Black",
+      "size": "8",
+      "day1Usd": 327,
+      "oneWeekUsd": 315,
+      "oneMonthUsd": 300,
+      "oneYearUsd": 340,
+      "liquidityNote": "Most believable Black liquidity point because the ask stack is much lower than surrounding sizes."
+    },
+    {
+      "color": "Black",
+      "size": "9",
+      "day1Usd": 452,
+      "oneWeekUsd": 410,
+      "oneMonthUsd": 370,
+      "oneYearUsd": 425,
+      "liquidityNote": "Core wearable size with strong upside, but one-month fades on wide spread risk."
+    },
+    {
+      "color": "Black",
+      "size": "10",
+      "day1Usd": 444,
+      "oneWeekUsd": 405,
+      "oneMonthUsd": 365,
+      "oneYearUsd": 420,
+      "liquidityNote": "Core wearable size; holds more long-term value than fringe sizes but still spread-sensitive."
+    },
+    {
+      "color": "Black",
+      "size": "11",
+      "day1Usd": 454,
+      "oneWeekUsd": 405,
+      "oneMonthUsd": 365,
+      "oneYearUsd": 410,
+      "liquidityNote": "Wide spread keeps long-term estimate below day-1 ask-led anchor."
+    },
+    {
+      "color": "Black",
+      "size": "12",
+      "day1Usd": 454,
+      "oneWeekUsd": 400,
+      "oneMonthUsd": 360,
+      "oneYearUsd": 405,
+      "liquidityNote": "Large size upside remains, but buyer depth is weak."
+    },
+    {
+      "color": "Black",
+      "size": "13",
+      "day1Usd": 439,
+      "oneWeekUsd": 385,
+      "oneMonthUsd": 340,
+      "oneYearUsd": 395,
+      "liquidityNote": "No active bid at capture; long-term collectibility can recover only if extended-size demand forms."
+    },
+    {
+      "color": "Snakeskin",
+      "size": "6",
+      "day1Usd": 455,
+      "oneWeekUsd": 405,
+      "oneMonthUsd": 365,
+      "oneYearUsd": 380,
+      "liquidityNote": "No active bid at capture; bolder colorway does not remove small-size liquidity risk."
+    },
+    {
+      "color": "Snakeskin",
+      "size": "7",
+      "day1Usd": 454,
+      "oneWeekUsd": 405,
+      "oneMonthUsd": 365,
+      "oneYearUsd": 390,
+      "liquidityNote": "Very wide spread; bolder colorway supports upside but not full day-1 durability."
+    },
+    {
+      "color": "Snakeskin",
+      "size": "8",
+      "day1Usd": 452,
+      "oneWeekUsd": 405,
+      "oneMonthUsd": 370,
+      "oneYearUsd": 400,
+      "liquidityNote": "Strong novelty colorway demand, but ask-led pricing should fade after week one."
+    },
+    {
+      "color": "Snakeskin",
+      "size": "9",
+      "day1Usd": 452,
+      "oneWeekUsd": 410,
+      "oneMonthUsd": 375,
+      "oneYearUsd": 425,
+      "liquidityNote": "Best balance of core size, standout colorway, and active bid support."
+    },
+    {
+      "color": "Snakeskin",
+      "size": "10",
+      "day1Usd": 433,
+      "oneWeekUsd": 395,
+      "oneMonthUsd": 360,
+      "oneYearUsd": 405,
+      "liquidityNote": "Good target with lower day-1 anchor than size 9, making the forecast more plausible."
+    },
+    {
+      "color": "Snakeskin",
+      "size": "11",
+      "day1Usd": 454,
+      "oneWeekUsd": 405,
+      "oneMonthUsd": 365,
+      "oneYearUsd": 400,
+      "liquidityNote": "High ask-led upside; long-term estimate stays below Black core sizes because demand is more style-specific."
+    },
+    {
+      "color": "Snakeskin",
+      "size": "12",
+      "day1Usd": 454,
+      "oneWeekUsd": 400,
+      "oneMonthUsd": 360,
+      "oneYearUsd": 395,
+      "liquidityNote": "Large size but wide spread; do not carry full day-1 ask into long horizon."
+    },
+    {
+      "color": "Snakeskin",
+      "size": "13",
+      "day1Usd": 548,
+      "oneWeekUsd": 485,
+      "oneMonthUsd": 440,
+      "oneYearUsd": 470,
+      "liquidityNote": "Highest upside variant, but $349 spread makes this a high-risk collector target rather than a liquid lock."
+    }
+  ],
+  "colorLevelSummaries": [
+    {
+      "color": "Black",
+      "expectedDay1BySizeUsd": {
+        "6": 455,
+        "7": 454,
+        "8": 327,
+        "9": 452,
+        "10": 444,
+        "11": 454,
+        "12": 454,
+        "13": 439
+      },
+      "reasoning": "Black is the safe wearable pair and should have the broadest long-term audience, but the live StockX board is ask-led. Sizes 9 and 10 are the cleanest Black targets because they combine core sizing with strong earnMore values; size 8 is less explosive but more believable because its ask stack is much lower. Sizes 6 and 13 are maybe, not cop, because neither had an active bid at capture."
+    },
+    {
+      "color": "Snakeskin",
+      "expectedDay1BySizeUsd": {
+        "6": 455,
+        "7": 454,
+        "8": 452,
+        "9": 452,
+        "10": 433,
+        "11": 454,
+        "12": 454,
+        "13": 548
+      },
+      "reasoning": "Snakeskin is the standout visual colorway and likely gets the strongest attention from buyers who want the collaboration to look different from inline Dr. Martens. Sizes 9 and 10 are the best balance of wearable sizing and upside. Size 13 has the highest earnMore value, but the $349 spread means it is high-upside only. Size 6 is downgraded to maybe because there was no active bid at capture."
+    }
+  ],
+  "overall": {
+    "bestTargets": [
+      "Snakeskin 9",
+      "Snakeskin 10",
+      "Black 8",
+      "Black 9",
+      "Black 10",
+      "Snakeskin 13"
+    ],
+    "avoidForResale": [],
+    "watchlist": [
+      "Black 6",
+      "Black 13",
+      "Snakeskin 6",
+      "Snakeskin 13"
+    ],
+    "baseRecommendation": "Selective cop for high-upside buyers; avoid treating ask-led prices as guaranteed exits.",
+    "confidenceScore": 68,
+    "keyRisks": [
+      "Product-specific StockX public pages showed no visible completed-sale history at capture.",
+      "Most modeled variants have bid/ask spreads above $150, so day-1 values are heavily ask-led.",
+      "Black 6, Black 13, and Snakeskin 6 had no active highest bid at capture and are downgraded to maybe despite high calculated profit.",
+      "Snakeskin 13 has the highest projected profit but also the widest spread, making it a high-upside collector target rather than a liquid lock.",
+      "No eBay completed-sale data was collected for this pass.",
+      "Older Supreme Dr. Martens comps support upside but are low-volume, stale, or ask-side only depending on the comp.",
+      "Drop-week demand may be split with Ghostface items, limiting buyer depth for a $198 shoe after shipping and fees.",
+      "Supreme official page copy was captured for Snakeskin; Black relies on secondary product/source confirmation plus StockX."
+    ]
+  },
+  "accuracyTracking": {
+    "oneWeek": {
+      "trackedAt": null,
+      "sourceFile": null,
+      "medianAbsPercentError": null,
+      "variantResults": []
+    },
+    "oneMonth": null,
+    "oneYear": null
+  }
+}

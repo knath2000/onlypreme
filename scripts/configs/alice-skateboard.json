@@ -1,0 +1,25 @@
+{
+  "id": "alice-skateboard-ss26",
+  "name": "Alice Skateboard",
+  "brand": "Supreme",
+  "season": "Spring/Summer 2026",
+  "week": 10,
+  "releaseDate": "2026-04-30",
+  "retailPriceUsd": 72,
+  "retailPriceSourceConfidence": "high",
+  "category": "skateboard deck",
+  "materialsAndDetails": "Supreme skate deck with natural veneer and black top ply. Multicolor 8.375 x 32.125 in. deck with original artwork by John John Jesse.",
+  "collabTags": ["John John Jesse"],
+  "colorsModeled": ["Graphic", "Black"],
+  "sizesModeled": ["OS"],
+  "feeAssumption": {
+    "marketplaceFeePercent": 12,
+    "shippingAndHandlingUsd": 18
+  },
+  "baseColorForRatios": "Graphic",
+  "baseSizeForRatios": "OS",
+  "callThresholds": {
+    "copMinProfitUsd": 25,
+    "maybeMinProfitUsd": 10
+  }
+}

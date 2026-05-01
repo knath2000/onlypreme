@@ -1,0 +1,337 @@
+{
+  "schemaVersion": "0.2",
+  "item": {
+    "id": "minolta-camcorder-ss26",
+    "name": "Supreme/Minolta MN4K300WP Waterproof Camcorder",
+    "brand": "Supreme",
+    "season": "Spring/Summer 2026",
+    "week": 10,
+    "releaseDate": "2026-04-30",
+    "retailPriceUsd": 298,
+    "retailPriceSourceConfidence": "high",
+    "category": "waterproof camcorder",
+    "materialsAndDetails": "Waterproof camcorder with custom logo application, 13MP CMOS sensor, 18x digital zoom, integrated 3 in. IPS LCD flip-out screen, UHD 4K video, 56MP still images, 128GB maximum storage, included 32GB microSD card, IPX7 waterproof up to 16 ft., and 1.72 lb. weight.",
+    "collabTags": [
+      "Minolta"
+    ],
+    "colorsModeled": [
+      "Pink Camo",
+      "Woodland Camo"
+    ],
+    "sizesModeled": [
+      "OS"
+    ],
+    "feeAssumption": {
+      "marketplaceFeePercent": 12,
+      "shippingAndHandlingUsd": 20
+    },
+    "baseColorForRatios": "Woodland Camo",
+    "baseSizeForRatios": "OS",
+    "callThresholds": {
+      "copMinProfitUsd": 60,
+      "maybeMinProfitUsd": 25
+    }
+  },
+  "sourceSnapshot": {
+    "capturedAt": "2026-05-01",
+    "productSources": [
+      {
+        "source": "Supreme",
+        "url": "https://us.supreme.com/products/g0fisaixnqd1shpv",
+        "usedFor": [
+          "retail price",
+          "official product specs",
+          "official product copy"
+        ],
+        "observations": {
+          "listedColor": "Pink Camo",
+          "retailPriceUsd": 298,
+          "details": "Waterproof camcorder with custom logo application, 13MP CMOS sensor, 18x digital zoom, integrated 3 in. IPS LCD flip-out screen, UHD 4K video, 56MP still images, 128GB maximum storage, included 32GB microSD card, IPX7 waterproof up to 16 ft., 1.72 lb."
+        }
+      },
+      {
+        "source": "Minolta Digital",
+        "url": "https://www.minoltadigital.com/camcorders-cat/mn4k300wp",
+        "usedFor": [
+          "inline product baseline",
+          "technical feature verification"
+        ],
+        "observations": {
+          "inlineRetailUsd": 249.95,
+          "details": "Inline MN4K300WP records 4K UHD video, shoots 56MP photos, is waterproof to 16 ft., supports 128GB storage, and includes a 32GB microSD card.",
+          "interpretation": "Supreme retail is about $48 above the inline Minolta price, so resale upside must come from Supreme branding and camo colorways rather than hardware value alone."
+        }
+      },
+      {
+        "source": "Supreme Drop List",
+        "url": "https://supremedroplist.com/items/supreme-minolta-mn4k300wp-waterproof-camcorder-ss26",
+        "usedFor": [
+          "release context",
+          "hype signal",
+          "product details"
+        ],
+        "observations": {
+          "releaseDate": "2026-04-30",
+          "hypeTemperatureF": 82,
+          "upvotes": 5,
+          "downvotes": 14,
+          "details": "Tech accessory with high conversation volume but mixed demand."
+        }
+      },
+      {
+        "source": "StockX API",
+        "url": "https://stockx.com/supreme-minolta-mn4k300wp-waterproof-camcorder-pink-camo",
+        "usedFor": [
+          "one-size live market data",
+          "ask/bid spread",
+          "sellFaster and earnMore anchors"
+        ],
+        "observations": {
+          "pinkProductId": "12badd55-8bae-45e4-9d36-0d4d98aeb07b",
+          "woodlandProductId": "5d57adbe-0b8f-4453-9e81-42b462db43ca",
+          "interpretation": "Both colors have active bids and positive profit signals, but spreads around $63-$64 are wide enough to keep confidence below the mask forecast."
+        }
+      }
+    ],
+    "marketComps": [
+      {
+        "source": "StockX",
+        "url": "https://stockx.com/supreme-minolta-mn4k300wp-waterproof-camcorder-pink-camo",
+        "name": "Supreme Minolta MN4K300WP Waterproof Camcorder Pink Camo",
+        "season": "SS26",
+        "whyIncluded": "Target item live market-data source; Pink Camo has the higher live earnMore and highest bid."
+      },
+      {
+        "source": "StockX",
+        "url": "https://stockx.com/supreme-minolta-mn4k300wp-waterproof-camcorder-woodland-camo",
+        "name": "Supreme Minolta MN4K300WP Waterproof Camcorder Woodland Camo",
+        "season": "SS26",
+        "whyIncluded": "Target item live market-data source; Woodland Camo is slightly lower across ask, bid, sellFaster, and earnMore."
+      },
+      {
+        "source": "StockX",
+        "url": "https://stockx.com/supreme-fujifilm-waterproof-camera-multicolor",
+        "name": "Supreme FujiFilm Waterproof Camera Multicolor",
+        "season": "SS24",
+        "retailPriceUsd": 38,
+        "whyIncluded": "Recent Supreme waterproof camera comp; useful as a tech-accessory precedent but much lower retail and not directly comparable to a $298 camcorder."
+      },
+      {
+        "source": "Minolta Digital",
+        "url": "https://www.minoltadigital.com/camcorders-cat/mn4k300wp",
+        "name": "Minolta MN4K300WP inline model",
+        "retailPriceUsd": 249.95,
+        "whyIncluded": "Non-Supreme hardware value anchor; shows the collaboration is priced above inline hardware retail."
+      }
+    ],
+    "dataQualityWarnings": [
+      "No completed-sale history was collected for this first pass.",
+      "The inline Minolta MN4K300WP retails for less than the Supreme version, so long-horizon value depends on Supreme collectibility rather than hardware specs alone.",
+      "Both colors have active bids, but bid/ask spreads above $60 make this less liquid than the Ghostface Mask.",
+      "High retail narrows the buyer pool and increases downside if quick-flip supply undercuts after shipment."
+    ]
+  },
+  "model": {
+    "name": "transparent comparable-weighted baseline",
+    "version": "0.2",
+    "target": "expected resale sale price before seller fees by horizon",
+    "feeAssumption": {
+      "marketplaceFeePercent": 12,
+      "shippingAndHandlingUsd": 20
+    },
+    "method": {
+      "compDerivedRatios": {
+        "sourceFile": null,
+        "sizeRatios": {
+          "OS": {
+            "compMedian": null,
+            "compsUsed": 0
+          }
+        },
+        "colorRatios": {
+          "Pink Camo": {
+            "compMedian": null,
+            "compsUsed": 0,
+            "liveObserved": 1.05,
+            "liveOverrideApplied": false,
+            "liveOverrideNote": "Pink Camo live earnMore is about 5% above Woodland Camo and has the stronger bid."
+          }
+        }
+      },
+      "targetMarketData": {
+        "capturedAt": "2026-05-01T03:06:40.185Z",
+        "sourceFile": "data/stockx/minolta-camcorder-target-2026-04-30.json",
+        "colors": [
+          {
+            "color": "Pink Camo",
+            "productId": "12badd55-8bae-45e4-9d36-0d4d98aeb07b",
+            "title": "Supreme Minolta MN4K300WP Waterproof Camcorder Pink Camo",
+            "variants": [
+              {
+                "size": "OS",
+                "variantId": "f90e8b60-2eb2-4569-b992-1be54fdf693c",
+                "lowestAskUsd": 393,
+                "highestBidUsd": 330,
+                "sellFasterUsd": 392,
+                "earnMoreUsd": 432,
+                "hasBid": true,
+                "bidAskSpreadUsd": 63
+              }
+            ]
+          },
+          {
+            "color": "Woodland Camo",
+            "productId": "5d57adbe-0b8f-4453-9e81-42b462db43ca",
+            "title": "Supreme Minolta MN4K300WP Waterproof Camcorder Woodland Camo",
+            "variants": [
+              {
+                "size": "OS",
+                "variantId": "609ffd1b-8d40-402b-9e51-a035332f0096",
+                "lowestAskUsd": 375,
+                "highestBidUsd": 311,
+                "sellFasterUsd": 374,
+                "earnMoreUsd": 412,
+                "hasBid": true,
+                "bidAskSpreadUsd": 64
+              }
+            ]
+          }
+        ]
+      },
+      "detailedReasoning": "The Minolta camcorder forecast uses live StockX earnMore as the day-1 sale anchor, sellFaster as the floor, and a higher $20 handling assumption because this is a boxed electronics item. Pink Camo earns the only cop call because it has the stronger ask, bid, sellFaster, and earnMore values and clears the $60 net-profit threshold. Woodland Camo remains maybe: it has active buyer support and projected profit, but not enough margin to offset high retail, moderate spread, and hardware-value risk from the cheaper inline Minolta model.",
+      "reviewQuestionsForCritic": [
+        "Should the inline Minolta $249.95 retail force a lower one-month floor for both colors?",
+        "Does Pink Camo deserve a larger premium because it is visually louder and more Supreme-coded?",
+        "Should Woodland Camo be downgraded to skip if post-ship supply pushes asks below $360?",
+        "Is $20 shipping/handling conservative enough for boxed electronics, or should fees be modeled higher?",
+        "Would completed eBay sales of recent Supreme electronics materially lower confidence?"
+      ],
+      "colorAdjustments": {
+        "Pink Camo": {
+          "basis": "stronger live ask/bid/earnMore data and more distinctive Supreme colorway; treated as the best camcorder target."
+        },
+        "Woodland Camo": {
+          "basis": "wearable camo color with active bid support, but live values trail Pink Camo and profit is below the cop threshold."
+        }
+      },
+      "sizeDataGap": false,
+      "horizonLogic": {
+        "oneWeek": "Both colors fade as launch scarcity cools, with Pink Camo holding more of the premium because it has stronger live buyer support.",
+        "oneMonth": "One-month values fade toward a premium over inline hardware value as attention moves to later drops and quick-flip supply competes.",
+        "oneYear": "One-year values partially recover for collectors of Supreme electronics, but remain below day-1 anchors because high-retail tech accessories are less broadly liquid than low-retail accessories."
+      },
+      "liveMarketInterpretation": {
+        "capturedAt": "2026-05-01T03:06:40.185Z",
+        "sourceFile": "data/stockx/minolta-camcorder-target-2026-04-30.json",
+        "interpretation": "Both colorways have active bids and profitable live earnMore anchors. The market is not no-bid, but spreads around $63-$64 and high retail make this a selective trade rather than an automatic cop.",
+        "confidenceAdjustment": {
+          "from": null,
+          "to": 70,
+          "basis": "Live one-size data covers both colors with active bids, but no completed sales were collected, spreads are moderate, and the inline product has a lower retail price."
+        }
+      }
+    }
+  },
+  "day1Predictions": [
+    {
+      "color": "Pink Camo",
+      "size": "OS",
+      "expectedSaleUsd": 432,
+      "rangeUsd": [
+        392,
+        454
+      ],
+      "netProfitAfterFeesUsd": 62,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 63,
+      "liquidityNote": "Active $330 bid and $63 spread support the cop call, but this is still a high-retail tech accessory with meaningful undercut risk.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Woodland Camo",
+      "size": "OS",
+      "expectedSaleUsd": 412,
+      "rangeUsd": [
+        374,
+        433
+      ],
+      "netProfitAfterFeesUsd": 45,
+      "call": "maybe",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 64,
+      "liquidityNote": "Active $311 bid and $64 spread support maybe; projected net profit is positive but below the selective cop threshold.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    }
+  ],
+  "horizonPredictions": [
+    {
+      "color": "Pink Camo",
+      "size": "OS",
+      "day1Usd": 432,
+      "oneWeekUsd": 400,
+      "oneMonthUsd": 360,
+      "oneYearUsd": 380,
+      "liquidityNote": "Best colorway, but day-1 premium should fade as boxed electronics supply appears."
+    },
+    {
+      "color": "Woodland Camo",
+      "size": "OS",
+      "day1Usd": 412,
+      "oneWeekUsd": 380,
+      "oneMonthUsd": 340,
+      "oneYearUsd": 360,
+      "liquidityNote": "Positive live market, but weaker than Pink Camo and more vulnerable to undercutting."
+    }
+  ],
+  "colorLevelSummaries": [
+    {
+      "color": "Pink Camo",
+      "expectedDay1BySizeUsd": {
+        "OS": 432
+      },
+      "reasoning": "Pink Camo is the best camcorder target. Live StockX shows sellFaster/earnMore at $392/$432 with an active $330 bid. It clears the selective cop threshold even after 12% fees and a conservative $20 handling assumption, but the $63 spread and high retail keep it below high confidence."
+    },
+    {
+      "color": "Woodland Camo",
+      "expectedDay1BySizeUsd": {
+        "OS": 412
+      },
+      "reasoning": "Woodland Camo has real buyer support with a $311 bid and $374/$412 sellFaster/earnMore, but it trails Pink Camo across the board. It is a maybe because expected net profit is about $45 and can disappear quickly if sellers undercut after shipment."
+    }
+  ],
+  "overall": {
+    "bestTargets": [
+      "Pink Camo OS"
+    ],
+    "avoidForResale": [],
+    "watchlist": [
+      "Woodland Camo OS"
+    ],
+    "baseRecommendation": "Selective cop: prioritize Pink Camo, treat Woodland Camo as a margin-sensitive maybe.",
+    "confidenceScore": 70,
+    "keyRisks": [
+      "No completed-sale history was collected for this first pass.",
+      "The inline Minolta MN4K300WP retails for $249.95, below Supreme retail, so buyers may resist a durable premium after launch hype cools.",
+      "High $298 retail narrows the buyer pool and makes undercutting more damaging to net profit.",
+      "Bid/ask spreads above $60 make this less liquid than the Ghostface Mask despite active bids.",
+      "Boxed electronics may have higher shipping, return, or defect friction than apparel/accessories.",
+      "Woodland Camo projected profit is positive but below the cop threshold, so it can flip to skip if asks fall near $360.",
+      "Week 10 demand is split across Ghostface items and Dr. Martens, limiting attention for an expensive tech accessory."
+    ]
+  },
+  "accuracyTracking": {
+    "oneWeek": {
+      "trackedAt": null,
+      "sourceFile": null,
+      "medianAbsPercentError": null,
+      "variantResults": []
+    },
+    "oneMonth": null,
+    "oneYear": null
+  }
+}

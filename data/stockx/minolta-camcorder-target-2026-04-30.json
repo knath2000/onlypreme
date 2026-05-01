@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "0.1",
+  "capturedAt": "2026-05-01T03:06:40.185Z",
+  "item": "Supreme Minolta MN4K300WP Waterproof Camcorder",
+  "date": "2026-04-30",
+  "colors": [
+    {
+      "color": "Pink Camo",
+      "productId": "12badd55-8bae-45e4-9d36-0d4d98aeb07b",
+      "title": "Supreme Minolta MN4K300WP Waterproof Camcorder Pink Camo",
+      "urlKey": "supreme-minolta-mn4k300wp-waterproof-camcorder-pink-camo",
+      "attributes": {
+        "color": "Pink Camo",
+        "colorway": null,
+        "gender": "unisex",
+        "releaseDate": "2026-04-30",
+        "retailPrice": 298,
+        "season": "SS26"
+      },
+      "variants": [
+        {
+          "size": "OS",
+          "variantId": "f90e8b60-2eb2-4569-b992-1be54fdf693c",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 393,
+          "highestBidUsd": 330,
+          "flexLowestAskUsd": 493,
+          "sellFasterUsd": 392,
+          "earnMoreUsd": 432,
+          "hasBid": true,
+          "bidAskSpreadUsd": 63,
+          "rawMarketData": {
+            "productId": "12badd55-8bae-45e4-9d36-0d4d98aeb07b",
+            "variantId": "f90e8b60-2eb2-4569-b992-1be54fdf693c",
+            "currencyCode": "USD",
+            "highestBidAmount": "330",
+            "lowestAskAmount": "393",
+            "flexLowestAskAmount": "493",
+            "earnMoreAmount": "432",
+            "sellFasterAmount": "392",
+            "standardMarketData": {
+              "lowestAsk": "393",
+              "highestBidAmount": "330",
+              "sellFaster": "392",
+              "earnMore": "432",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": "493",
+              "highestBidAmount": "330",
+              "sellFaster": "433",
+              "earnMore": "492",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": "493",
+              "highestBidAmount": "330",
+              "sellFaster": "433",
+              "earnMore": "492",
+              "beatUS": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "color": "Woodland Camo",
+      "productId": "5d57adbe-0b8f-4453-9e81-42b462db43ca",
+      "title": "Supreme Minolta MN4K300WP Waterproof Camcorder Woodland Camo",
+      "urlKey": "supreme-minolta-mn4k300wp-waterproof-camcorder-woodland-camo",
+      "attributes": {
+        "color": "Woodland Camo",
+        "colorway": null,
+        "gender": "unisex",
+        "releaseDate": "2026-04-30",
+        "retailPrice": 298,
+        "season": "SS26"
+      },
+      "variants": [
+        {
+          "size": "OS",
+          "variantId": "609ffd1b-8d40-402b-9e51-a035332f0096",
+          "marketStatus": 200,
+          "marketOk": true,
+          "lowestAskUsd": 375,
+          "highestBidUsd": 311,
+          "flexLowestAskUsd": null,
+          "sellFasterUsd": 374,
+          "earnMoreUsd": 412,
+          "hasBid": true,
+          "bidAskSpreadUsd": 64,
+          "rawMarketData": {
+            "productId": "5d57adbe-0b8f-4453-9e81-42b462db43ca",
+            "variantId": "609ffd1b-8d40-402b-9e51-a035332f0096",
+            "currencyCode": "USD",
+            "highestBidAmount": "311",
+            "lowestAskAmount": "375",
+            "flexLowestAskAmount": null,
+            "earnMoreAmount": "412",
+            "sellFasterAmount": "374",
+            "standardMarketData": {
+              "lowestAsk": "375",
+              "highestBidAmount": "311",
+              "sellFaster": "374",
+              "earnMore": "412",
+              "beatUS": null
+            },
+            "flexMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "311",
+              "sellFaster": "413",
+              "earnMore": "432",
+              "beatUS": null
+            },
+            "directMarketData": {
+              "lowestAsk": null,
+              "highestBidAmount": "311",
+              "sellFaster": "413",
+              "earnMore": "432",
+              "beatUS": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

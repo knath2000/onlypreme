@@ -1,0 +1,11 @@
+{
+  "category": "supreme-skateboard-deck",
+  "comps": [
+    { "name": "Supreme Evolution Skateboard Deck", "season": "SS26", "colors": ["Multicolor"] },
+    { "name": "Supreme Michael Jackson Dangerous Skateboard Deck", "season": "SS18", "colors": ["Multicolor"] },
+    { "name": "Supreme MM6 Maison Margiela Skateboard Deck", "season": "SS24", "colors": ["White"] },
+    { "name": "Supreme Smurfs Skateboard", "season": "FW20", "colors": ["Black"] },
+    { "name": "Supreme The Exorcist Skateboard Deck", "season": "FW23", "colors": ["Multicolor"] }
+  ],
+  "sizes": ["OS"]
+}

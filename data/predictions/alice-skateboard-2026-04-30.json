@@ -1,0 +1,332 @@
+{
+  "schemaVersion": "0.2",
+  "item": {
+    "id": "alice-skateboard-ss26",
+    "name": "Alice Skateboard",
+    "brand": "Supreme",
+    "season": "Spring/Summer 2026",
+    "week": 10,
+    "releaseDate": "2026-04-30",
+    "retailPriceUsd": 72,
+    "retailPriceSourceConfidence": "high",
+    "category": "skateboard deck",
+    "materialsAndDetails": "Supreme skate deck with natural veneer and black top ply. Multicolor 8.375 x 32.125 in. deck with original artwork by John John Jesse.",
+    "collabTags": [
+      "John John Jesse"
+    ],
+    "colorsModeled": [
+      "Graphic",
+      "Black"
+    ],
+    "sizesModeled": [
+      "OS"
+    ],
+    "feeAssumption": {
+      "marketplaceFeePercent": 12,
+      "shippingAndHandlingUsd": 18
+    },
+    "baseColorForRatios": "Graphic",
+    "baseSizeForRatios": "OS",
+    "callThresholds": {
+      "copMinProfitUsd": 25,
+      "maybeMinProfitUsd": 10
+    }
+  },
+  "sourceSnapshot": {
+    "capturedAt": "2026-05-01",
+    "productSources": [
+      {
+        "source": "Supreme",
+        "url": "https://us.supreme.com/products/tzadch4pegswruq1",
+        "usedFor": [
+          "official product details",
+          "retail price",
+          "size and artwork attribution"
+        ],
+        "observations": {
+          "releaseDate": "2026-04-30",
+          "retailPriceUsd": 72,
+          "dimensions": "8.375 x 32.125 in.",
+          "details": "Natural veneer deck with black top ply, printed bottom graphic, printed World Famous and box logo on top, and original artwork by John John Jesse."
+        }
+      },
+      {
+        "source": "Supreme Drop List",
+        "url": "https://supremedroplist.com/items/alice-skateboard-ss26",
+        "usedFor": [
+          "app droplist source",
+          "hype signal",
+          "source imagery"
+        ],
+        "observations": {
+          "category": "Skate",
+          "signals": [
+            "Skate deck category has collector base",
+            "Low retail",
+            "Artwork-led demand"
+          ]
+        }
+      },
+      {
+        "source": "Sole Retriever",
+        "url": "https://www.soleretriever.com/news/articles/supreme-spring-summer-2026-week-10-drop-release-date-april-2026",
+        "usedFor": [
+          "drop context",
+          "retail cross-check"
+        ],
+        "observations": {
+          "releaseDate": "2026-04-30",
+          "retailPriceUsd": 72,
+          "context": "Supreme Week 10 included the Alice Skateboard alongside Ghostface capsule items, Dr. Martens, and other apparel/accessories."
+        }
+      },
+      {
+        "source": "StockX API",
+        "url": "https://stockx.com/supreme-alice-skateboard-deck-multicolor",
+        "usedFor": [
+          "live bid/ask scaffold",
+          "target market data"
+        ],
+        "observations": {
+          "productId": "54876a63-6dda-413f-81d7-8e5a0b368365",
+          "stockxColor": "Multicolor",
+          "lowestAskUsd": 131,
+          "highestBidUsd": 115,
+          "sellFasterUsd": 130,
+          "earnMoreUsd": 143,
+          "interpretation": "StockX exposes a single Multicolor/OS market for the deck; the app's Graphic row maps directly to this listing."
+        }
+      }
+    ],
+    "marketComps": [
+      {
+        "source": "StockX",
+        "url": "https://stockx.com/supreme-alice-skateboard-deck-multicolor",
+        "name": "Supreme Alice Skateboard Deck Multicolor",
+        "season": "SS26",
+        "retailPriceUsd": 72,
+        "lowestAskUsd": 131,
+        "highestBidUsd": 115,
+        "sellFasterUsd": 130,
+        "earnMoreUsd": 143,
+        "whyIncluded": "Target item live market-data source and strongest anchor for the day-1 prediction."
+      },
+      {
+        "source": "StockX",
+        "name": "Supreme Evolution Skateboard Deck Multicolor",
+        "season": "SS26",
+        "whyIncluded": "Recent Supreme deck comp for current-season skate deck demand; used directionally because no local completed-sale capture was collected."
+      },
+      {
+        "source": "StockX",
+        "name": "Supreme Michael Jackson Dangerous Skateboard Deck Multicolor",
+        "season": "SS18",
+        "whyIncluded": "Artwork-led Supreme deck comp with pop-culture collector demand; used for long-horizon collector upside context."
+      },
+      {
+        "source": "StockX",
+        "name": "Supreme MM6 Maison Margiela Skateboard Deck White",
+        "season": "SS24",
+        "whyIncluded": "Recent collaboration deck comp; included to frame deck premiums where the artist/collab story is stronger than utility value."
+      },
+      {
+        "source": "StockX",
+        "name": "Supreme The Exorcist Skateboard Deck Multicolor",
+        "season": "FW23",
+        "whyIncluded": "Graphic-heavy Supreme deck comp with horror/cult visual appeal; included directionally for collector behavior."
+      }
+    ],
+    "dataQualityWarnings": [
+      "StockX currently exposes the target as one Multicolor/OS listing, not separate Black and Graphic products.",
+      "The Black row is modeled for app color coverage from the same product facts and is not a separate StockX market.",
+      "No completed-sale history was captured for the Alice deck in this pass.",
+      "The live bid/ask spread is tight enough to support a day-1 call, but the market is still early and can compress after wider delivery.",
+      "No eBay completed-sale integration was used for this first pass."
+    ]
+  },
+  "model": {
+    "name": "transparent comparable-weighted baseline",
+    "version": "0.2",
+    "target": "expected resale sale price before seller fees by horizon",
+    "feeAssumption": {
+      "marketplaceFeePercent": 12,
+      "shippingAndHandlingUsd": 18
+    },
+    "method": {
+      "compDerivedRatios": {
+        "sourceFile": null,
+        "sizeRatios": {
+          "OS": {
+            "compMedian": null,
+            "compsUsed": 0
+          }
+        },
+        "colorRatios": {
+          "Black": {
+            "compMedian": null,
+            "compsUsed": 0,
+            "liveObserved": null,
+            "liveOverrideApplied": false,
+            "liveOverrideNote": "StockX does not expose a separate Black market for the Alice deck; Black is modeled from the Multicolor/Graphic listing for app color coverage."
+          }
+        }
+      },
+      "targetMarketData": {
+        "capturedAt": "2026-05-01T03:18:53.649Z",
+        "sourceFile": "data/stockx/alice-skateboard-target-2026-04-30.json",
+        "colors": [
+          {
+            "color": "Graphic",
+            "productId": "54876a63-6dda-413f-81d7-8e5a0b368365",
+            "title": "Supreme Alice Skateboard Deck Multicolor",
+            "variants": [
+              {
+                "size": "OS",
+                "variantId": "2963af46-9c59-4081-b23b-8575704c97b4",
+                "lowestAskUsd": 131,
+                "highestBidUsd": 115,
+                "sellFasterUsd": 130,
+                "earnMoreUsd": 143,
+                "hasBid": true,
+                "bidAskSpreadUsd": 16
+              }
+            ]
+          }
+        ]
+      },
+      "detailedReasoning": "The Alice Skateboard has a clean official product anchor: $72 retail, John John Jesse artwork, and standard Supreme deck sizing. StockX currently has one canonical Multicolor/OS listing with active bid support: $131 lowest ask, $115 highest bid, $130 sell-faster, and $143 earn-more. That supports a day-1 cop call for the Graphic app row because even after a 12% fee and $18 handling assumption, expected profit is about $36. The Black app row is not a separate resale market; Supreme's official copy describes a black top ply, while the sellable StockX product is Multicolor. Black is therefore modeled as a conservative display row, not a distinct product arbitrage.",
+      "reviewQuestionsForCritic": [
+        "Should the app collapse Black and Graphic into a single Multicolor display color for this item?",
+        "Does the $16 bid/ask spread justify a stronger confidence score despite no completed-sale capture?",
+        "Will wider delivery push the deck toward retail-plus-shipping after early buyers fill?",
+        "Does John John Jesse artwork create enough collector demand for one-year appreciation above day-1 levels?",
+        "Should handling be higher than $18 for skate decks because of box size and damage risk?"
+      ],
+      "colorAdjustments": {
+        "Graphic": {
+          "basis": "Direct StockX live market anchor for the Multicolor deck listing; this is the true sellable color in marketplace data."
+        },
+        "Black": {
+          "basis": "Modeled from official black top-ply product detail and app color taxonomy, discounted versus Graphic because there is no separate StockX Black product."
+        }
+      },
+      "sizeDataGap": false,
+      "horizonLogic": {
+        "oneWeek": "Fade slightly from day-1 because wider delivery usually pressures current-season deck asks, but keep above retail because active bid support is already over $100.",
+        "oneMonth": "Model a further short-term compression as impatient sellers undercut, while preserving modest profit for the true Graphic/Multicolor row.",
+        "oneYear": "Allow collector recovery for the artwork-led deck after supply leaves the market, with Graphic outperforming the modeled Black row."
+      },
+      "liveMarketInterpretation": {
+        "capturedAt": "2026-05-01T03:18:53.649Z",
+        "sourceFile": "data/stockx/alice-skateboard-target-2026-04-30.json",
+        "interpretation": "Unlike the no-bid accessory items, Alice has an actionable live market: one OS listing, active bid, sell-faster and earn-more values, and a $16 spread. The weakness is taxonomy, not liquidity: StockX treats the deck as Multicolor while the app lists Black and Graphic.",
+        "confidenceAdjustment": {
+          "from": 70,
+          "to": 74,
+          "basis": "Confidence is modestly above the base because the official retail/source facts and StockX scaffold agree, but capped because completed sales and a true separate Black market are missing."
+        }
+      }
+    }
+  },
+  "day1Predictions": [
+    {
+      "color": "Graphic",
+      "size": "OS",
+      "expectedSaleUsd": 143,
+      "rangeUsd": [
+        130,
+        150
+      ],
+      "netProfitAfterFeesUsd": 36,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 16,
+      "liquidityNote": "Active StockX bid and tight early spread support a real day-1 exit, but watch post-delivery ask compression.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Black",
+      "size": "OS",
+      "expectedSaleUsd": 125,
+      "rangeUsd": [
+        105,
+        135
+      ],
+      "netProfitAfterFeesUsd": 20,
+      "call": "maybe",
+      "scaffoldBasis": "analystModeledFromGraphic",
+      "hasBid": false,
+      "bidAskSpreadUsd": null,
+      "liquidityNote": "No separate StockX Black listing was found; this row exists for app color coverage and should be treated as the same deck, discounted for taxonomy risk.",
+      "analystOverride": 125,
+      "analystOverrideReason": "Modeled below the StockX-backed Graphic/Multicolor row because Black is an app display color/top-ply detail, not an observed separate resale market."
+    }
+  ],
+  "horizonPredictions": [
+    {
+      "color": "Graphic",
+      "size": "OS",
+      "day1Usd": 143,
+      "oneWeekUsd": 138,
+      "oneMonthUsd": 125,
+      "oneYearUsd": 165,
+      "liquidityNote": "Best target: true StockX-backed Multicolor/Graphic deck with live bid support and collector-artwork upside."
+    },
+    {
+      "color": "Black",
+      "size": "OS",
+      "day1Usd": 125,
+      "oneWeekUsd": 115,
+      "oneMonthUsd": 105,
+      "oneYearUsd": 140,
+      "liquidityNote": "Modeled color row only; use the Graphic/Multicolor market as the real resale listing."
+    }
+  ],
+  "colorLevelSummaries": [
+    {
+      "color": "Graphic",
+      "expectedDay1BySizeUsd": {
+        "OS": 143
+      },
+      "reasoning": "Graphic maps to the StockX Multicolor OS product. The day-1 scaffold is supported by $143 earn-more, $130 sell-faster, and a $115 bid against $72 retail. The spread is reasonable for a fresh deck, so this is a cop if acquired at retail."
+    },
+    {
+      "color": "Black",
+      "expectedDay1BySizeUsd": {
+        "OS": 125
+      },
+      "reasoning": "Black is included because the app droplist has a Black color and Supreme describes a black top ply. There is no separate Black StockX product, so it should not be treated as a distinct resale target. Modeled value stays profitable but gets a maybe call due taxonomy risk."
+    }
+  ],
+  "overall": {
+    "bestTargets": [
+      "Graphic OS"
+    ],
+    "avoidForResale": [
+      "Black OS if it is being treated as a separate resale SKU instead of the same Multicolor deck"
+    ],
+    "baseRecommendation": "Cop the StockX-backed Graphic/Multicolor Alice Skateboard at retail; treat Black as a taxonomy/display row rather than a separate target.",
+    "confidenceScore": 74,
+    "keyRisks": [
+      "StockX has one Multicolor/OS listing, while the app lists Black and Graphic.",
+      "No completed-sale history was captured for the Alice Skateboard in this pass.",
+      "Fresh current-season decks often compress after delivery as undercutting increases.",
+      "Skate decks can carry higher shipping, packaging, and damage risk than small accessories.",
+      "Collector premium depends on John John Jesse artwork demand holding beyond drop-day hype.",
+      "A one-year appreciation thesis may take patience and cleaner storage condition than a quick StockX flip.",
+      "No eBay completed-sale integration was used for this first pass."
+    ]
+  },
+  "accuracyTracking": {
+    "oneWeek": {
+      "trackedAt": null,
+      "sourceFile": null,
+      "medianAbsPercentError": null,
+      "variantResults": []
+    },
+    "oneMonth": null,
+    "oneYear": null
+  }
+}

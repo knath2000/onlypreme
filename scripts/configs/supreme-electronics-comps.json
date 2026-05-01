@@ -1,0 +1,10 @@
+{
+  "category": "supreme-electronics",
+  "comps": [
+    { "name": "Supreme FujiFilm Waterproof Camera", "season": "SS24", "colors": ["Multicolor"] },
+    { "name": "Supreme Yashica MF-1 Camera", "season": "FW19", "colors": ["Red"] },
+    { "name": "Supreme Leica Ultravid BR 8x20 Binocular", "season": "SS20", "colors": ["Red"] },
+    { "name": "Supreme Olympus XA3 Camera", "season": "FW16", "colors": ["Red"] }
+  ],
+  "sizes": ["OS"]
+}

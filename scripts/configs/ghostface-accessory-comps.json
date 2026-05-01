@@ -1,0 +1,9 @@
+{
+  "category": "ghostface-accessory",
+  "comps": [
+    { "name": "Supreme New Era Ghostface Beanie", "season": "SS26", "colors": ["Black", "Red"] },
+    { "name": "Supreme Rawlings Catcher's Mask", "season": "SS20", "colors": ["Red"] },
+    { "name": "Supreme Bandana Big Logo Beanie", "season": "FW19", "colors": ["Black", "Red"] }
+  ],
+  "sizes": ["OS"]
+}

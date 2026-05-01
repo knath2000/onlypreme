@@ -1,0 +1,11 @@
+{
+  "category": "supreme-dr-martens",
+  "comps": [
+    { "name": "Dr. Martens 1461 3-Eye Supreme", "season": "SS24", "colors": ["Black"] },
+    { "name": "Dr. Martens 3-Eye Supreme", "season": "FW17", "colors": ["Black"] },
+    { "name": "Dr. Martens 1461 3-Eye Shoe Supreme Skull", "season": "FW25", "colors": ["Black White"] },
+    { "name": "Dr. Martens Studded Penton Loafer Supreme", "season": "SS25", "colors": ["Black"] },
+    { "name": "Dr. Martens Penton Tassel Loafer Supreme", "season": "FW23", "colors": ["Black"] }
+  ],
+  "sizes": ["6", "7", "8", "9", "10", "11", "12", "13"]
+}

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 type Forecast = {
   expected7: number;
@@ -147,6 +147,7 @@ function genericColorForecast(item: EnrichedItem, color: string) {
 export default function OnlyPremeApp({ droplist, auth }: Props) {
   const dialogRef = useRef<HTMLDialogElement | null>(null);
   const predictionCache = useRef(new Map<string, Prediction | null>());
+  const [theme, setTheme] = useState<"light" | "dark">("light");
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("all");
   const [call, setCall] = useState("all");
@@ -180,6 +181,21 @@ export default function OnlyPremeApp({ droplist, auth }: Props) {
   const avgProfit = Math.round(totalProfit / enrichedItems.length);
   const copCount = enrichedItems.filter((item) => item.forecast.call === "cop").length;
 
+  useEffect(() => {
+    const savedTheme = window.localStorage.getItem("onlypreme-theme");
+    if (savedTheme === "dark" || savedTheme === "light") {
+      setTheme(savedTheme);
+      document.documentElement.dataset.theme = savedTheme;
+    }
+  }, []);
+
+  function toggleTheme() {
+    const nextTheme = theme === "dark" ? "light" : "dark";
+    setTheme(nextTheme);
+    document.documentElement.dataset.theme = nextTheme;
+    window.localStorage.setItem("onlypreme-theme", nextTheme);
+  }
+
   async function loadPrediction(item: EnrichedItem) {
     if (!item.predictionFile) return null;
     if (predictionCache.current.has(item.id)) return predictionCache.current.get(item.id) ?? null;
@@ -212,16 +228,22 @@ export default function OnlyPremeApp({ droplist, auth }: Props) {
   return (
     <>
       <header className="topbar">
-        <div>
-          <p className="eyebrow">OnlyPreme MVP</p>
-          <h1>Supreme SS26 Week 10</h1>
+        <div className="brand-block">
+          <Link className="brand-logo" href="/" aria-label="OnlyPreme home" />
+          <p>Supreme SS26 Week 10</p>
         </div>
         <div className="top-actions">
+          <button className="theme-toggle" type="button" onClick={toggleTheme} aria-pressed={theme === "dark"}>
+            {theme === "dark" ? "Light" : "Dark"}
+          </button>
           {auth.isSignedIn ? (
-            <form action="/auth/sign-out" method="post">
-              <span>{auth.email}</span>
-              <button type="submit">Sign out</button>
-            </form>
+            <>
+              {!auth.hasActiveSubscription ? <ProCheckoutButton compact /> : null}
+              <form action="/auth/sign-out" method="post">
+                <span>{auth.email}</span>
+                <button type="submit">Sign out</button>
+              </form>
+            </>
           ) : (
             <Link href="/login">Sign in</Link>
           )}
@@ -443,6 +465,7 @@ function EstimatePanel({ item, prediction, activeColor, error, auth }: { item: E
         <p className="eyebrow">Protected Prediction</p>
         <p className="detail-text">{error}</p>
         {!auth.isSignedIn ? <Link href="/login">Sign in</Link> : null}
+        {auth.isSignedIn && !auth.hasActiveSubscription ? <ProCheckoutButton /> : null}
       </div>
     );
   }
@@ -552,5 +575,13 @@ function EstimatePanel({ item, prediction, activeColor, error, auth }: { item: E
       </details>
       <p className="detail-text">This color estimate uses the item-level MVP forecast adjusted by a color liquidity multiplier. It should be replaced with color-specific comps when available.</p>
     </div>
+  );
+}
+
+function ProCheckoutButton({ compact = false }: { compact?: boolean }) {
+  return (
+    <form action="/api/stripe/checkout" method="post" className={compact ? "pro-form compact-pro-form" : "pro-form"}>
+      <button type="submit">Get Pro · $0.99/mo</button>
+    </form>
   );
 }

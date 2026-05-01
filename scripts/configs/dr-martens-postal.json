@@ -1,0 +1,25 @@
+{
+  "id": "dr-martens-postal-supreme-ss26",
+  "name": "Dr. Martens Postal Supreme 4-Eye Shoe",
+  "brand": "Supreme",
+  "season": "Spring/Summer 2026",
+  "week": 10,
+  "releaseDate": "2026-04-30",
+  "retailPriceUsd": 198,
+  "retailPriceSourceConfidence": "high",
+  "category": "4-eye shoe",
+  "materialsAndDetails": "Smooth leather upper with debossed printed snakeskin pattern on the Snakeskin colorway, air-cushioned sole, padded collar, printed logos on insole, and side tab. Made exclusively for Supreme.",
+  "collabTags": ["Dr. Martens"],
+  "colorsModeled": ["Black", "Snakeskin"],
+  "sizesModeled": ["6", "7", "8", "9", "10", "11", "12", "13"],
+  "feeAssumption": {
+    "marketplaceFeePercent": 12,
+    "shippingAndHandlingUsd": 15
+  },
+  "baseColorForRatios": "Black",
+  "baseSizeForRatios": "9",
+  "callThresholds": {
+    "copMinProfitUsd": 40,
+    "maybeMinProfitUsd": 15
+  }
+}

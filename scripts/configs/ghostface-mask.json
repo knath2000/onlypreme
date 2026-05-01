@@ -1,0 +1,25 @@
+{
+  "id": "ghostface-mask-ss26",
+  "name": "Ghostface Mask",
+  "brand": "Supreme",
+  "season": "Spring/Summer 2026",
+  "week": 10,
+  "releaseDate": "2026-04-30",
+  "retailPriceUsd": 38,
+  "retailPriceSourceConfidence": "high",
+  "category": "mask",
+  "materialsAndDetails": "PVC facemask with printed pattern and logo on poly shroud. 6 x 11 in.",
+  "collabTags": ["Ghostface", "Scream"],
+  "colorsModeled": ["Red Bandana", "Black Bandana"],
+  "sizesModeled": ["OS"],
+  "feeAssumption": {
+    "marketplaceFeePercent": 12,
+    "shippingAndHandlingUsd": 15
+  },
+  "baseColorForRatios": "Black Bandana",
+  "baseSizeForRatios": "OS",
+  "callThresholds": {
+    "copMinProfitUsd": 25,
+    "maybeMinProfitUsd": 10
+  }
+}
