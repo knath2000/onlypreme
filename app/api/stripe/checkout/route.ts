@@ -1,4 +1,5 @@
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getSiteOrigin } from "@/lib/site-url";
 import { createStripeClient, getStripeProPriceId } from "@/lib/stripe";
 import { NextResponse } from "next/server";
 
@@ -11,7 +12,7 @@ export async function POST(request: Request) {
 
   const { data, error } = await supabase.auth.getUser();
   if (error || !data.user) {
-    return NextResponse.redirect(new URL("/login", request.url), 303);
+    return NextResponse.redirect(new URL("/login", getSiteOrigin(request.url)), 303);
   }
 
   const stripe = createStripeClient();
@@ -19,7 +20,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Stripe is not configured." }, { status: 503 });
   }
 
-  const origin = new URL(request.url).origin;
+  const origin = getSiteOrigin(request.url);
   const session = await stripe.checkout.sessions.create({
     mode: "subscription",
     line_items: [

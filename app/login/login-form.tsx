@@ -4,7 +4,7 @@ import { createSupabaseBrowserClient, isBrowserSupabaseConfigured } from "@/lib/
 import Link from "next/link";
 import { useState } from "react";
 
-export default function LoginForm() {
+export default function LoginForm({ siteOrigin }: { siteOrigin: string | null }) {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -22,7 +22,7 @@ export default function LoginForm() {
       return;
     }
 
-    const origin = window.location.origin;
+    const origin = siteOrigin || window.location.origin;
     const { error } = await supabase.auth.signInWithOtp({
       email,
       options: {

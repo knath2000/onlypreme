@@ -1,4 +1,5 @@
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getSiteOrigin } from "@/lib/site-url";
 import { NextResponse } from "next/server";
 
 export async function POST(request: Request) {
@@ -7,5 +8,5 @@ export async function POST(request: Request) {
     await supabase.auth.signOut();
   }
 
-  return NextResponse.redirect(new URL("/", request.url), 303);
+  return NextResponse.redirect(new URL("/", getSiteOrigin(request.url)), 303);
 }
