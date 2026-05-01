@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "0.1",
+  "capturedAt": "2026-04-30T22:22:00.000Z",
+  "configFile": "scripts/configs/arc-hoodie-comps.json",
+  "category": "arc-hoodie",
+  "comps": [],
+  "derivedRatios": {
+    "sizeRatios": {
+      "aggregate": {
+        "S": { "median": 0.93, "compsUsed": 3, "values": [0.92, 0.94, 0.93] },
+        "M": { "median": 1, "compsUsed": 3, "values": [1, 1, 1] },
+        "L": { "median": 1.03, "compsUsed": 3, "values": [1.01, 1.03, 1.04] },
+        "XL": { "median": 1.07, "compsUsed": 3, "values": [1.04, 1.07, 1.09] },
+        "XXL": { "median": 1.13, "compsUsed": 3, "values": [1.1, 1.13, 1.18] }
+      }
+    },
+    "colorRatios": {
+      "aggregate": {
+        "Red": { "median": 0.97, "compsUsed": 2, "values": [0.95, 0.99] },
+        "Ash Grey": { "median": 0.72, "compsUsed": 2, "values": [0.69, 0.75] }
+      }
+    }
+  },
+  "errors": []
+}

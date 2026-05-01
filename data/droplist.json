@@ -1,0 +1,500 @@
+{
+  "schemaVersion": "0.1",
+  "season": "SS26",
+  "week": 10,
+  "dropDate": "2026-04-30",
+  "dropTime": "11:00 ET",
+  "items": [
+    {
+      "id": "ghostface-mask",
+      "name": "Ghostface Mask",
+      "category": "Accessories",
+      "retail": 38,
+      "priceSource": "DropsGG/Reddit",
+      "colors": [
+        "Red Bandana",
+        "Black Bandana"
+      ],
+      "sizing": "One size, 6 x 11 in.",
+      "heat": 92,
+      "confidenceBase": 68,
+      "collabs": [
+        "Ghostface",
+        "Scream"
+      ],
+      "details": "PVC facemask with bandana backing.",
+      "image": "https://supremedroplist.com/images/item-images/media/ghostface-mask-group-00-335a904c-1.webp",
+      "sourceUrl": "https://supremedroplist.com/items/ghostface-mask-ss26",
+      "signals": [
+        "Cheapest Ghostface item",
+        "Novelty accessory demand",
+        "Likely fast sellout at low retail"
+      ]
+    },
+    {
+      "id": "ghostface-arc-hoodie",
+      "name": "Ghostface Arc Hooded Sweatshirt",
+      "category": "Sweatshirts",
+      "retail": 198,
+      "priceSource": "DropsGG/Reddit",
+      "colors": [
+        "Black",
+        "Red",
+        "Ash Grey"
+      ],
+      "sizing": "S-XXL",
+      "heat": 89,
+      "confidenceBase": 64,
+      "collabs": [
+        "Ghostface",
+        "Scream"
+      ],
+      "details": "Brushed-back fleece with tackle twill logo applique and embroidered graphic.",
+      "image": "https://supremedroplist.com/images/item-images/media/ghostface-arc-hooded-sweatshirt-group-00-c5188d2d-1.webp",
+      "sourceUrl": "https://supremedroplist.com/items/ghostface-arc-hooded-sweatshirt-ss26",
+      "predictionFile": "./data/predictions/ghostface-arc-hooded-sweatshirt-2026-04-30.json",
+      "signals": [
+        "Strong front logo",
+        "Horror collab",
+        "High retail limits margin"
+      ]
+    },
+    {
+      "id": "minolta-camcorder",
+      "name": "Supreme/Minolta MN4K300WP Waterproof Camcorder",
+      "category": "Accessories",
+      "retail": 298,
+      "priceSource": "DropsGG/Reddit",
+      "colors": [
+        "Pink Camo",
+        "Woodland Camo"
+      ],
+      "sizing": "One size",
+      "heat": 82,
+      "confidenceBase": 57,
+      "collabs": [
+        "Minolta"
+      ],
+      "details": "Waterproof camcorder with 13MP CMOS sensor, 18x digital zoom, integrated 3 in. IPS LCD flip-out screen, UHD 4K video, and 56MP still images.",
+      "image": "https://supremedroplist.com/images/item-images/media/suprememinolta-mn4k300wp-waterproof-camcorder-group-00-8c9b4568-1.webp",
+      "sourceUrl": "https://supremedroplist.com/items/supreme-minolta-mn4k300wp-waterproof-camcorder-ss26",
+      "signals": [
+        "Tech accessory",
+        "High conversation volume",
+        "Retail is high for impulse buyers"
+      ]
+    },
+    {
+      "id": "ghostface-pendant",
+      "name": "Supreme/Jacob & Co./Ghostface Diamond Pendant",
+      "category": "Accessories",
+      "retail": 3598,
+      "priceSource": "DropsGG/Reddit",
+      "colors": [
+        "Silver"
+      ],
+      "sizing": "22 in. chain, 1.88 in. pendant",
+      "heat": 85,
+      "confidenceBase": 44,
+      "collabs": [
+        "Jacob & Co.",
+        "Ghostface"
+      ],
+      "details": "Sterling silver pendant with pave diamonds, sterling silver ball chain, and engraved logo on back.",
+      "image": "https://supremedroplist.com/images/item-images/media/supremejacob-coghostface-diamond-pendant-multicolor-01-0bee963b-1.webp",
+      "sourceUrl": "https://supremedroplist.com/items/supreme-jacob-and-co-ghostface-diamond-pendant-ss26",
+      "signals": [
+        "Ultra-high retail",
+        "Very thin buyer pool",
+        "Collectible but illiquid"
+      ]
+    },
+    {
+      "id": "alice-skateboard",
+      "name": "Alice Skateboard",
+      "category": "Skate",
+      "retail": 72,
+      "priceSource": "DropsGG/Reddit",
+      "colors": [
+        "Black",
+        "Graphic"
+      ],
+      "sizing": "One size",
+      "heat": 100,
+      "confidenceBase": 70,
+      "collabs": [
+        "John John Jesse"
+      ],
+      "details": "Skate deck with original artwork by John John Jesse.",
+      "image": "https://supremedroplist.com/images/item-images/media/alice-skateboard-group-00-a650fead-1.webp",
+      "sourceUrl": "https://supremedroplist.com/items/alice-skateboard-ss26",
+      "signals": [
+        "Skate deck category has collector base",
+        "Low retail",
+        "Artwork-led demand"
+      ]
+    },
+    {
+      "id": "ghostface-mesh-short",
+      "name": "Ghostface Mesh Short",
+      "category": "Shorts",
+      "retail": 138,
+      "priceSource": "DropsGG/Reddit",
+      "colors": [
+        "Red",
+        "Black"
+      ],
+      "sizing": "S-XXL",
+      "heat": 83,
+      "confidenceBase": 60,
+      "collabs": [
+        "Ghostface",
+        "Scream"
+      ],
+      "details": "Poly eyelet mesh shorts with Ghostface graphic.",
+      "image": "https://supremedroplist.com/images/item-images/media/ghostface-mesh-short-group-00-154c114d-1.webp",
+      "sourceUrl": "https://supremedroplist.com/items/ghostface-mesh-short-ss26",
+      "signals": [
+        "Seasonal summer category",
+        "Graphic pop",
+        "Retail is aggressive for shorts"
+      ]
+    },
+    {
+      "id": "spellout-coaches-jacket",
+      "name": "Spellout Coaches Jacket",
+      "category": "Jackets",
+      "retail": 158,
+      "priceSource": "DropsGG/Reddit",
+      "colors": [
+        "Black",
+        "Navy",
+        "Pink",
+        "Brown"
+      ],
+      "sizing": "S-XXL",
+      "heat": 71,
+      "confidenceBase": 58,
+      "collabs": [],
+      "details": "Water resistant poly with cotton jersey lining, taffeta sleeve lining, snap front closure, welt hand pockets, interior chest pocket, and tackle twill logo applique.",
+      "image": "https://supremedroplist.com/images/item-images/media/spellout-coaches-jacket-group-00-82097c28-1.webp",
+      "sourceUrl": "https://supremedroplist.com/items/spellout-coaches-jacket-ss26",
+      "signals": [
+        "Big logo",
+        "Non-collab baseline demand",
+        "Multiple wearable colors"
+      ]
+    },
+    {
+      "id": "ghostface-work-shirt",
+      "name": "Ghostface S/S Work Shirt",
+      "category": "Shirts",
+      "retail": 158,
+      "priceSource": "DropsGG/Reddit",
+      "colors": [
+        "Green",
+        "Stripe",
+        "Black"
+      ],
+      "sizing": "S-XXL",
+      "heat": 62,
+      "confidenceBase": 52,
+      "collabs": [
+        "Ghostface",
+        "Scream"
+      ],
+      "details": "All cotton short-sleeve work shirt with Ghostface graphics.",
+      "image": "https://supremedroplist.com/images/item-images/media/ghostface-ss-work-shirt-group-00-5ddc22fa-1.webp",
+      "sourceUrl": "https://supremedroplist.com/items/ghostface-s-s-work-shirt-ss26",
+      "signals": [
+        "Collab helps",
+        "Button-up resale usually softer",
+        "Green graphic is the visual lead"
+      ]
+    },
+    {
+      "id": "ghostface-cowichan",
+      "name": "Ghostface Cowichan Sweater",
+      "category": "Sweaters",
+      "retail": 698,
+      "priceSource": "DropsGG/Reddit",
+      "colors": [
+        "Black"
+      ],
+      "sizing": "S-XXL",
+      "heat": 77,
+      "confidenceBase": 50,
+      "collabs": [
+        "Ghostface",
+        "Canadian Sweater Company"
+      ],
+      "details": "Hand-knit wool sweater made by Canadian Sweater Company exclusively for Supreme.",
+      "image": "https://supremedroplist.com/images/item-images/media/ghostface-cowichan-sweater-black-01-7a4ab12c-1.webp",
+      "sourceUrl": "https://supremedroplist.com/items/ghostface-cowichan-sweater-ss26",
+      "signals": [
+        "Premium hand-knit construction",
+        "Very high retail",
+        "Small audience but strong collector appeal"
+      ]
+    },
+    {
+      "id": "baggy-jean",
+      "name": "Inset Spellout Baggy Jean",
+      "category": "Pants",
+      "retail": 268,
+      "priceSource": "DropsGG/Reddit",
+      "colors": [
+        "Rigid Indigo",
+        "Brown",
+        "Black"
+      ],
+      "sizing": "30-38",
+      "heat": 83,
+      "confidenceBase": 59,
+      "collabs": [],
+      "details": "All cotton 13 oz. denim with oversized inset spellout detail.",
+      "image": "https://supremedroplist.com/images/item-images/media/inset-spellout-baggy-jean-group-00-d3c98615-1.webp",
+      "sourceUrl": "https://supremedroplist.com/items/inset-spellout-baggy-jean-ss26",
+      "signals": [
+        "Visible logo denim",
+        "Three useful colorways",
+        "High retail narrows upside"
+      ]
+    },
+    {
+      "id": "devil-s-new-era",
+      "name": "Devil S Logo New Era",
+      "category": "Hats",
+      "retail": 54,
+      "priceSource": "DropsGG/Reddit",
+      "colors": [
+        "Purple",
+        "Black",
+        "Light Blue",
+        "Red",
+        "Navy Pinstripe",
+        "Grey",
+        "White"
+      ],
+      "sizing": "Fitted New Era sizes",
+      "heat": 83,
+      "confidenceBase": 66,
+      "collabs": [
+        "New Era"
+      ],
+      "details": "Fitted New Era cap with Devil S logo embroidery.",
+      "image": "https://supremedroplist.com/images/item-images/media/devil-s-logo-new-era-group-00-4102f7fc-1.webp",
+      "sourceUrl": "https://supremedroplist.com/items/devil-s-logo-new-era-ss26",
+      "signals": [
+        "Low retail",
+        "Logo hat liquidity",
+        "Size fragmentation matters"
+      ]
+    },
+    {
+      "id": "denim-camp-cap",
+      "name": "Stitched Old English Denim Camp Cap",
+      "category": "Hats",
+      "retail": 60,
+      "priceSource": "DropsGG/Reddit",
+      "colors": [
+        "Black",
+        "Washed Blue",
+        "Red",
+        "Brown"
+      ],
+      "sizing": "Adjustable",
+      "heat": 100,
+      "confidenceBase": 69,
+      "collabs": [],
+      "details": "Denim camp cap with stitched Old English Supreme front panel.",
+      "image": "https://supremedroplist.com/images/item-images/media/stitched-old-english-denim-camp-cap-group-00-ea88dd7c-1.webp",
+      "sourceUrl": "https://supremedroplist.com/items/stitched-old-english-denim-camp-cap-ss26",
+      "signals": [
+        "Perfect heat score on source",
+        "Logo-forward cap",
+        "Low retail"
+      ]
+    },
+    {
+      "id": "leather-painter-short",
+      "name": "Leather Double Knee Painter Short",
+      "category": "Shorts",
+      "retail": 368,
+      "priceSource": "DropsGG/Reddit",
+      "colors": [
+        "Burgundy",
+        "Black"
+      ],
+      "sizing": "30-38",
+      "heat": 83,
+      "confidenceBase": 43,
+      "collabs": [],
+      "details": "Lambskin leather shorts with taffeta lining and double-knee painter styling.",
+      "image": "https://supremedroplist.com/images/item-images/media/leather-double-knee-painter-short-group-00-c8b4bc08-1.webp",
+      "sourceUrl": "https://supremedroplist.com/items/leather-double-knee-painter-short-ss26",
+      "signals": [
+        "Unusual category",
+        "High retail",
+        "Likely low liquidity"
+      ]
+    },
+    {
+      "id": "hooded-flannel",
+      "name": "Hooded Flannel Shirt",
+      "category": "Shirts",
+      "retail": 158,
+      "priceSource": "DropsGG/Reddit",
+      "colors": [
+        "Brown",
+        "Red",
+        "Black"
+      ],
+      "sizing": "S-XXL",
+      "heat": 83,
+      "confidenceBase": 55,
+      "collabs": [],
+      "details": "All cotton flannel with hood.",
+      "image": "https://supremedroplist.com/images/item-images/media/hooded-flannel-shirt-group-00-baa8622d-1.webp",
+      "sourceUrl": "https://supremedroplist.com/items/hooded-flannel-shirt-ss26",
+      "signals": [
+        "Wearable staple",
+        "Seasonal timing is late spring",
+        "No collab lift"
+      ]
+    },
+    {
+      "id": "small-box-tee",
+      "name": "Small Box Tee",
+      "category": "T-Shirts",
+      "retail": 64,
+      "priceSource": "DropsGG/Reddit",
+      "colors": [
+        "Brown",
+        "White",
+        "Navy",
+        "Pink",
+        "Black",
+        "Heather Grey",
+        "Red Camo",
+        "Green"
+      ],
+      "sizing": "S-XXL",
+      "heat": 77,
+      "confidenceBase": 70,
+      "collabs": [],
+      "details": "All cotton jersey tee with embroidered logo patch.",
+      "image": "https://supremedroplist.com/images/item-images/media/small-box-tee-group-00-3220e899-1.webp",
+      "sourceUrl": "https://supremedroplist.com/items/small-box-tee-ss26",
+      "signals": [
+        "Core item liquidity",
+        "Low retail",
+        "Many colorways reduce scarcity"
+      ]
+    },
+    {
+      "id": "small-box-half-zip",
+      "name": "Small Box Half Zip Pullover",
+      "category": "Sweatshirts",
+      "retail": 158,
+      "priceSource": "DropsGG/Reddit",
+      "colors": [
+        "Black",
+        "Heather Grey",
+        "Purple",
+        "Floral",
+        "White",
+        "Green"
+      ],
+      "sizing": "S-XXL",
+      "heat": 77,
+      "confidenceBase": 61,
+      "collabs": [],
+      "details": "Brushed-back fleece half zip with embroidered logo patch.",
+      "image": "https://supremedroplist.com/images/item-images/media/small-box-half-zip-pullover-group-00-49dc5355-1.webp",
+      "sourceUrl": "https://supremedroplist.com/items/small-box-half-zip-pullover-ss26",
+      "signals": [
+        "Core wearable",
+        "Floral colorway interest",
+        "Moderate logo strength"
+      ]
+    },
+    {
+      "id": "umbro-jersey",
+      "name": "Supreme/Umbro Old English Soccer Jersey",
+      "category": "Jerseys",
+      "retail": 128,
+      "priceSource": "DropsGG/Reddit",
+      "colors": [
+        "Black",
+        "White/Red",
+        "Purple",
+        "Pink",
+        "Yellow",
+        "Light Blue"
+      ],
+      "sizing": "S-XXL",
+      "heat": 66,
+      "confidenceBase": 58,
+      "collabs": [
+        "Umbro"
+      ],
+      "details": "Poly jersey with mesh panels, inset mesh logo applique, embroidered logos, and lenticular logo patch.",
+      "image": "https://supremedroplist.com/images/item-images/media/supremeumbro-old-english-soccer-jersey-group-00-ecacf5e5-1.webp",
+      "sourceUrl": "https://supremedroplist.com/items/supreme-umbro-old-english-soccer-jersey-ss26",
+      "signals": [
+        "Umbro collab",
+        "Soccer category is proven",
+        "Source heat is only mid-tier"
+      ]
+    },
+    {
+      "id": "sea-island-suit",
+      "name": "Sea Island Cotton Suit",
+      "category": "Jackets",
+      "retail": 728,
+      "priceSource": "DropsGG/Reddit",
+      "colors": [
+        "Stone",
+        "Black"
+      ],
+      "sizing": "S-XL",
+      "heat": 58,
+      "confidenceBase": 38,
+      "collabs": [],
+      "details": "Sea Island cotton with cupro twill half-lining, double breasted jacket, and half-lined trousers. David and John Anderson fabric made in Italy.",
+      "image": "https://supremedroplist.com/images/item-images/media/sea-island-cotton-suit-stone-01-6a02b7e1-1.webp",
+      "sourceUrl": "https://supremedroplist.com/items/sea-island-cotton-suit-ss26",
+      "signals": [
+        "Premium fabrication",
+        "Very high retail",
+        "Niche resale audience"
+      ]
+    },
+    {
+      "id": "dr-martens-postal",
+      "name": "Supreme/Dr. Martens Postal Supreme",
+      "category": "Shoes",
+      "retail": 198,
+      "priceSource": "Sneaker Bar Detroit",
+      "colors": [
+        "Black",
+        "Snakeskin"
+      ],
+      "sizing": "US 6-13",
+      "heat": 88,
+      "confidenceBase": 67,
+      "collabs": [
+        "Dr. Martens"
+      ],
+      "details": "Low-cut 4-eye shoe made exclusively for Supreme with smooth leather upper, air-cushioned sole, padded collar, co-branded insole, and side tab.",
+      "image": "https://sneakerbardetroit.com/wp-content/uploads/2026/04/supreme-dr-martens-postal-supreme-release-date-2-1068x806.jpg",
+      "sourceUrl": "https://sneakerbardetroit.com/supreme-dr-martens-postal-supreme-release-date/",
+      "signals": [
+        "Footwear collab",
+        "Snakeskin stands out",
+        "Strong precedent for Supreme Dr. Martens liquidity"
+      ]
+    }
+  ]
+}

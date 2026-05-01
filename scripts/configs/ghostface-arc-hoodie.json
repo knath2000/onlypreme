@@ -1,0 +1,24 @@
+{
+  "id": "ghostface-arc-hooded-sweatshirt-ss26",
+  "name": "Ghostface Arc Hooded Sweatshirt",
+  "brand": "Supreme",
+  "season": "Spring/Summer 2026",
+  "week": 10,
+  "releaseDate": "2026-04-30",
+  "retailPriceUsd": 198,
+  "retailPriceSourceConfidence": "medium",
+  "category": "hooded sweatshirt",
+  "collabTags": ["Ghostface", "Scream"],
+  "colorsModeled": ["Black", "Red", "Ash Grey"],
+  "sizesModeled": ["S", "M", "L", "XL", "XXL"],
+  "feeAssumption": {
+    "marketplaceFeePercent": 12,
+    "shippingAndHandlingUsd": 15
+  },
+  "baseColorForRatios": "Black",
+  "baseSizeForRatios": "M",
+  "callThresholds": {
+    "copMinProfitUsd": 40,
+    "maybeMinProfitUsd": 15
+  }
+}

@@ -1,0 +1,509 @@
+{
+  "capturedAt": "2026-04-30T22:22:14.990Z",
+  "authResult": {
+    "tokenExchangeStatus": 200,
+    "tokenType": "Bearer",
+    "expiresInSeconds": 43200,
+    "accessTokenReceived": true,
+    "refreshTokenReceived": true,
+    "tokensPersisted": false
+  },
+  "catalogSearches": [
+    {
+      "color": "Black",
+      "endpoint": "/v2/catalog/search?query=supreme+ghostface+arc+hooded+sweatshirt+Black&pageNumber=1&pageSize=5",
+      "status": 200,
+      "count": 1,
+      "selectedProduct": {
+        "productId": "316bab94-7b19-429d-b43b-73ecf635df56",
+        "title": "Supreme Ghostface Arc Hooded Sweatshirt Black",
+        "urlKey": "supreme-ghostface-arc-hooded-sweatshirt-black",
+        "productType": "streetwear",
+        "attributes": {
+          "color": "Black",
+          "colorway": null,
+          "gender": "men",
+          "releaseDate": "2026-04-30",
+          "retailPrice": 198,
+          "season": "SS26"
+        }
+      },
+      "products": [
+        {
+          "productId": "316bab94-7b19-429d-b43b-73ecf635df56",
+          "title": "Supreme Ghostface Arc Hooded Sweatshirt Black",
+          "urlKey": "supreme-ghostface-arc-hooded-sweatshirt-black",
+          "attributes": {
+            "color": "Black",
+            "colorway": null,
+            "gender": "men",
+            "releaseDate": "2026-04-30",
+            "retailPrice": 198,
+            "season": "SS26"
+          }
+        }
+      ]
+    },
+    {
+      "color": "Ash Grey",
+      "endpoint": "/v2/catalog/search?query=supreme+ghostface+arc+hooded+sweatshirt+Ash+Grey&pageNumber=1&pageSize=5",
+      "status": 200,
+      "count": 1,
+      "selectedProduct": {
+        "productId": "e31afb4c-66cd-4bd3-b63a-887e0bf433c3",
+        "title": "Supreme Ghostface Arc Hooded Sweatshirt Ash Grey",
+        "urlKey": "supreme-ghostface-arc-hooded-sweatshirt-ash-grey",
+        "productType": "streetwear",
+        "attributes": {
+          "color": "Ash Grey",
+          "colorway": null,
+          "gender": "men",
+          "releaseDate": "2026-04-30",
+          "retailPrice": 198,
+          "season": "SS26"
+        }
+      },
+      "products": [
+        {
+          "productId": "e31afb4c-66cd-4bd3-b63a-887e0bf433c3",
+          "title": "Supreme Ghostface Arc Hooded Sweatshirt Ash Grey",
+          "urlKey": "supreme-ghostface-arc-hooded-sweatshirt-ash-grey",
+          "attributes": {
+            "color": "Ash Grey",
+            "colorway": null,
+            "gender": "men",
+            "releaseDate": "2026-04-30",
+            "retailPrice": 198,
+            "season": "SS26"
+          }
+        }
+      ]
+    },
+    {
+      "color": "Red",
+      "endpoint": "/v2/catalog/search?query=supreme+ghostface+arc+hooded+sweatshirt+Red&pageNumber=1&pageSize=5",
+      "status": 429,
+      "selectedProduct": null,
+      "products": []
+    }
+  ],
+  "variantMarketData": [
+    {
+      "color": "Black",
+      "productId": "316bab94-7b19-429d-b43b-73ecf635df56",
+      "productTitle": "Supreme Ghostface Arc Hooded Sweatshirt Black",
+      "size": "S",
+      "variantId": "eac15ce8-8a09-442d-97f1-8acfdc2e2bbf",
+      "marketEndpoint": "/v2/catalog/products/316bab94-7b19-429d-b43b-73ecf635df56/variants/eac15ce8-8a09-442d-97f1-8acfdc2e2bbf/market-data",
+      "marketStatus": 200,
+      "marketOk": true,
+      "marketData": {
+        "productId": "316bab94-7b19-429d-b43b-73ecf635df56",
+        "variantId": "eac15ce8-8a09-442d-97f1-8acfdc2e2bbf",
+        "currencyCode": "USD",
+        "highestBidAmount": "235",
+        "lowestAskAmount": "281",
+        "flexLowestAskAmount": "330",
+        "earnMoreAmount": "308",
+        "sellFasterAmount": "280",
+        "standardMarketData": {
+          "lowestAsk": "281",
+          "highestBidAmount": "235",
+          "sellFaster": "280",
+          "earnMore": "308",
+          "beatUS": null
+        },
+        "flexMarketData": {
+          "lowestAsk": "330",
+          "highestBidAmount": "235",
+          "sellFaster": "310",
+          "earnMore": "329",
+          "beatUS": null
+        },
+        "directMarketData": {
+          "lowestAsk": "330",
+          "highestBidAmount": "235",
+          "sellFaster": "310",
+          "earnMore": "329",
+          "beatUS": null
+        }
+      }
+    },
+    {
+      "color": "Black",
+      "productId": "316bab94-7b19-429d-b43b-73ecf635df56",
+      "productTitle": "Supreme Ghostface Arc Hooded Sweatshirt Black",
+      "size": "M",
+      "variantId": "ef490143-ec79-4599-bee8-19ed651ebadf",
+      "marketEndpoint": "/v2/catalog/products/316bab94-7b19-429d-b43b-73ecf635df56/variants/ef490143-ec79-4599-bee8-19ed651ebadf/market-data",
+      "marketStatus": 200,
+      "marketOk": true,
+      "marketData": {
+        "productId": "316bab94-7b19-429d-b43b-73ecf635df56",
+        "variantId": "ef490143-ec79-4599-bee8-19ed651ebadf",
+        "currencyCode": "USD",
+        "highestBidAmount": "237",
+        "lowestAskAmount": "249",
+        "flexLowestAskAmount": "293",
+        "earnMoreAmount": "273",
+        "sellFasterAmount": "248",
+        "standardMarketData": {
+          "lowestAsk": "249",
+          "highestBidAmount": "237",
+          "sellFaster": "248",
+          "earnMore": "273",
+          "beatUS": null
+        },
+        "flexMarketData": {
+          "lowestAsk": "293",
+          "highestBidAmount": "237",
+          "sellFaster": "274",
+          "earnMore": "292",
+          "beatUS": null
+        },
+        "directMarketData": {
+          "lowestAsk": "293",
+          "highestBidAmount": "237",
+          "sellFaster": "274",
+          "earnMore": "292",
+          "beatUS": null
+        }
+      }
+    },
+    {
+      "color": "Black",
+      "productId": "316bab94-7b19-429d-b43b-73ecf635df56",
+      "productTitle": "Supreme Ghostface Arc Hooded Sweatshirt Black",
+      "size": "L",
+      "variantId": "c127964d-89f0-41aa-99ac-2db2df9d377a",
+      "marketEndpoint": "/v2/catalog/products/316bab94-7b19-429d-b43b-73ecf635df56/variants/c127964d-89f0-41aa-99ac-2db2df9d377a/market-data",
+      "marketStatus": 200,
+      "marketOk": true,
+      "marketData": {
+        "productId": "316bab94-7b19-429d-b43b-73ecf635df56",
+        "variantId": "c127964d-89f0-41aa-99ac-2db2df9d377a",
+        "currencyCode": "USD",
+        "highestBidAmount": "217",
+        "lowestAskAmount": "263",
+        "flexLowestAskAmount": "307",
+        "earnMoreAmount": "289",
+        "sellFasterAmount": "262",
+        "standardMarketData": {
+          "lowestAsk": "263",
+          "highestBidAmount": "217",
+          "sellFaster": "262",
+          "earnMore": "289",
+          "beatUS": null
+        },
+        "flexMarketData": {
+          "lowestAsk": "307",
+          "highestBidAmount": "217",
+          "sellFaster": "290",
+          "earnMore": "306",
+          "beatUS": null
+        },
+        "directMarketData": {
+          "lowestAsk": "307",
+          "highestBidAmount": "217",
+          "sellFaster": "290",
+          "earnMore": "306",
+          "beatUS": null
+        }
+      }
+    },
+    {
+      "color": "Black",
+      "productId": "316bab94-7b19-429d-b43b-73ecf635df56",
+      "productTitle": "Supreme Ghostface Arc Hooded Sweatshirt Black",
+      "size": "XL",
+      "variantId": "1acedb9c-c8f5-4bde-ba34-4c5f2590cefb",
+      "marketEndpoint": "/v2/catalog/products/316bab94-7b19-429d-b43b-73ecf635df56/variants/1acedb9c-c8f5-4bde-ba34-4c5f2590cefb/market-data",
+      "marketStatus": 200,
+      "marketOk": true,
+      "marketData": {
+        "productId": "316bab94-7b19-429d-b43b-73ecf635df56",
+        "variantId": "1acedb9c-c8f5-4bde-ba34-4c5f2590cefb",
+        "currencyCode": "USD",
+        "highestBidAmount": "140",
+        "lowestAskAmount": "278",
+        "flexLowestAskAmount": "300",
+        "earnMoreAmount": "305",
+        "sellFasterAmount": "277",
+        "standardMarketData": {
+          "lowestAsk": "278",
+          "highestBidAmount": "140",
+          "sellFaster": "277",
+          "earnMore": "305",
+          "beatUS": null
+        },
+        "flexMarketData": {
+          "lowestAsk": "300",
+          "highestBidAmount": "140",
+          "sellFaster": "299",
+          "earnMore": "306",
+          "beatUS": null
+        },
+        "directMarketData": {
+          "lowestAsk": "300",
+          "highestBidAmount": "140",
+          "sellFaster": "299",
+          "earnMore": "306",
+          "beatUS": null
+        }
+      }
+    },
+    {
+      "color": "Black",
+      "productId": "316bab94-7b19-429d-b43b-73ecf635df56",
+      "productTitle": "Supreme Ghostface Arc Hooded Sweatshirt Black",
+      "size": "XXL",
+      "variantId": "a96230f6-ac95-4e0f-8800-85868c02fe4c",
+      "marketEndpoint": "/v2/catalog/products/316bab94-7b19-429d-b43b-73ecf635df56/variants/a96230f6-ac95-4e0f-8800-85868c02fe4c/market-data",
+      "marketStatus": 200,
+      "marketOk": true,
+      "marketData": {
+        "productId": "316bab94-7b19-429d-b43b-73ecf635df56",
+        "variantId": "a96230f6-ac95-4e0f-8800-85868c02fe4c",
+        "currencyCode": "USD",
+        "highestBidAmount": "205",
+        "lowestAskAmount": "289",
+        "flexLowestAskAmount": "290",
+        "earnMoreAmount": "317",
+        "sellFasterAmount": "288",
+        "standardMarketData": {
+          "lowestAsk": "289",
+          "highestBidAmount": "205",
+          "sellFaster": "288",
+          "earnMore": "317",
+          "beatUS": null
+        },
+        "flexMarketData": {
+          "lowestAsk": "290",
+          "highestBidAmount": "205",
+          "sellFaster": "289",
+          "earnMore": "318",
+          "beatUS": null
+        },
+        "directMarketData": {
+          "lowestAsk": "290",
+          "highestBidAmount": "205",
+          "sellFaster": "289",
+          "earnMore": "318",
+          "beatUS": null
+        }
+      }
+    },
+    {
+      "color": "Ash Grey",
+      "productId": "e31afb4c-66cd-4bd3-b63a-887e0bf433c3",
+      "productTitle": "Supreme Ghostface Arc Hooded Sweatshirt Ash Grey",
+      "size": "S",
+      "variantId": "b7cadbec-2c87-460a-9fdc-09fe04527569",
+      "marketEndpoint": "/v2/catalog/products/e31afb4c-66cd-4bd3-b63a-887e0bf433c3/variants/b7cadbec-2c87-460a-9fdc-09fe04527569/market-data",
+      "marketStatus": 200,
+      "marketOk": true,
+      "marketData": {
+        "productId": "e31afb4c-66cd-4bd3-b63a-887e0bf433c3",
+        "variantId": "b7cadbec-2c87-460a-9fdc-09fe04527569",
+        "currencyCode": "USD",
+        "highestBidAmount": null,
+        "lowestAskAmount": "280",
+        "flexLowestAskAmount": "395",
+        "earnMoreAmount": "307",
+        "sellFasterAmount": "279",
+        "standardMarketData": {
+          "lowestAsk": "280",
+          "highestBidAmount": null,
+          "sellFaster": "279",
+          "earnMore": "307",
+          "beatUS": null
+        },
+        "flexMarketData": {
+          "lowestAsk": "395",
+          "highestBidAmount": null,
+          "sellFaster": "308",
+          "earnMore": "394",
+          "beatUS": null
+        },
+        "directMarketData": {
+          "lowestAsk": "395",
+          "highestBidAmount": null,
+          "sellFaster": "308",
+          "earnMore": "394",
+          "beatUS": null
+        }
+      }
+    },
+    {
+      "color": "Ash Grey",
+      "productId": "e31afb4c-66cd-4bd3-b63a-887e0bf433c3",
+      "productTitle": "Supreme Ghostface Arc Hooded Sweatshirt Ash Grey",
+      "size": "M",
+      "variantId": "05dca580-d082-4152-a30e-a281929d6198",
+      "marketEndpoint": "/v2/catalog/products/e31afb4c-66cd-4bd3-b63a-887e0bf433c3/variants/05dca580-d082-4152-a30e-a281929d6198/market-data",
+      "marketStatus": 200,
+      "marketOk": true,
+      "marketData": {
+        "productId": "e31afb4c-66cd-4bd3-b63a-887e0bf433c3",
+        "variantId": "05dca580-d082-4152-a30e-a281929d6198",
+        "currencyCode": "USD",
+        "highestBidAmount": "150",
+        "lowestAskAmount": "304",
+        "flexLowestAskAmount": "318",
+        "earnMoreAmount": "334",
+        "sellFasterAmount": "303",
+        "standardMarketData": {
+          "lowestAsk": "304",
+          "highestBidAmount": "150",
+          "sellFaster": "303",
+          "earnMore": "334",
+          "beatUS": null
+        },
+        "flexMarketData": {
+          "lowestAsk": "318",
+          "highestBidAmount": "150",
+          "sellFaster": "317",
+          "earnMore": "335",
+          "beatUS": null
+        },
+        "directMarketData": {
+          "lowestAsk": "318",
+          "highestBidAmount": "150",
+          "sellFaster": "317",
+          "earnMore": "335",
+          "beatUS": null
+        }
+      }
+    },
+    {
+      "color": "Ash Grey",
+      "productId": "e31afb4c-66cd-4bd3-b63a-887e0bf433c3",
+      "productTitle": "Supreme Ghostface Arc Hooded Sweatshirt Ash Grey",
+      "size": "L",
+      "variantId": "61b983cb-979d-4d45-b98c-91e5db0540d7",
+      "marketEndpoint": "/v2/catalog/products/e31afb4c-66cd-4bd3-b63a-887e0bf433c3/variants/61b983cb-979d-4d45-b98c-91e5db0540d7/market-data",
+      "marketStatus": 200,
+      "marketOk": true,
+      "marketData": {
+        "productId": "e31afb4c-66cd-4bd3-b63a-887e0bf433c3",
+        "variantId": "61b983cb-979d-4d45-b98c-91e5db0540d7",
+        "currencyCode": "USD",
+        "highestBidAmount": "200",
+        "lowestAskAmount": "256",
+        "flexLowestAskAmount": "314",
+        "earnMoreAmount": "281",
+        "sellFasterAmount": "255",
+        "standardMarketData": {
+          "lowestAsk": "256",
+          "highestBidAmount": "200",
+          "sellFaster": "255",
+          "earnMore": "281",
+          "beatUS": null
+        },
+        "flexMarketData": {
+          "lowestAsk": "314",
+          "highestBidAmount": "200",
+          "sellFaster": "282",
+          "earnMore": "313",
+          "beatUS": null
+        },
+        "directMarketData": {
+          "lowestAsk": "314",
+          "highestBidAmount": "200",
+          "sellFaster": "282",
+          "earnMore": "313",
+          "beatUS": null
+        }
+      }
+    },
+    {
+      "color": "Ash Grey",
+      "productId": "e31afb4c-66cd-4bd3-b63a-887e0bf433c3",
+      "productTitle": "Supreme Ghostface Arc Hooded Sweatshirt Ash Grey",
+      "size": "XL",
+      "variantId": "58e433ab-ad46-4c67-b210-59092c36ec19",
+      "marketEndpoint": "/v2/catalog/products/e31afb4c-66cd-4bd3-b63a-887e0bf433c3/variants/58e433ab-ad46-4c67-b210-59092c36ec19/market-data",
+      "marketStatus": 200,
+      "marketOk": true,
+      "marketData": {
+        "productId": "e31afb4c-66cd-4bd3-b63a-887e0bf433c3",
+        "variantId": "58e433ab-ad46-4c67-b210-59092c36ec19",
+        "currencyCode": "USD",
+        "highestBidAmount": "230",
+        "lowestAskAmount": "247",
+        "flexLowestAskAmount": "294",
+        "earnMoreAmount": "271",
+        "sellFasterAmount": "246",
+        "standardMarketData": {
+          "lowestAsk": "247",
+          "highestBidAmount": "230",
+          "sellFaster": "246",
+          "earnMore": "271",
+          "beatUS": null
+        },
+        "flexMarketData": {
+          "lowestAsk": "294",
+          "highestBidAmount": "230",
+          "sellFaster": "272",
+          "earnMore": "293",
+          "beatUS": null
+        },
+        "directMarketData": {
+          "lowestAsk": "294",
+          "highestBidAmount": "230",
+          "sellFaster": "272",
+          "earnMore": "293",
+          "beatUS": null
+        }
+      }
+    },
+    {
+      "color": "Ash Grey",
+      "productId": "e31afb4c-66cd-4bd3-b63a-887e0bf433c3",
+      "productTitle": "Supreme Ghostface Arc Hooded Sweatshirt Ash Grey",
+      "size": "XXL",
+      "variantId": "9f7266b7-b893-4d08-bf88-f32a76927b9d",
+      "marketEndpoint": "/v2/catalog/products/e31afb4c-66cd-4bd3-b63a-887e0bf433c3/variants/9f7266b7-b893-4d08-bf88-f32a76927b9d/market-data",
+      "marketStatus": 200,
+      "marketOk": true,
+      "marketData": {
+        "productId": "e31afb4c-66cd-4bd3-b63a-887e0bf433c3",
+        "variantId": "9f7266b7-b893-4d08-bf88-f32a76927b9d",
+        "currencyCode": "USD",
+        "highestBidAmount": null,
+        "lowestAskAmount": "350",
+        "flexLowestAskAmount": null,
+        "earnMoreAmount": "384",
+        "sellFasterAmount": "349",
+        "standardMarketData": {
+          "lowestAsk": "350",
+          "highestBidAmount": null,
+          "sellFaster": "349",
+          "earnMore": "384",
+          "beatUS": null
+        },
+        "flexMarketData": {
+          "lowestAsk": null,
+          "highestBidAmount": null,
+          "sellFaster": "386",
+          "earnMore": "403",
+          "beatUS": null
+        },
+        "directMarketData": {
+          "lowestAsk": null,
+          "highestBidAmount": null,
+          "sellFaster": "386",
+          "earnMore": "403",
+          "beatUS": null
+        }
+      }
+    }
+  ],
+  "summary": {
+    "colorsTested": 3,
+    "variantsTested": 10,
+    "marketSuccesses": 10,
+    "marketFailures": 0,
+    "failureMessages": []
+  }
+}

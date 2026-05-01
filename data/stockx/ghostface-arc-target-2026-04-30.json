@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "0.1",
+  "capturedAt": "2026-04-30T22:35:49.524Z",
+  "item": "Supreme Ghostface Arc Hooded Sweatshirt",
+  "date": "2026-04-30",
+  "colors": [
+    {
+      "color": "Black",
+      "productId": "316bab94-7b19-429d-b43b-73ecf635df56",
+      "title": "Supreme Ghostface Arc Hooded Sweatshirt Black",
+      "variants": [
+        {
+          "size": "S",
+          "variantId": "eac15ce8-8a09-442d-97f1-8acfdc2e2bbf",
+          "lowestAskUsd": 281,
+          "highestBidUsd": 235,
+          "sellFasterUsd": 280,
+          "earnMoreUsd": 308,
+          "hasBid": true,
+          "bidAskSpreadUsd": 46
+        },
+        {
+          "size": "M",
+          "variantId": "ef490143-ec79-4599-bee8-19ed651ebadf",
+          "lowestAskUsd": 249,
+          "highestBidUsd": 237,
+          "sellFasterUsd": 248,
+          "earnMoreUsd": 273,
+          "hasBid": true,
+          "bidAskSpreadUsd": 12
+        },
+        {
+          "size": "L",
+          "variantId": "c127964d-89f0-41aa-99ac-2db2df9d377a",
+          "lowestAskUsd": 263,
+          "highestBidUsd": 217,
+          "sellFasterUsd": 262,
+          "earnMoreUsd": 289,
+          "hasBid": true,
+          "bidAskSpreadUsd": 46
+        },
+        {
+          "size": "XL",
+          "variantId": "1acedb9c-c8f5-4bde-ba34-4c5f2590cefb",
+          "lowestAskUsd": 278,
+          "highestBidUsd": 140,
+          "sellFasterUsd": 277,
+          "earnMoreUsd": 305,
+          "hasBid": true,
+          "bidAskSpreadUsd": 138
+        },
+        {
+          "size": "XXL",
+          "variantId": "a96230f6-ac95-4e0f-8800-85868c02fe4c",
+          "lowestAskUsd": 289,
+          "highestBidUsd": 205,
+          "sellFasterUsd": 288,
+          "earnMoreUsd": 317,
+          "hasBid": true,
+          "bidAskSpreadUsd": 84
+        }
+      ]
+    },
+    {
+      "color": "Ash Grey",
+      "productId": "e31afb4c-66cd-4bd3-b63a-887e0bf433c3",
+      "title": "Supreme Ghostface Arc Hooded Sweatshirt Ash Grey",
+      "variants": [
+        {
+          "size": "S",
+          "variantId": "b7cadbec-2c87-460a-9fdc-09fe04527569",
+          "lowestAskUsd": 280,
+          "highestBidUsd": null,
+          "sellFasterUsd": 279,
+          "earnMoreUsd": 307,
+          "hasBid": false,
+          "bidAskSpreadUsd": null
+        },
+        {
+          "size": "M",
+          "variantId": "05dca580-d082-4152-a30e-a281929d6198",
+          "lowestAskUsd": 304,
+          "highestBidUsd": 150,
+          "sellFasterUsd": 303,
+          "earnMoreUsd": 334,
+          "hasBid": true,
+          "bidAskSpreadUsd": 154
+        },
+        {
+          "size": "L",
+          "variantId": "61b983cb-979d-4d45-b98c-91e5db0540d7",
+          "lowestAskUsd": 256,
+          "highestBidUsd": 200,
+          "sellFasterUsd": 255,
+          "earnMoreUsd": 281,
+          "hasBid": true,
+          "bidAskSpreadUsd": 56
+        },
+        {
+          "size": "XL",
+          "variantId": "58e433ab-ad46-4c67-b210-59092c36ec19",
+          "lowestAskUsd": 247,
+          "highestBidUsd": 230,
+          "sellFasterUsd": 246,
+          "earnMoreUsd": 271,
+          "hasBid": true,
+          "bidAskSpreadUsd": 17
+        },
+        {
+          "size": "XXL",
+          "variantId": "9f7266b7-b893-4d08-bf88-f32a76927b9d",
+          "lowestAskUsd": 350,
+          "highestBidUsd": null,
+          "sellFasterUsd": 349,
+          "earnMoreUsd": 384,
+          "hasBid": false,
+          "bidAskSpreadUsd": null
+        }
+      ]
+    },
+    {
+      "color": "Red",
+      "productId": "b08aaa27-5727-4b72-89e5-b4f4a514f793",
+      "title": "Supreme Ghostface Arc Hooded Sweatshirt Red",
+      "variants": [
+        {
+          "size": "S",
+          "variantId": "f3d60850-daaa-4b37-a4d5-cf938ccfd2aa",
+          "lowestAskUsd": 304,
+          "highestBidUsd": null,
+          "sellFasterUsd": 303,
+          "earnMoreUsd": 334,
+          "hasBid": false,
+          "bidAskSpreadUsd": null
+        },
+        {
+          "size": "M",
+          "variantId": "3a89595d-bcbe-4ac6-8282-0303234519e4",
+          "lowestAskUsd": 230,
+          "highestBidUsd": 170,
+          "sellFasterUsd": 229,
+          "earnMoreUsd": 252,
+          "hasBid": true,
+          "bidAskSpreadUsd": 60
+        },
+        {
+          "size": "L",
+          "variantId": "0b92a053-5f5b-4f9c-ba84-bc935f247a01",
+          "lowestAskUsd": 273,
+          "highestBidUsd": 190,
+          "sellFasterUsd": 272,
+          "earnMoreUsd": 300,
+          "hasBid": true,
+          "bidAskSpreadUsd": 83
+        },
+        {
+          "size": "XL",
+          "variantId": "e84cd754-a1f6-4301-b947-aa45b1c6b7a2",
+          "lowestAskUsd": 276,
+          "highestBidUsd": 199,
+          "sellFasterUsd": 275,
+          "earnMoreUsd": 303,
+          "hasBid": true,
+          "bidAskSpreadUsd": 77
+        },
+        {
+          "size": "XXL",
+          "variantId": "08244462-b3f0-4a13-ac37-149fd973de8e",
+          "lowestAskUsd": 348,
+          "highestBidUsd": null,
+          "sellFasterUsd": 347,
+          "earnMoreUsd": 382,
+          "hasBid": false,
+          "bidAskSpreadUsd": null
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

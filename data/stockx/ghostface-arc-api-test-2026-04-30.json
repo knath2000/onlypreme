@@ -1,0 +1,86 @@
+{
+  "capturedAt": "2026-04-30",
+  "authResult": {
+    "tokenExchangeStatus": 200,
+    "tokenType": "Bearer",
+    "expiresInSeconds": 43200,
+    "accessTokenReceived": true,
+    "refreshTokenReceived": true,
+    "tokensPersisted": false,
+    "note": "Tokens were intentionally not printed or persisted."
+  },
+  "catalogSearch": {
+    "endpoint": "/v2/catalog/search?query=ghostface+arc+hooded+sweatshirt&pageNumber=1&pageSize=5",
+    "status": 200,
+    "count": 3,
+    "products": [
+      {
+        "productId": "316bab94-7b19-429d-b43b-73ecf635df56",
+        "title": "Supreme Ghostface Arc Hooded Sweatshirt Black",
+        "urlKey": "supreme-ghostface-arc-hooded-sweatshirt-black",
+        "productType": "streetwear",
+        "attributes": {
+          "color": "Black",
+          "gender": "men",
+          "releaseDate": "2026-04-30",
+          "retailPrice": 198,
+          "season": "SS26"
+        }
+      },
+      {
+        "productId": "e31afb4c-66cd-4bd3-b63a-887e0bf433c3",
+        "title": "Supreme Ghostface Arc Hooded Sweatshirt Ash Grey",
+        "urlKey": "supreme-ghostface-arc-hooded-sweatshirt-ash-grey",
+        "productType": "streetwear",
+        "attributes": {
+          "color": "Ash Grey",
+          "gender": "men",
+          "releaseDate": "2026-04-30",
+          "retailPrice": 198,
+          "season": "SS26"
+        }
+      },
+      {
+        "productId": "b08aaa27-5727-4b72-89e5-b4f4a514f793",
+        "title": "Supreme Ghostface Arc Hooded Sweatshirt Red",
+        "urlKey": "supreme-ghostface-arc-hooded-sweatshirt-red",
+        "productType": "streetwear",
+        "attributes": {
+          "color": "Red",
+          "gender": "men",
+          "releaseDate": "2026-04-30",
+          "retailPrice": 198,
+          "season": "SS26"
+        }
+      }
+    ]
+  },
+  "variantTest": {
+    "endpoint": "/v2/catalog/products/316bab94-7b19-429d-b43b-73ecf635df56/variants",
+    "status": 200,
+    "productId": "316bab94-7b19-429d-b43b-73ecf635df56",
+    "color": "Black",
+    "variants": [
+      { "size": "S", "variantId": "eac15ce8-8a09-442d-97f1-8acfdc2e2bbf" },
+      { "size": "M", "variantId": "ef490143-ec79-4599-bee8-19ed651ebadf" },
+      { "size": "L", "variantId": "c127964d-89f0-41aa-99ac-2db2df9d377a" },
+      { "size": "XL", "variantId": "1acedb9c-c8f5-4bde-ba34-4c5f2590cefb" },
+      { "size": "XXL", "variantId": "a96230f6-ac95-4e0f-8800-85868c02fe4c" }
+    ]
+  },
+  "marketDataTest": {
+    "endpoint": "/v2/catalog/products/316bab94-7b19-429d-b43b-73ecf635df56/variants/eac15ce8-8a09-442d-97f1-8acfdc2e2bbf/market-data",
+    "status": 400,
+    "response": {
+      "statusCode": 400,
+      "errorMessage": "Please setup valid billing and shipping information on www.stockx.com"
+    },
+    "interpretation": "Market-data endpoint exists and was reached, but access is blocked until the linked StockX account has valid billing and shipping configured."
+  },
+  "nextSteps": [
+    "Configure valid billing and shipping information on www.stockx.com for the authenticated account.",
+    "Run the OAuth authorization flow again because the successful token and refresh token from this test were not persisted.",
+    "Retest market data for all Black, Red, and Ash Grey variant IDs.",
+    "If market-data succeeds, extract lowestAsk, lastSale, numberOfAsks, numberOfBids, and recent sales fields by variant."
+  ]
+}

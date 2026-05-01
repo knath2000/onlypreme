@@ -1,0 +1,1092 @@
+{
+  "item": {
+    "id": "ghostface-arc-hooded-sweatshirt-ss26",
+    "name": "Ghostface Arc Hooded Sweatshirt",
+    "brand": "Supreme",
+    "season": "Spring/Summer 2026",
+    "week": 10,
+    "releaseDate": "2026-04-30",
+    "retailPriceUsd": 198,
+    "retailPriceSourceConfidence": "medium",
+    "category": "hooded sweatshirt",
+    "materialsAndDetails": "Brushed-back fleece with tackle twill logo applique and embroidered graphic.",
+    "collabTags": [
+      "Ghostface",
+      "Scream"
+    ],
+    "colorsModeled": [
+      "Black",
+      "Red",
+      "Ash Grey"
+    ],
+    "sizesModeled": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  "sourceSnapshot": {
+    "capturedAt": "2026-04-30",
+    "productSources": [
+      {
+        "source": "Supreme Drop List",
+        "url": "https://supremedroplist.com/items/ghostface-arc-hooded-sweatshirt-ss26",
+        "usedFor": [
+          "release date",
+          "category",
+          "product details",
+          "hype temperature"
+        ],
+        "observations": {
+          "releaseDate": "2026-04-30",
+          "listedColor": "Black",
+          "hypeTemperatureF": 89,
+          "upvotes": 3,
+          "downvotes": 16,
+          "details": "Brushed-back fleece with tackle twill logo applique and embroidered graphic."
+        }
+      },
+      {
+        "source": "DropsGG Reddit retail graphic",
+        "url": "https://www.reddit.com/r/supremedrops/comments/1sy3sam/supreme_week_10_full_droplist_retail_prices/",
+        "usedFor": [
+          "retail price",
+          "visible colorways"
+        ],
+        "observations": {
+          "retailPriceUsd": 198,
+          "visibleColorways": [
+            "Black",
+            "Red",
+            "Ash Grey"
+          ]
+        }
+      },
+      {
+        "source": "Sole Retriever",
+        "url": "https://www.soleretriever.com/news/articles/supreme-spring-summer-2026-week-10-drop-release-date-april-2026",
+        "usedFor": [
+          "drop context",
+          "collab context"
+        ],
+        "observations": {
+          "dropTime": "2026-04-30 11:00 ET",
+          "context": "Week 10 contains a wide Ghostface range plus Dr. Martens, Minolta, Jacob & Co., and other items."
+        }
+      },
+      {
+        "source": "Reddit demand comments",
+        "url": "https://www.reddit.com/r/supremedrops/comments/1sxa3rr/supreme_x_ghostface/",
+        "usedFor": [
+          "qualitative demand"
+        ],
+        "observations": {
+          "sentiment": "Positive but not extreme",
+          "example": "A user specifically said they wanted the black hoodie."
+        }
+      }
+    ],
+    "marketComps": [
+      {
+        "source": "StockX",
+        "url": "https://stockx.com/supreme-printed-arc-hooded-sweatshirt-black",
+        "name": "Supreme Printed Arc Hooded Sweatshirt Black",
+        "season": "FW24",
+        "retailPriceUsd": 158,
+        "lowestAskUsd": 285,
+        "lastSaleUsd": 472,
+        "last12MonthRangeUsd": [
+          120,
+          351
+        ],
+        "volatilityPercent": 19,
+        "whyIncluded": "Closest recent black Supreme arc hoodie comp; current last sale is treated as an outlier above the 12-month range."
+      },
+      {
+        "source": "StockX",
+        "url": "https://stockx.com/supreme-icy-arc-hooded-sweatshirt-black",
+        "name": "Supreme Icy Arc Hooded Sweatshirt Black",
+        "season": "FW20",
+        "retailPriceUsd": 168,
+        "lowestAskUsd": 265,
+        "lastSaleUsd": 292,
+        "whyIncluded": "Strong black arc hoodie comp with durable resale premium."
+      },
+      {
+        "source": "StockX",
+        "url": "https://stockx.com/supreme-sequin-arc-hooded-sweatshirt-black",
+        "name": "Supreme Sequin Arc Hooded Sweatshirt Black",
+        "season": "SS19",
+        "retailPriceUsd": 158,
+        "lowestAskUsd": 230,
+        "lastSaleUsd": 292,
+        "whyIncluded": "Older arc hoodie comp with decorative logo treatment and active related-market values."
+      },
+      {
+        "source": "StockX",
+        "url": "https://stockx.com/supreme-ftp-arc-hooded-sweatshirt-black",
+        "name": "Supreme FTP Arc Hooded Sweatshirt Black",
+        "season": "SS21",
+        "retailPriceUsd": 158,
+        "lowestAskUsd": 180,
+        "lastSaleUsd": 138,
+        "last3MonthAverageSaleUsd": 165,
+        "last3MonthSales": 2,
+        "whyIncluded": "Weak arc hoodie comp used as downside guardrail."
+      },
+      {
+        "source": "StockX",
+        "url": "https://stockx.com/supreme-classic-logo-hooded-sweatshirt-black",
+        "name": "Supreme Classic Logo Hooded Sweatshirt Black",
+        "season": "SS26",
+        "retailPriceUsd": 168,
+        "lowestAskUsd": 166,
+        "whyIncluded": "Same-season non-collab hoodie market anchor, showing basic SS26 hoodies are not automatically trading above retail."
+      },
+      {
+        "source": "Grailed",
+        "url": "https://www.grailed.com/listings/94575241-supreme-supreme-ghostface-gore-tex-jacket-ss26",
+        "name": "Supreme Ghostface Gore-Tex Jacket SS26 Red",
+        "askUsd": 850,
+        "condition": "new",
+        "whyIncluded": "Current Ghostface ask signal only; not treated as a completed-sale comp."
+      }
+    ]
+  },
+  "model": {
+    "name": "transparent comparable-weighted baseline",
+    "version": "0.1",
+    "target": "expected resale sale price before seller fees by horizon",
+    "feeAssumption": {
+      "marketplaceFeePercent": 12,
+      "shippingAndHandlingUsd": 15
+    },
+    "method": {
+      "baseBlackMediumUsd": 275,
+      "compLogic": [
+        "Arc hoodie comps cluster around roughly $230-$292 current liquid value, with one weak FTP comp around retail and one FW24 last-sale outlier.",
+        "The Ghostface collab and prominent arc logo add demand versus a plain SS26 hoodie.",
+        "The $198 retail price is higher than most comparable arc hoodies, compressing fee-adjusted profit.",
+        "Day-1 prices are modeled below the highest stale/illiquid arc-comp outliers and above weak non-collab same-season hoodie anchors."
+      ],
+      "colorAdjustments": {
+        "Black": {
+          "multiplier": 1,
+          "basis": "confirmed listing color on Supreme Drop List; highest-liquidity hoodie prior; strongest direct black arc hoodie completed-sale evidence"
+        },
+        "Red": {
+          "multiplier": 0.97,
+          "basis": "post-drop live StockX market-data override: Red market data was captured after a slower single-color retry. Red S and XXL are materially above the old prior but have no active bid, Red M is weak with ask $230/bid $170, and Red L/XL have strong sellFaster/earnMore values. 0.97 remains a conservative baseline multiplier, but size-level day-1 estimates are overridden by live market-data."
+        },
+        "Ash Grey": {
+          "multiplier": 0.97,
+          "basis": "post-drop live StockX market-data override: StockX canonical color is Ash Grey, and live day-1 earnMore/sellFaster values materially contradicted the prior 0.89 Heather Grey discount; 0.97 is retained as the conservative baseline multiplier, but size-level day-1 estimates are overridden by live market-data where available"
+        }
+      },
+      "sizeAdjustments": {
+        "S": {
+          "multiplier": 0.94,
+          "basis": "prior only; no size-specific completed comp data collected from public StockX/eBay pages"
+        },
+        "M": {
+          "multiplier": 1,
+          "basis": "baseline"
+        },
+        "L": {
+          "multiplier": 1.03,
+          "basis": "prior only; no size-specific completed comp data collected from public StockX/eBay pages"
+        },
+        "XL": {
+          "multiplier": 1.07,
+          "basis": "prior only; no size-specific completed comp data collected from public StockX/eBay pages"
+        },
+        "XXL": {
+          "multiplier": 1.12,
+          "basis": "prior only; no size-specific completed comp data collected from public StockX/eBay pages"
+        }
+      },
+      "sizeDataGap": true,
+      "colorDataGap": "partial_live_api",
+      "colorCompResearch": [
+        {
+          "comp": "Supreme Icy Arc Hooded Sweatshirt FW20",
+          "blackReference": {
+            "lastSaleUsd": 292,
+            "last3MonthAverageSaleUsd": 283,
+            "last12MonthRangeUsd": [
+              274,
+              292
+            ]
+          },
+          "colorSignals": [
+            {
+              "color": "Ash Grey",
+              "lastSaleUsd": 201,
+              "last3MonthAverageSaleUsd": 201,
+              "last12MonthRangeUsd": [
+                180,
+                201
+              ],
+              "ratioVsBlackLastSale": 0.69
+            },
+            {
+              "color": "Bright Coral",
+              "lastSaleUsd": 200,
+              "ratioVsBlackLastSale": 0.68,
+              "basis": "StockX related-product signal"
+            }
+          ],
+          "interpretation": "Icy Arc supports a material non-Black discount on completed sale values, but sample sizes are thin."
+        },
+        {
+          "comp": "Supreme Sequin Arc Hooded Sweatshirt SS19",
+          "blackReference": {
+            "lastSaleUsd": 259,
+            "lowestAskUsd": 230
+          },
+          "colorSignals": [
+            {
+              "color": "Red",
+              "lastSaleUsd": 264,
+              "lowestAskUsd": 190,
+              "ratioVsBlackLastSale": 1.02
+            },
+            {
+              "color": "Ash Grey",
+              "lastSaleUsd": 165,
+              "lowestAskUsd": 185,
+              "ratioVsBlackLastSale": 0.64
+            }
+          ],
+          "interpretation": "Sequin Arc suggests Red can avoid the generic color discount on some decorative arc hoodies, while Ash Grey underperformed Black on last-sale basis."
+        },
+        {
+          "comp": "Supreme FTP Arc Hooded Sweatshirt SS21",
+          "blackReference": {
+            "lastSaleUsd": 138,
+            "last3MonthAverageSaleUsd": 165
+          },
+          "colorSignals": [
+            {
+              "color": "Red",
+              "lastSaleUsd": 131,
+              "last12MonthRangeUsd": [
+                131,
+                131
+              ],
+              "ratioVsBlackLastSale": 0.95
+            }
+          ],
+          "interpretation": "Weak/downside arc comp where Red is slightly below Black, but both trade poorly and should be down-weighted."
+        },
+        {
+          "comp": "eBay public listings",
+          "colorSignals": [
+            {
+              "item": "Supreme printed arc logo Hooded sweatshirt Green XXL",
+              "status": "sold",
+              "soldPriceUsd": 250,
+              "source": "eBay search result"
+            },
+            {
+              "item": "Supreme Printed Arc Hooded Sweatshirt Black L",
+              "status": "active ask",
+              "askUsd": 372,
+              "source": "eBay item page"
+            },
+            {
+              "item": "Supreme Icy Arc Hooded Sweatshirt Black M",
+              "status": "active ask",
+              "askUsd": 249.99,
+              "source": "eBay item page"
+            }
+          ],
+          "interpretation": "eBay public pages provided scattered ask/sold signals, not a clean completed-sales set by size and color. These were recorded but not used to derive the size ladder."
+        }
+      ],
+      "rounding": "nearest $5",
+      "confidence": "medium",
+      "detailedReasoning": {
+        "basePriceSelection": "Black Medium is set to $275 because it sits between the currently liquid arc hoodie comps and the downside anchors. The Icy Arc Hoodie Black and Sequin Arc Hoodie Black both support a high-$200s market for desirable black arc hoodies. The Printed Arc Hoodie Black has a $472 last sale, but that exceeds its listed 12-month range of $120-$351, so it is treated as an outlier and not used as the center. The FTP Arc Hoodie and same-season Classic Logo Hoodie show that weak arc/non-collab hoodies can trade near or below retail, so the base is not pushed above $300 despite Ghostface hype.",
+        "retailDrag": "The modeled retail is $198, which is $30-$40 higher than several comparable Supreme hoodies. That reduces expected reseller margin because buyers compare the hoodie against many Supreme hoodie alternatives and because seller fees consume more dollars at the same resale multiple.",
+        "collabBoost": "Ghostface/Scream is modeled as a real demand boost because it is culturally recognizable, visually clear on the garment, and part of a larger Ghostface capsule. It is not modeled like a top-tier luxury or box-logo event because Reddit demand signals are positive but not overwhelming and Supreme Drop List vote counts are still thin.",
+        "logoStrength": "The front arc Supreme logo is a strong resale signal. Arc/logo hoodies generally outperform plain small-logo hoodies when graphics are clean and wearable. The Ghostface embroidery on the hood adds collab specificity without making the front unreadable.",
+        "timeHorizon": "These are day-1 sale-price estimates before seller fees. Day-1 can be inflated by early scarcity, but also noisy because many sellers list before confirmed delivery. The model is intentionally conservative versus isolated high last sales.",
+        "feeMath": "Net profit is expectedSaleUsd * 0.88 - $15 shippingAndHandling - $198 retail. This makes a $275 sale roughly $29 profit, which is why several variants are only maybe despite above-retail resale.",
+        "dataQualityWarnings": [
+          "StockX page values visible through public pages can mix asks, last sales, and stale sales. The critique pass should prefer completed sales by size/color if API, export, or manual market data is available.",
+          "Grailed Ghostface jacket data is ask-only and is included only as a directional Ghostface demand signal, not a completed-sale comp.",
+          "Public StockX/eBay pages did not expose enough size-specific completed sales to measure S/M/L/XL/XXL ratios; size adjustments remain priors.",
+          "StockX canonical color name is Ash Grey. Older project docs and the retail graphic language used Heather Grey; app and prediction JSON now align to Ash Grey for API mapping.",
+          "Red S and Red XXL live StockX signals are high but have no active highest bid, so those estimates should be treated as thin-supply upside."
+        ]
+      },
+      "reviewQuestionsForCritic": [
+        "Should the Printed Arc Hoodie $472 last sale be excluded entirely rather than only down-weighted?",
+        "Does Ghostface demand deserve a larger boost because the hoodie is one of the more wearable pieces in the capsule?",
+        "Should XXL receive a larger premium if Supreme stock is especially thin in extended sizes, despite no measured size-specific completed-sale data?",
+        "Should day-1 estimates be lower because many buyers may chase the mask, skateboard, pendant, or Dr. Martens instead?",
+        "Should Ash Grey be modeled from live StockX earnMore values directly, or should no-bid sizes S/XXL be discounted despite high sellFaster/earnMore values?",
+        "Should Black S lose its size discount if elevated live day-1 pricing persists after one week?",
+        "Should Red S and XXL be discounted despite high live sellFaster/earnMore because they have no active bid?",
+        "If Red S receives an active bid above $270, should its call upgrade from maybe back to cop?",
+        "After one week, do Ash Grey M and no-bid S/XXL variants show enough bid formation to justify raising long-horizon values again?"
+      ],
+      "horizonLogic": {
+        "day1": "Day 1 models the first tradable window, when scarcity and urgency are highest but sales data is noisiest.",
+        "oneWeek": "One week is modeled as a slight fade from day 1 for most variants because quick-flip supply usually increases after orders confirm and early buyers receive pairs.",
+        "oneMonth": "One month is modeled as another modest fade as the drop loses calendar attention, unless a color/size is expected to stay scarce.",
+        "oneYear": "One year is modeled as collector stabilization. Black and larger sizes regain some value because durable arc-logo and Ghostface demand should age better than less liquid variants."
+      },
+      "postDropLiveMarketAdjustment": {
+        "capturedAt": "2026-04-30T22:22:00Z",
+        "timing": "roughly seven hours after the 2026-04-30 11:00 ET drop",
+        "sourceFile": "data/stockx/ghostface-arc-market-data-retry-2026-04-30.json",
+        "fieldUsage": {
+          "lowestAsk": "cheapest active listing; floor for immediate listing competition",
+          "highestBid": "best active buy offer; useful demand signal but can include lowball anomalies",
+          "sellFaster": "used as the live range floor when market-data exists",
+          "earnMore": "used as the live expected-sale anchor or ceiling proxy when market-data exists"
+        },
+        "blackInterpretation": "Black M earnMore of $273 validates the original $275 base. Black L/XL/XXL earnMore are within roughly $5-$10 of model. Black S is elevated versus model and should be watched; day-1 estimate was raised to reflect the live sellFaster/earnMore floor.",
+        "ashGreyInterpretation": "Ash Grey materially outperformed the old Heather Grey model. Live StockX values show Ash Grey trading at or above Black in several sizes. The model now treats Ash Grey as a live-data override rather than an old-comp discounted grey prior.",
+        "redInterpretation": "Red live market-data was captured after the rate-limit-safe retry. Red M is weak and now modeled as skip, while Red L/XL validate strong resale and Red S/XXL show high ask/earnMore but no active bid, suggesting thin-supply upside.",
+        "anomalies": [
+          "Black XL highestBidAmount of $140 is treated as a lowball/bot/sniper bid and is ignored for demand calibration because sellFaster $277 and earnMore $305 are in line with the rest of the Black size ladder.",
+          "Ash Grey XXL has no active bid and very high ask/earnMore values; it is treated as likely thin-supply upside rather than fully validated broad demand.",
+          "Red S and Red XXL have no active highest bid despite high sellFaster/earnMore values, so their upside may reflect thin supply rather than confirmed demand."
+        ],
+        "greyEarnMoreRatiosVsBlack": {
+          "S": 1,
+          "M": 1.22,
+          "L": 0.97,
+          "XL": 0.89,
+          "XXL": 1.21
+        },
+        "trustworthyAnchor": "Ash Grey XL has the cleanest live validation because ask $247, bid $230, and spread $17 imply actual two-sided liquidity.",
+        "confidenceRevision": {
+          "previousScore": 63,
+          "revisedScore": 72,
+          "basis": "Live StockX market-data now covers all three colors and all five sizes with size-level ask/bid/sellFaster/earnMore fields. Confidence remains below high because completed sales, depth, ask counts, bid counts, and sales recency are still unavailable."
+        },
+        "callRevisions": [
+          "Red S changed from cop to maybe because no active bid was present despite strong ask/sellFaster/earnMore values.",
+          "Black S one-week estimate changed from $285 to $270 to reflect likely convergence toward M once quick-flip inventory appears.",
+          "bestTargets reordered to prioritize cleaner two-sided or more stable market signals over no-bid upside variants."
+        ],
+        "horizonCritiqueRevisions": [
+          "Ash Grey M one-year estimate reduced from $295 to $265 because the day-1 premium over Black M is likely transient and historical grey arc comps trade below Black over time.",
+          "Black S one-year estimate reduced from $295 to $285 because day-1 S was flagged as opening-hour scarcity and should not fully recover to that inflated value.",
+          "Red XL one-year estimate reduced from $295 to $285 because a full day-1 recovery overstated long-term demand for a less broadly wearable color.",
+          "No-bid liquidity notes added to Red XXL, Ash Grey S, and Ash Grey XXL to match Red S treatment."
+        ]
+      },
+      "targetMarketData": {
+        "capturedAt": "2026-04-30",
+        "sourceFile": "data/stockx/ghostface-arc-market-data-retry-2026-04-30.json",
+        "colors": [
+          {
+            "color": "Black",
+            "productId": "316bab94-7b19-429d-b43b-73ecf635df56",
+            "variants": [
+              {
+                "size": "S",
+                "variantId": "eac15ce8-8a09-442d-97f1-8acfdc2e2bbf",
+                "lowestAskUsd": 281,
+                "highestBidUsd": 235,
+                "sellFasterUsd": 280,
+                "earnMoreUsd": 308,
+                "hasBid": true,
+                "bidAskSpreadUsd": 46
+              },
+              {
+                "size": "M",
+                "variantId": "ef490143-ec79-4599-bee8-19ed651ebadf",
+                "lowestAskUsd": 249,
+                "highestBidUsd": 237,
+                "sellFasterUsd": 248,
+                "earnMoreUsd": 273,
+                "hasBid": true,
+                "bidAskSpreadUsd": 12
+              },
+              {
+                "size": "L",
+                "variantId": "c127964d-89f0-41aa-99ac-2db2df9d377a",
+                "lowestAskUsd": 263,
+                "highestBidUsd": 217,
+                "sellFasterUsd": 262,
+                "earnMoreUsd": 289,
+                "hasBid": true,
+                "bidAskSpreadUsd": 46
+              },
+              {
+                "size": "XL",
+                "variantId": "1acedb9c-c8f5-4bde-ba34-4c5f2590cefb",
+                "lowestAskUsd": 278,
+                "highestBidUsd": 140,
+                "sellFasterUsd": 277,
+                "earnMoreUsd": 305,
+                "hasBid": true,
+                "bidAskSpreadUsd": 138
+              },
+              {
+                "size": "XXL",
+                "variantId": "a96230f6-ac95-4e0f-8800-85868c02fe4c",
+                "lowestAskUsd": 289,
+                "highestBidUsd": 205,
+                "sellFasterUsd": 288,
+                "earnMoreUsd": 317,
+                "hasBid": true,
+                "bidAskSpreadUsd": 84
+              }
+            ]
+          },
+          {
+            "color": "Ash Grey",
+            "productId": "e31afb4c-66cd-4bd3-b63a-887e0bf433c3",
+            "variants": [
+              {
+                "size": "S",
+                "variantId": "b7cadbec-2c87-460a-9fdc-09fe04527569",
+                "lowestAskUsd": 280,
+                "highestBidUsd": null,
+                "sellFasterUsd": 279,
+                "earnMoreUsd": 307,
+                "hasBid": false,
+                "bidAskSpreadUsd": null
+              },
+              {
+                "size": "M",
+                "variantId": "05dca580-d082-4152-a30e-a281929d6198",
+                "lowestAskUsd": 304,
+                "highestBidUsd": 150,
+                "sellFasterUsd": 303,
+                "earnMoreUsd": 334,
+                "hasBid": true,
+                "bidAskSpreadUsd": 154
+              },
+              {
+                "size": "L",
+                "variantId": "61b983cb-979d-4d45-b98c-91e5db0540d7",
+                "lowestAskUsd": 256,
+                "highestBidUsd": 200,
+                "sellFasterUsd": 255,
+                "earnMoreUsd": 281,
+                "hasBid": true,
+                "bidAskSpreadUsd": 56
+              },
+              {
+                "size": "XL",
+                "variantId": "58e433ab-ad46-4c67-b210-59092c36ec19",
+                "lowestAskUsd": 247,
+                "highestBidUsd": 230,
+                "sellFasterUsd": 246,
+                "earnMoreUsd": 271,
+                "hasBid": true,
+                "bidAskSpreadUsd": 17
+              },
+              {
+                "size": "XXL",
+                "variantId": "9f7266b7-b893-4d08-bf88-f32a76927b9d",
+                "lowestAskUsd": 350,
+                "highestBidUsd": null,
+                "sellFasterUsd": 349,
+                "earnMoreUsd": 384,
+                "hasBid": false,
+                "bidAskSpreadUsd": null
+              }
+            ]
+          },
+          {
+            "color": "Red",
+            "productId": "b08aaa27-5727-4b72-89e5-b4f4a514f793",
+            "variants": [
+              {
+                "size": "S",
+                "variantId": "d672ae27-6ccd-488e-8679-ab0b12d226df",
+                "lowestAskUsd": 304,
+                "highestBidUsd": null,
+                "sellFasterUsd": 303,
+                "earnMoreUsd": 334,
+                "hasBid": false,
+                "bidAskSpreadUsd": null
+              },
+              {
+                "size": "M",
+                "variantId": "0d27d1d5-9633-4fd5-aa30-a79cc4b771c",
+                "lowestAskUsd": 230,
+                "highestBidUsd": 170,
+                "sellFasterUsd": 229,
+                "earnMoreUsd": 252,
+                "hasBid": true,
+                "bidAskSpreadUsd": 60
+              },
+              {
+                "size": "L",
+                "variantId": "6530a980-4652-4e5d-a433-edaa81d7e099",
+                "lowestAskUsd": 273,
+                "highestBidUsd": 190,
+                "sellFasterUsd": 272,
+                "earnMoreUsd": 300,
+                "hasBid": true,
+                "bidAskSpreadUsd": 83
+              },
+              {
+                "size": "XL",
+                "variantId": "8befedbc-e32f-430f-b3b3-eb046ff70334",
+                "lowestAskUsd": 276,
+                "highestBidUsd": 199,
+                "sellFasterUsd": 275,
+                "earnMoreUsd": 303,
+                "hasBid": true,
+                "bidAskSpreadUsd": 77
+              },
+              {
+                "size": "XXL",
+                "variantId": "86d00ab0-d603-4966-8e79-7883bcf832f7",
+                "lowestAskUsd": 348,
+                "highestBidUsd": null,
+                "sellFasterUsd": 347,
+                "earnMoreUsd": 382,
+                "hasBid": false,
+                "bidAskSpreadUsd": null
+              }
+            ]
+          }
+        ]
+      },
+      "compDerivedRatios": {
+        "sourceFile": "data/stockx/comps/arc-hoodie-comps-2026-04-30.json",
+        "capturedAt": "2026-04-30",
+        "analysisNotes": [
+          "Printed Arc FW24 Black excluded from all size ratios: standard earnMore ($140) contradicts lowestAsk ($455-613) and flex earnMore ($524-705); data is corrupted.",
+          "Icy Arc FW20 Black L excluded from size ratios: earnMore $503 vs bid $135 (spread $368) indicates thin/anomalous ask stack, not real market depth.",
+          "FTP Arc SS21 Red excluded from size and color ratios: Red M earnMore $542 with ask $493 and bid $60 (spread $433) is not a reliable market signal.",
+          "Sequin Arc SS19 contributed no ratios: Black M earnMore is null, which prevents both size and color ratio derivation for that comp.",
+          "All comp color ratios are from a single comp each (thin); live day-1 target data is considered more authoritative for this specific drop."
+        ],
+        "sizeRatios": {
+          "S": {
+            "compMedian": 1.094,
+            "compsUsed": 2,
+            "values": [1.019, 1.170],
+            "sources": ["Icy Arc FW20 Ash Grey (494/485)", "Icy Arc FW20 Black (357/305)"],
+            "note": "Both data points from a single comp (Icy Arc FW20); treat as thin."
+          },
+          "M": {
+            "compMedian": 1.0,
+            "compsUsed": 5,
+            "values": [1.0, 1.0, 1.0, 1.0, 1.0],
+            "sources": ["Icy Arc Black", "Icy Arc Ash Grey", "FTP Black", "FTP Red (excluded from other ratios)", "Printed Arc Black (excluded from size ratios)"],
+            "note": "M is the baseline."
+          },
+          "L": {
+            "compMedian": 0.974,
+            "compsUsed": 2,
+            "values": [0.818, 1.130],
+            "sources": ["FTP Arc SS21 Black (269/329)", "Icy Arc FW20 Ash Grey (548/485)"],
+            "note": "Icy Arc FW20 Black L (1.649) excluded as anomaly; FTP Arc excluded Printed Arc. L is close to or slightly below M in comp data — contradicts prior assumption of L > M."
+          },
+          "XL": {
+            "compMedian": 0.803,
+            "compsUsed": 2,
+            "values": [0.672, 0.934],
+            "sources": ["FTP Arc SS21 Black (221/329)", "Icy Arc FW20 Black (285/305)"],
+            "note": "XL earnMore is below M in both clean comps. Prior assumption of XL > M is not supported by comp data for arc hoodies."
+          },
+          "XXL": {
+            "compMedian": 0.970,
+            "compsUsed": 1,
+            "values": [0.970],
+            "sources": ["FTP Arc SS21 Black (319/329)"],
+            "note": "Single comp only. Prior assumption of XXL > M is not supported here; however FTP is a weak comp and live day-1 Ghostface data shows XXL earnMore well above M, suggesting Ghostface-specific scarcity dynamic."
+          }
+        },
+        "colorRatios": {
+          "Red": {
+            "compMedian": null,
+            "compsUsed": 0,
+            "liveObservedAtM": 0.92,
+            "liveObservedNote": "Red M earnMore $252 vs Black M earnMore $273 at drop day capture (2026-04-30 ~22:22 UTC).",
+            "liveOverrideApplied": true,
+            "liveOverrideNote": "No clean comp ratio available (FTP Red M corrupted; Sequin Red M null). Day-1 predictions used live earnMore directly. Live data supports Red M slightly below Black M (0.92x), consistent with the 0.97 color multiplier applied.",
+            "compExclusionNote": "FTP Red M earnMore $542 excluded: ask $493, bid $60, spread $433 — not a reliable earnMore anchor."
+          },
+          "Ash Grey": {
+            "compMedian": 1.590,
+            "compsUsed": 1,
+            "values": [1.590],
+            "sources": ["Icy Arc FW20 (Ash Grey M $485 / Black M $305)"],
+            "liveObservedAtM": 1.22,
+            "liveObservedNote": "Ash Grey M earnMore $334 vs Black M earnMore $273 at drop day capture (2026-04-30 ~22:22 UTC).",
+            "liveOverrideApplied": true,
+            "liveOverrideNote": "Day-1 predictions used live earnMore directly. Comp-derived 1.59x ratio reflects idiosyncratic Icy Arc Ash Grey market (thin, high asks) and should not be treated as a reliable baseline multiplier. Live data at 1.22x for M is more credible, and XL (the most liquid size) showed Ash Grey below Black (0.89x)."
+          }
+        },
+        "keyFinding": "Comp data does not support the traditional ascending size ladder (S < M < L < XL < XXL) for arc hoodies. XL earnMore median is 0.80x of M across clean comps, and L is ~0.97x of M. The live Ghostface drop-day data shows a similar pattern at several sizes. Future pre-drop size adjustments for arc hoodies should use a flatter or inverted ladder rather than the prior ascending assumption."
+      }
+    }
+  },
+  "day1Predictions": [
+    {
+      "color": "Black",
+      "size": "S",
+      "expectedSaleUsd": 295,
+      "rangeUsd": [
+        280,
+        320
+      ],
+      "netProfitAfterFeesUsd": 47,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 46,
+      "liquidityNote": null,
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Black",
+      "size": "M",
+      "expectedSaleUsd": 275,
+      "rangeUsd": [
+        248,
+        285
+      ],
+      "netProfitAfterFeesUsd": 29,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 12,
+      "liquidityNote": null,
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Black",
+      "size": "L",
+      "expectedSaleUsd": 285,
+      "rangeUsd": [
+        262,
+        305
+      ],
+      "netProfitAfterFeesUsd": 38,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 46,
+      "liquidityNote": null,
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Black",
+      "size": "XL",
+      "expectedSaleUsd": 295,
+      "rangeUsd": [
+        277,
+        320
+      ],
+      "netProfitAfterFeesUsd": 47,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 138,
+      "liquidityNote": null,
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Black",
+      "size": "XXL",
+      "expectedSaleUsd": 310,
+      "rangeUsd": [
+        288,
+        335
+      ],
+      "netProfitAfterFeesUsd": 60,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 84,
+      "liquidityNote": null,
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Red",
+      "size": "S",
+      "expectedSaleUsd": 315,
+      "rangeUsd": [
+        303,
+        350
+      ],
+      "netProfitAfterFeesUsd": 64,
+      "call": "maybe",
+      "liquidityNote": "No active StockX highest bid at capture; upgrades to cop if a bid appears above $270.",
+      "scaffoldBasis": "earnMore",
+      "hasBid": false,
+      "bidAskSpreadUsd": null,
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Red",
+      "size": "M",
+      "expectedSaleUsd": 240,
+      "rangeUsd": [
+        229,
+        265
+      ],
+      "netProfitAfterFeesUsd": -2,
+      "call": "skip",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 60,
+      "liquidityNote": null,
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Red",
+      "size": "L",
+      "expectedSaleUsd": 290,
+      "rangeUsd": [
+        272,
+        315
+      ],
+      "netProfitAfterFeesUsd": 42,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 83,
+      "liquidityNote": null,
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Red",
+      "size": "XL",
+      "expectedSaleUsd": 295,
+      "rangeUsd": [
+        275,
+        320
+      ],
+      "netProfitAfterFeesUsd": 47,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 77,
+      "liquidityNote": null,
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Red",
+      "size": "XXL",
+      "expectedSaleUsd": 365,
+      "rangeUsd": [
+        347,
+        405
+      ],
+      "netProfitAfterFeesUsd": 108,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": false,
+      "bidAskSpreadUsd": null,
+      "liquidityNote": "No active StockX highest bid at capture; high sellFaster/earnMore may reflect thin supply. Treat as cop only for sellers comfortable with illiquidity.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Ash Grey",
+      "size": "S",
+      "expectedSaleUsd": 300,
+      "rangeUsd": [
+        279,
+        325
+      ],
+      "netProfitAfterFeesUsd": 51,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": false,
+      "bidAskSpreadUsd": null,
+      "liquidityNote": "No active StockX highest bid at capture; high sellFaster/earnMore may reflect thin supply rather than confirmed demand.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Ash Grey",
+      "size": "M",
+      "expectedSaleUsd": 315,
+      "rangeUsd": [
+        303,
+        350
+      ],
+      "netProfitAfterFeesUsd": 64,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 154,
+      "liquidityNote": null,
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Ash Grey",
+      "size": "L",
+      "expectedSaleUsd": 280,
+      "rangeUsd": [
+        255,
+        305
+      ],
+      "netProfitAfterFeesUsd": 33,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 56,
+      "liquidityNote": null,
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Ash Grey",
+      "size": "XL",
+      "expectedSaleUsd": 270,
+      "rangeUsd": [
+        246,
+        295
+      ],
+      "netProfitAfterFeesUsd": 25,
+      "call": "maybe",
+      "scaffoldBasis": "earnMore",
+      "hasBid": true,
+      "bidAskSpreadUsd": 17,
+      "liquidityNote": null,
+      "analystOverride": null,
+      "analystOverrideReason": null
+    },
+    {
+      "color": "Ash Grey",
+      "size": "XXL",
+      "expectedSaleUsd": 365,
+      "rangeUsd": [
+        349,
+        405
+      ],
+      "netProfitAfterFeesUsd": 108,
+      "call": "cop",
+      "scaffoldBasis": "earnMore",
+      "hasBid": false,
+      "bidAskSpreadUsd": null,
+      "liquidityNote": "No active StockX highest bid at capture; very high ask/sellFaster/earnMore is likely thin-supply upside and should be monitored for bid formation.",
+      "analystOverride": null,
+      "analystOverrideReason": null
+    }
+  ],
+  "horizonPredictions": [
+    {
+      "color": "Black",
+      "size": "S",
+      "day1Usd": 295,
+      "oneWeekUsd": 270,
+      "oneMonthUsd": 260,
+      "oneYearUsd": 285
+    },
+    {
+      "color": "Black",
+      "size": "M",
+      "day1Usd": 275,
+      "oneWeekUsd": 265,
+      "oneMonthUsd": 255,
+      "oneYearUsd": 280
+    },
+    {
+      "color": "Black",
+      "size": "L",
+      "day1Usd": 285,
+      "oneWeekUsd": 275,
+      "oneMonthUsd": 265,
+      "oneYearUsd": 295
+    },
+    {
+      "color": "Black",
+      "size": "XL",
+      "day1Usd": 295,
+      "oneWeekUsd": 285,
+      "oneMonthUsd": 275,
+      "oneYearUsd": 310
+    },
+    {
+      "color": "Black",
+      "size": "XXL",
+      "day1Usd": 310,
+      "oneWeekUsd": 300,
+      "oneMonthUsd": 290,
+      "oneYearUsd": 330
+    },
+    {
+      "color": "Red",
+      "size": "S",
+      "day1Usd": 315,
+      "oneWeekUsd": 295,
+      "oneMonthUsd": 280,
+      "oneYearUsd": 295,
+      "liquidityNote": "No active bid at capture; high sellFaster/earnMore may reflect thin supply rather than confirmed demand."
+    },
+    {
+      "color": "Red",
+      "size": "M",
+      "day1Usd": 240,
+      "oneWeekUsd": 235,
+      "oneMonthUsd": 225,
+      "oneYearUsd": 240
+    },
+    {
+      "color": "Red",
+      "size": "L",
+      "day1Usd": 290,
+      "oneWeekUsd": 275,
+      "oneMonthUsd": 260,
+      "oneYearUsd": 285
+    },
+    {
+      "color": "Red",
+      "size": "XL",
+      "day1Usd": 295,
+      "oneWeekUsd": 280,
+      "oneMonthUsd": 265,
+      "oneYearUsd": 285
+    },
+    {
+      "color": "Red",
+      "size": "XXL",
+      "day1Usd": 365,
+      "oneWeekUsd": 335,
+      "oneMonthUsd": 315,
+      "oneYearUsd": 340,
+      "liquidityNote": "No active StockX highest bid at capture; high sellFaster/earnMore may reflect thin supply. Treat as cop only for sellers comfortable with illiquidity."
+    },
+    {
+      "color": "Ash Grey",
+      "size": "S",
+      "day1Usd": 300,
+      "oneWeekUsd": 285,
+      "oneMonthUsd": 270,
+      "oneYearUsd": 285,
+      "liquidityNote": "No active StockX highest bid at capture; high sellFaster/earnMore may reflect thin supply rather than confirmed demand."
+    },
+    {
+      "color": "Ash Grey",
+      "size": "M",
+      "day1Usd": 315,
+      "oneWeekUsd": 295,
+      "oneMonthUsd": 280,
+      "oneYearUsd": 265
+    },
+    {
+      "color": "Ash Grey",
+      "size": "L",
+      "day1Usd": 280,
+      "oneWeekUsd": 265,
+      "oneMonthUsd": 255,
+      "oneYearUsd": 270
+    },
+    {
+      "color": "Ash Grey",
+      "size": "XL",
+      "day1Usd": 270,
+      "oneWeekUsd": 260,
+      "oneMonthUsd": 250,
+      "oneYearUsd": 270
+    },
+    {
+      "color": "Ash Grey",
+      "size": "XXL",
+      "day1Usd": 365,
+      "oneWeekUsd": 335,
+      "oneMonthUsd": 315,
+      "oneYearUsd": 335,
+      "liquidityNote": "No active StockX highest bid at capture; very high ask/sellFaster/earnMore is likely thin-supply upside and should be monitored for bid formation."
+    }
+  ],
+  "colorLevelSummaries": [
+    {
+      "color": "Black",
+      "expectedDay1BySizeUsd": {
+        "S": 295,
+        "M": 275,
+        "L": 285,
+        "XL": 295,
+        "XXL": 310
+      },
+      "reasoning": "Black remains the baseline color. Live StockX market-data roughly validates the original M/L/XL/XXL model, while S is elevated on day 1 with sellFaster $280 and earnMore $308. Black XL highestBid $140 is treated as a lowball anomaly and ignored for calibration. The one-week Black S estimate is intentionally trimmed to $270 because the S-over-M inversion is likely an opening-hour scarcity effect rather than a stable size ladder. Black S one-year was lowered to $285 so it does not fully return to the opening-hour day-1 scarcity spike."
+    },
+    {
+      "color": "Red",
+      "expectedDay1BySizeUsd": {
+        "S": 315,
+        "M": 240,
+        "L": 290,
+        "XL": 295,
+        "XXL": 365
+      },
+      "reasoning": "Red is no longer prior-only. Live StockX market-data shows S $303/$334 sellFaster/earnMore, M $229/$252, L $272/$300, XL $275/$303, XXL $347/$382. Red M is weak and modeled as skip; L/XL are validated cop candidates; S/XXL are high-upside but thin because neither has an active bid. Red S is intentionally maybe, not cop, because it had no active bid at capture; Red S and XXL should be read as thin-supply upside, not equal-confidence liquid comps. Red XL one-year was lowered to $285 to keep a conservative long-term color discount versus Black; Red XXL carries an explicit no-bid liquidity warning."
+    },
+    {
+      "color": "Ash Grey",
+      "expectedDay1BySizeUsd": {
+        "S": 300,
+        "M": 315,
+        "L": 280,
+        "XL": 270,
+        "XXL": 365
+      },
+      "reasoning": "Ash Grey replaces the earlier Heather Grey label because StockX canonicalizes the color as Ash Grey. Live day-1 StockX market-data contradicted the old 0.89 grey discount: sellFaster/earnMore were S $279/$307, M $303/$334, L $255/$281, XL $246/$271, XXL $349/$384. XL is the most liquid validation point with a $17 bid/ask spread; S and XXL are marked as thinner because they have no active bid. Ash Grey M and XXL remain high estimates, but M has a weak bid and XXL has no active bid, so they should not be treated with the same confidence as Ash Grey XL. Ash Grey M one-year was lowered to $265 because its day-1 premium over Black M is not trusted as a durable long-term relationship; Ash Grey S/XXL carry explicit no-bid liquidity warnings."
+    }
+  ],
+  "overall": {
+    "bestTargets": [
+      "Black XXL",
+      "Black XL",
+      "Black L",
+      "Ash Grey XL",
+      "Red XL",
+      "Red L",
+      "Ash Grey M",
+      "Ash Grey XXL",
+      "Red XXL",
+      "Black S",
+      "Red S"
+    ],
+    "avoidForResale": [
+      "Red M"
+    ],
+    "baseRecommendation": "Selective cop",
+    "confidenceScore": 72,
+    "keyRisks": [
+      "Retail price is high versus older arc hoodie comps.",
+      "Supreme Drop List currently lists only Black despite the retail graphic showing Black, Red, and Ash Grey.",
+      "Some StockX comparable last sales are stale or outliers, so current asks and recent ranges are weighted more heavily than headline last sale.",
+      "Ash Grey S and XXL live StockX signals are high but have no active highest bid, so those estimates may reflect thin supply more than confirmed buyer demand.",
+      "Red S and XXL have high live ask/sellFaster/earnMore but no active bids, so those estimates may reflect scarce listings rather than confirmed demand.",
+      "Red S was downgraded from cop to maybe despite $64 expected net profit because it had no active StockX bid at capture; upgrade only if a bid appears above roughly $270.",
+      "Black S live day-1 inversion over Black M may be opening-hour scarcity; one-week estimate was trimmed to narrow the S/M gap.",
+      "Ash Grey M day-1 premium over Black M is treated as transient; one-year estimate was lowered below Black M to respect historical grey-below-black comp behavior.",
+      "Black S and Red XL one-year estimates were reduced to avoid full recovery to day-1 values where the day-1 signal was likely inflated or color-specific demand is less durable."
+    ]
+  },
+  "schemaVersion": "0.2",
+  "accuracyTracking": {
+    "oneWeek": {
+      "trackedAt": null,
+      "sourceFile": null,
+      "medianAbsPercentError": null,
+      "variantResults": []
+    },
+    "oneMonth": null,
+    "oneYear": null
+  }
+}

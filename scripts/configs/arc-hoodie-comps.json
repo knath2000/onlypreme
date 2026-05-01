@@ -1,0 +1,10 @@
+{
+  "category": "arc-hoodie",
+  "comps": [
+    { "name": "Supreme Icy Arc Hooded Sweatshirt", "season": "FW20", "colors": ["Black", "Ash Grey"] },
+    { "name": "Supreme Sequin Arc Hooded Sweatshirt", "season": "SS19", "colors": ["Black", "Red", "Ash Grey"] },
+    { "name": "Supreme FTP Arc Hooded Sweatshirt", "season": "SS21", "colors": ["Black", "Red"] },
+    { "name": "Supreme Printed Arc Hooded Sweatshirt", "season": "FW24", "colors": ["Black"] }
+  ],
+  "sizes": ["S", "M", "L", "XL", "XXL"]
+}
